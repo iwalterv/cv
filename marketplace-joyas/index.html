@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jadeíta Marketplace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: marketplace estilo Amazon — barra superior oscura de jade, filtros a la izquierda, cuadrícula de productos; portal de vendedores como segunda vista */
+:root{
+  --bg:#F5F7F6; --surface:#FFFFFF; --surface-2:#EEF2F0; --ink:#13201B; --muted:#5A6964; --line:#DAE1DD;
+  --jade:#0E5A47; --jade-ink:#FFFFFF; --jade-soft:#DDEDE7;
+  --gold:#9A6E1C; --gold-bright:#D6A645; --gold-soft:#F4EAD0;
+  --head:#0A2A22; --head-2:#123B30; --head-ink:#F2F6F4; --head-muted:#A9C2B9;
+  --sale:#B3261E; --ok:#1E7A4F;
+  --tile-a:#F3F6F4; --tile-b:#DFE7E3; --shadow:0 1px 2px rgba(10,42,34,.06),0 8px 24px rgba(10,42,34,.08);
+  --f-display:"Marcellus","Cormorant Garamond",Georgia,serif;
+  --f-body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0C1311; --surface:#131C19; --surface-2:#18231F; --ink:#E8EFEC; --muted:#98A8A2; --line:#25332E;
+  --jade:#46B996; --jade-ink:#062A1F; --jade-soft:#173A30;
+  --gold:#E0B456; --gold-bright:#E0B456; --gold-soft:#2B2416;
+  --head:#07130F; --head-2:#0F211B; --head-ink:#EEF4F1; --head-muted:#8FA9A0;
+  --sale:#FF8A80; --ok:#5FD39C;
+  --tile-a:#1C2824; --tile-b:#111916; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0C1311; --surface:#131C19; --surface-2:#18231F; --ink:#E8EFEC; --muted:#98A8A2; --line:#25332E;
+  --jade:#46B996; --jade-ink:#062A1F; --jade-soft:#173A30;
+  --gold:#E0B456; --gold-bright:#E0B456; --gold-soft:#2B2416;
+  --head:#07130F; --head-2:#0F211B; --head-ink:#EEF4F1; --head-muted:#8FA9A0;
+  --sale:#FF8A80; --ok:#5FD39C;
+  --tile-a:#1C2824; --tile-b:#111916; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0;letter-spacing:.01em}
+.num{font-variant-numeric:tabular-nums}
+.wrap{max-width:1280px;margin:0 auto;padding-inline:16px}
+.demo-flag{background:var(--gold-soft);color:var(--ink);font-size:12.5px;text-align:center;padding:6px 16px}
+
+/* ---------- Header ---------- */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--head);color:var(--head-ink)}
+.bar{display:flex;align-items:center;gap:14px;padding-block:10px;flex-wrap:wrap}
+.logo{display:flex;align-items:baseline;gap:8px;background:none;border:0;padding:0;color:var(--head-ink)}
+.logo b{font-family:var(--f-display);font-weight:400;font-size:28px;letter-spacing:.02em}
+.logo b i{font-style:normal;color:var(--gold-bright)}
+.logo small{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--head-muted)}
+.ship{font-size:12px;line-height:1.25;color:var(--head-muted)}
+.ship strong{display:block;color:var(--head-ink);font-size:13.5px}
+.search{flex:1 1 360px;display:flex;min-width:0;border-radius:8px;overflow:hidden;background:#fff;height:42px}
+.search select{border:0;background:#E9EEEB;color:#13201B;padding:0 8px;font-size:13px;max-width:130px}
+.search input{flex:1;border:0;padding:0 12px;min-width:0;color:#13201B;background:#fff}
+.search input:focus{outline:none}
+.search button{border:0;background:var(--gold-bright);color:#1D1606;padding:0 16px;font-weight:700}
+.hlink{background:none;border:0;color:var(--head-ink);text-align:left;font-size:12px;line-height:1.25;padding:4px 6px;border-radius:6px}
+.hlink span{display:block;color:var(--head-muted)}
+.hlink strong{font-size:13.5px}
+.hlink:hover{background:var(--head-2)}
+.cartbtn{display:flex;align-items:center;gap:6px;position:relative}
+.cartbtn .count{position:absolute;top:-2px;left:16px;background:var(--gold-bright);color:#1D1606;font-weight:800;font-size:11px;border-radius:99px;min-width:18px;height:18px;display:grid;place-items:center;padding:0 4px}
+.subnav{background:var(--head-2)}
+.subnav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-block:6px}
+.subnav button{flex:none;background:none;border:0;color:var(--head-ink);font-size:13.5px;padding:5px 10px;border-radius:6px;white-space:nowrap}
+.subnav button:hover,.subnav button[aria-pressed="true"]{background:rgba(255,255,255,.1)}
+.subnav .sell{margin-left:auto;color:var(--gold-bright);font-weight:700}
+
+/* ---------- Hero ---------- */
+.hero{background:linear-gradient(180deg,var(--head-2),var(--head));color:var(--head-ink)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:24px;align-items:center;padding-block:36px 28px}
+.hero .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-bright);font-weight:700}
+.hero h1{font-size:clamp(30px,4.4vw,52px);line-height:1.08;margin:10px 0 12px}
+.hero p{color:var(--head-muted);max-width:52ch;margin:0 0 18px}
+.hero-stats{display:flex;gap:28px;flex-wrap:wrap}
+.hero-stats div{font-size:12px;color:var(--head-muted)}
+.hero-stats b{display:block;font-family:var(--f-display);font-weight:400;font-size:26px;color:var(--head-ink)}
+.hero-art{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.hero-art .tile{border-radius:14px;overflow:hidden;aspect-ratio:1;max-width:100%;box-shadow:var(--shadow)}
+.hero-art .tile:nth-child(2){transform:translateY(-14px)}
+.hero-art .tile:nth-child(5){transform:translateY(-14px)}
+
+/* ---------- Buttons ---------- */
+.btn{border:0;border-radius:8px;padding:10px 16px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.btn-gold{background:var(--gold-bright);color:#1D1606}
+.btn-gold:hover{filter:brightness(1.06)}
+.btn-jade{background:var(--jade);color:var(--jade-ink)}
+.btn-ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.btn-ghost:hover{background:var(--surface-2)}
+
+/* ---------- Category strip ---------- */
+.cats{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;padding-block:22px 6px}
+.cat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 8px 12px;text-align:center;display:grid;gap:6px;justify-items:center;font-size:13.5px;font-weight:600;color:var(--ink)}
+.cat .ic{width:72px;height:72px;border-radius:50%;overflow:hidden}
+.cat:hover,.cat[aria-pressed="true"]{border-color:var(--jade)}
+.cat[aria-pressed="true"]{box-shadow:inset 0 0 0 1px var(--jade)}
+
+/* ---------- Shop layout ---------- */
+.shop{display:grid;grid-template-columns:240px minmax(0,1fr);gap:24px;padding-block:18px 32px}
+aside.filters{display:grid;gap:18px;align-content:start;position:sticky;top:calc(env(safe-area-inset-top,0px) + 120px);max-height:calc(100vh - 140px);overflow:auto;padding-right:4px}
+.fgroup h4{margin:0 0 8px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.fgroup label{display:flex;align-items:center;gap:8px;font-size:14px;padding:3px 0;cursor:pointer}
+.fgroup label small{margin-left:auto;color:var(--muted)}
+.fgroup input[type=checkbox]{accent-color:var(--jade);width:16px;height:16px}
+.fgroup input[type=range]{width:100%;accent-color:var(--jade)}
+.range-val{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.results-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.results-head h2{font-size:24px}
+.results-head p{margin:2px 0 0;color:var(--muted);font-size:13.5px}
+.results-head select{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .15s,transform .15s}
+.card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.card .img{position:relative;aspect-ratio:1;background:var(--tile-b);border:0;padding:0;display:block;width:100%}
+.card .img img,.card .img svg{width:100%;height:100%;object-fit:cover;display:block}
+.badge{position:absolute;top:10px;left:10px;font-size:11px;font-weight:800;letter-spacing:.04em;padding:3px 8px;border-radius:4px;background:var(--head);color:var(--gold-bright)}
+.badge.sale{background:var(--sale);color:#fff}
+.badge.new{background:var(--jade);color:var(--jade-ink)}
+.card .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:4px;flex:1}
+.card .vendor{font-size:12px;color:var(--jade);font-weight:700;background:none;border:0;padding:0;text-align:left}
+.card .vendor:hover{text-decoration:underline}
+.card h3{font-family:var(--f-body);font-weight:600;font-size:14.5px;line-height:1.35;text-wrap:pretty;cursor:pointer}
+.stars{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted)}
+.stars .s{color:var(--gold-bright);letter-spacing:1px;font-size:13px}
+.price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-top:2px}
+.price b{font-size:20px;font-weight:800}
+.price b sup{font-size:11px;font-weight:700;vertical-align:top;position:relative;top:.35em;margin-right:1px}
+.price s{color:var(--muted);font-size:13px}
+.meta{font-size:12px;color:var(--muted)}
+.meta .ok{color:var(--ok);font-weight:700}
+.card .btn{margin-top:auto;width:100%;padding:9px}
+.empty{padding:48px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
+
+/* ---------- Vendors strip ---------- */
+section.block{padding-block:28px}
+section.block > .wrap > h2{font-size:28px;margin-bottom:4px}
+section.block > .wrap > p.lead{color:var(--muted);margin:0 0 18px}
+.vendors{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.vcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;grid-template-columns:56px 1fr;gap:12px;align-items:center;text-align:left}
+.vcard:hover{border-color:var(--jade)}
+.vlogo{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-display);font-size:22px;color:#fff}
+.vcard h3{font-family:var(--f-body);font-size:15px;font-weight:700}
+.vcard p{margin:0;font-size:12.5px;color:var(--muted)}
+
+/* ---------- Sell band ---------- */
+.sellband{background:var(--head);color:var(--head-ink);border-radius:16px;padding:28px;display:grid;grid-template-columns:1fr 1.3fr;gap:28px;align-items:center}
+.sellband h2{font-size:32px;margin-bottom:8px}
+.sellband p{color:var(--head-muted);margin:0 0 16px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{background:var(--head-2);border-radius:12px;padding:16px;font-size:13.5px;color:var(--head-muted);counter-increment:s}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--gold-bright);color:#1D1606;font-weight:800;margin-bottom:8px}
+.steps li strong{display:block;color:var(--head-ink);font-size:14.5px;margin-bottom:2px}
+
+footer{background:var(--head);color:var(--head-muted);font-size:13px;margin-top:24px}
+footer .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-block:28px}
+footer h4{color:var(--head-ink);margin:0 0 8px;font-size:14px}
+footer ul{list-style:none;padding:0;margin:0;display:grid;gap:4px}
+footer .legal{border-top:1px solid var(--head-2);text-align:center;padding:12px 16px;font-size:12px}
+
+/* ---------- Drawer & modal ---------- */
+.scrim{position:fixed;inset:0;background:rgba(5,15,12,.55);z-index:50}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--surface);z-index:51;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);box-shadow:var(--shadow)}
+.drawer header{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1px solid var(--line)}
+.drawer header h2{font-size:22px}
+.x{background:none;border:0;font-size:24px;line-height:1;color:var(--muted);padding:4px 8px;border-radius:6px}
+.x:hover{background:var(--surface-2)}
+.citems{flex:1;overflow:auto;padding:8px 18px;display:grid;gap:12px;align-content:start}
+.citem{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding-block:10px}
+.citem .th{width:64px;height:64px;border-radius:8px;overflow:hidden}
+.citem .th img,.citem .th svg{width:100%;height:100%;object-fit:cover;display:block}
+.citem h4{margin:0;font-size:13.5px;font-weight:600}
+.citem small{color:var(--muted);display:block}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:6px;margin-top:4px}
+.qty button{background:none;border:0;width:26px;height:26px}
+.qty span{min-width:20px;text-align:center;font-size:13px}
+.ctotal{border-top:1px solid var(--line);padding:16px 18px;display:grid;gap:6px;font-size:14px}
+.ctotal .row{display:flex;justify-content:space-between}
+.ctotal .row.big{font-size:18px;font-weight:800}
+.ctotal small{color:var(--muted)}
+
+.modal{position:fixed;inset:0;z-index:52;display:grid;place-items:center;padding:16px;overflow:auto}
+.mbox{background:var(--surface);border-radius:16px;max-width:920px;width:100%;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;position:relative;box-shadow:var(--shadow)}
+.mbox .x{position:absolute;top:10px;right:10px;background:var(--surface);z-index:2}
+.mimg{background:var(--tile-b);aspect-ratio:1;max-width:100%}
+.mimg img,.mimg svg{width:100%;height:100%;object-fit:cover;display:block}
+.mbody{padding:24px;display:grid;gap:10px;align-content:start;min-width:0}
+.mbody h2{font-size:26px;line-height:1.15}
+.mbody .price b{font-size:28px}
+.spec{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13.5px;margin:4px 0}
+.spec dt{color:var(--muted)}
+.spec dd{margin:0}
+.others{border-top:1px solid var(--line);padding-top:12px;display:grid;gap:8px}
+.others h4{margin:0;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.orow{display:grid;grid-template-columns:44px 1fr auto;gap:10px;align-items:center;font-size:13px;background:none;border:1px solid var(--line);border-radius:8px;padding:6px;text-align:left}
+.orow:hover{border-color:var(--jade)}
+.orow .th{width:44px;height:44px;border-radius:6px;overflow:hidden}
+.orow .th svg,.orow .th img{width:100%;height:100%;object-fit:cover;display:block}
+.orow small{display:block;color:var(--muted)}
+
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--head);color:var(--head-ink);padding:12px 18px;border-radius:10px;z-index:60;font-size:14px;box-shadow:var(--shadow);max-width:calc(100% - 32px)}
+
+/* ---------- Vendor portal ---------- */
+.portal{padding-block:28px 40px}
+.login{max-width:440px;margin:24px auto;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:28px;display:grid;gap:14px}
+.login h2{font-size:28px}
+.login p{margin:0;color:var(--muted);font-size:14px}
+.field{display:grid;gap:5px;font-size:13px;font-weight:600}
+.field input,.field select,.field textarea{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-weight:400;font-size:14.5px;width:100%;min-width:0}
+.field textarea{min-height:84px;resize:vertical}
+.hint{font-size:12px;color:var(--muted);font-weight:400}
+.dash-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+.dash-head .who{display:flex;gap:14px;align-items:center}
+.dash-head h2{font-size:28px}
+.dash-head p{margin:0;color:var(--muted);font-size:13.5px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi span{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.kpi b{display:block;font-size:24px;font-weight:800;margin-top:2px}
+.kpi small{color:var(--ok);font-weight:700;font-size:12px}
+.dash{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;min-width:0}
+.panel h3{font-size:20px;margin-bottom:12px}
+.tablewrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:520px}
+th{text-align:left;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;padding:8px;border-bottom:1px solid var(--line)}
+td{padding:8px;border-bottom:1px solid var(--line);vertical-align:middle}
+td.r,th.r{text-align:right}
+.tthumb{width:40px;height:40px;border-radius:6px;overflow:hidden;display:inline-block;vertical-align:middle;margin-right:10px}
+.tthumb svg,.tthumb img{width:100%;height:100%;object-fit:cover;display:block}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:99px}
+.pill.on{background:var(--jade-soft);color:var(--jade)}
+.pill.low{background:var(--gold-soft);color:var(--gold)}
+.form{display:grid;gap:12px}
+.form .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.drop{border:1.5px dashed var(--line);border-radius:10px;padding:16px;text-align:center;color:var(--muted);font-size:13px;cursor:pointer;display:grid;gap:4px}
+.drop:hover,.drop.over{border-color:var(--jade);background:var(--jade-soft)}
+.drop input{display:none}
+.previews{display:flex;gap:8px;flex-wrap:wrap}
+.previews .pv{width:64px;height:64px;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.previews .pv img,.previews .pv svg{width:100%;height:100%;object-fit:cover;display:block}
+
+@media (max-width:1000px){
+  .cats{grid-template-columns:repeat(4,1fr)}
+  .shop{grid-template-columns:1fr}
+  aside.filters{position:static;max-height:none;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .sellband{grid-template-columns:1fr}
+  .dash{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  footer .wrap{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:720px){
+  .hero .wrap{grid-template-columns:1fr}
+  .ship,.hlink.acct span{display:none}
+  .search{order:5;flex-basis:100%}
+  .mbox{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .cats{grid-template-columns:repeat(3,1fr)}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .card .body{padding:10px}
+  .price b{font-size:17px}
+  .form .two{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="demo-flag">Prototipo de diseño. Productos, tiendas, precios e imágenes son ilustraciones de ejemplo.</div>
+
+<header class="top">
+  <div class="wrap bar">
+    <button class="logo" id="goHome" aria-label="Ir al inicio de Jadeíta"><b>Jade<i>í</i>ta</b><small>Guatemala</small></button>
+    <div class="ship">Enviar a<strong>Ciudad de Guatemala</strong></div>
+    <form class="search" id="searchForm" role="search">
+      <select id="searchCat" aria-label="Categoría de búsqueda"><option value="">Todas</option></select>
+      <input id="q" type="search" placeholder="Busca anillos, jade, plata 925…" aria-label="Buscar joyas">
+      <button type="submit">Buscar</button>
+    </form>
+    <button class="hlink acct" id="toPortal"><span>Hola, vendedor</span><strong>Portal de tiendas</strong></button>
+    <button class="hlink cartbtn" id="openCart" aria-label="Abrir carrito">
+      <svg width="28" height="24" viewBox="0 0 28 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M1 2h4l3 14h14l3-10H7"/><circle cx="10" cy="21" r="1.6"/><circle cx="20" cy="21" r="1.6"/></svg>
+      <span class="count num" id="cartCount">0</span><strong>Carrito</strong>
+    </button>
+  </div>
+  <nav class="subnav" aria-label="Categorías">
+    <div class="wrap" id="subnav"></div>
+  </nav>
+</header>
+
+<main id="viewShop">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">El mercado de joyas de Guatemala</div>
+        <h1>Joyas de todas las tiendas del país, en un solo lugar</h1>
+        <p>Compara piezas de joyeros de Antigua, Xela, la capital y el lago de Atitlán. Paga en quetzales, pide factura con NIT y recibe en cualquiera de los 22 departamentos.</p>
+        <div class="hero-stats">
+          <div><b class="num">48</b>tiendas verificadas</div>
+          <div><b class="num">3,200+</b>piezas publicadas</div>
+          <div><b class="num">22</b>departamentos con envío</div>
+        </div>
+      </div>
+      <div class="hero-art" id="heroArt" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="cats" id="cats" role="group" aria-label="Comprar por categoría"></div>
+  </div>
+
+  <div class="wrap shop" id="catalogo">
+    <aside class="filters" id="filters" aria-label="Filtros"></aside>
+    <div>
+      <div class="results-head">
+        <div><h2 id="resTitle">Todas las joyas</h2><p id="resCount" class="num"></p></div>
+        <select id="sort" aria-label="Ordenar">
+          <option value="rel">Más relevantes</option>
+          <option value="asc">Precio: menor a mayor</option>
+          <option value="desc">Precio: mayor a menor</option>
+          <option value="rate">Mejor calificadas</option>
+        </select>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </div>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>Tiendas destacadas</h2>
+      <p class="lead">Cada joyero tiene su propia tienda dentro de Jadeíta. Toca una para ver solo sus piezas.</p>
+      <div class="vendors" id="vendors"></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sellband">
+        <div>
+          <h2>¿Tienes una joyería? Vende en Jadeíta</h2>
+          <p>Tu tienda recibe el tráfico de compradores que ya están buscando joyas. Tú pones los productos y nosotros la vitrina.</p>
+          <button class="btn btn-gold" id="sellCta">Abrir el portal de vendedores</button>
+        </div>
+        <ol class="steps">
+          <li><strong>Crea tu cuenta</strong>Registra tu tienda con NIT y datos de contacto.</li>
+          <li><strong>Sube tus joyas</strong>Fotos, precio en quetzales, material y existencias.</li>
+          <li><strong>Vende y despacha</strong>Recibes el pedido, empacas y coordinamos el envío.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+</main>
+
+<main id="viewPortal" class="wrap portal" hidden></main>
+
+<footer>
+  <div class="wrap">
+    <div><h4>Compra</h4><ul><li>Categorías</li><li>Tiendas</li><li>Ofertas</li><li>Tarjetas de regalo</li></ul></div>
+    <div><h4>Vende</h4><ul><li>Portal de vendedores</li><li>Comisiones y planes</li><li>Guía de fotografía</li></ul></div>
+    <div><h4>Pagos</h4><ul><li>Tarjeta de crédito y débito</li><li>Cuotas sin recargo</li><li>Transferencia bancaria</li><li>Pago contra entrega</li></ul></div>
+    <div><h4>Ayuda</h4><ul><li>Envíos a los 22 departamentos</li><li>Devoluciones en 30 días</li><li>Factura con NIT o CF</li><li>Certificados de autenticidad</li></ul></div>
+  </div>
+  <div class="legal">Jadeíta · Prototipo de marketplace de joyería para Guatemala</div>
+</footer>
+
+<div id="layer"></div>
+
+<script>
+(function(){
+/* ---------------- Datos de ejemplo ---------------- */
+const VENDORS = [
+  {id:'v1', name:'Platería Santa Ana', city:'Antigua Guatemala', rating:4.9, sales:1240, since:2019, color:'#6E7F8D'},
+  {id:'v2', name:'Atelier Jade Verde', city:'Antigua Guatemala', rating:4.8, sales:980, since:2016, color:'#1F7A5C'},
+  {id:'v3', name:'Oro de Xela', city:'Quetzaltenango', rating:4.7, sales:2110, since:2012, color:'#A9802B'},
+  {id:'v4', name:'Destellos Zona 10', city:'Ciudad de Guatemala', rating:4.8, sales:3050, since:2014, color:'#3A3F7A'},
+  {id:'v5', name:'Hilos de Atitlán', city:'Panajachel, Sololá', rating:4.9, sales:640, since:2020, color:'#B0553E'},
+  {id:'v6', name:'Joyería Las Verapaces', city:'Cobán, Alta Verapaz', rating:4.6, sales:410, since:2021, color:'#5B4A8B'}
+];
+const CATS = [
+  {id:'anillos', name:'Anillos', type:'ring', metal:'gold', gem:'ruby'},
+  {id:'collares', name:'Collares', type:'necklace', metal:'gold', gem:'emerald'},
+  {id:'aretes', name:'Aretes', type:'earrings', metal:'silver', gem:'pearl'},
+  {id:'pulseras', name:'Pulseras', type:'bracelet', metal:'rose', gem:'diamond'},
+  {id:'relojes', name:'Relojes', type:'watch', metal:'silver', gem:null},
+  {id:'jade', name:'Jade', type:'pendant', metal:'gold', gem:'jade'},
+  {id:'compromiso', name:'Compromiso', type:'ring', metal:'silver', gem:'diamond'}
+];
+const MATERIALS = ['Oro 18k','Oro 14k','Oro rosa','Plata 925','Acero','Jade'];
+const METAL_OF = {'Oro 18k':'gold','Oro 14k':'gold','Oro rosa':'rose','Plata 925':'silver','Acero':'silver','Jade':'gold'};
+
+let P = [
+  ['Anillo solitario con rubí','anillos','v3','Oro 18k','gold','ruby',4850,5400,4.8,64,'Más vendido'],
+  ['Anillo de compromiso diamante 0.30 ct','compromiso','v4','Oro 18k','gold','diamond',11900,null,4.9,112,'Más vendido'],
+  ['Argolla clásica 4 mm','compromiso','v1','Plata 925','silver',null,690,null,4.7,203,null],
+  ['Anillo esmeralda corte oval','anillos','v4','Oro 14k','gold','emerald',6200,null,4.8,41,null],
+  ['Anillo zafiro y halo','anillos','v3','Oro blanco','silver','sapphire',7350,8200,4.6,28,'Oferta'],
+  ['Collar quetzal en plata','collares','v1','Plata 925','silver','emerald',980,null,4.9,87,'Hecho en Guatemala'],
+  ['Collar con perla de río','collares','v5','Plata 925','silver','pearl',540,null,4.7,52,null],
+  ['Cadena barbada 50 cm','collares','v3','Oro 14k','gold',null,3900,4300,4.5,19,'Oferta'],
+  ['Collar gota de amatista','collares','v6','Oro rosa','rose','amethyst',1450,null,4.6,23,'Nuevo'],
+  ['Aretes de perla clásicos','aretes','v4','Oro 14k','gold','pearl',1250,null,4.8,140,null],
+  ['Aretes filigrana Antigua','aretes','v1','Plata 925','silver','sapphire',620,null,4.9,96,'Hecho en Guatemala'],
+  ['Aretes jade y oro','aretes','v2','Jade','gold','jade',1890,null,4.8,44,null],
+  ['Aretes rubí en gota','aretes','v3','Oro 18k','gold','ruby',2750,null,4.7,17,null],
+  ['Pulsera tenis de circonias','pulseras','v4','Plata 925','silver','diamond',1350,1600,4.6,77,'Oferta'],
+  ['Pulsera de cuentas de jade','pulseras','v2','Jade','gold','jade',890,null,4.9,61,'Hecho en Guatemala'],
+  ['Brazalete tejido de Atitlán','pulseras','v5','Plata 925','silver','amethyst',380,null,4.8,130,null],
+  ['Esclava oro rosa','pulseras','v6','Oro rosa','rose',null,2100,null,4.5,12,'Nuevo'],
+  ['Reloj clásico de acero','relojes','v4','Acero','silver',null,2450,null,4.6,58,null],
+  ['Reloj dorado para dama','relojes','v3','Oro 14k','gold',null,5900,6500,4.7,22,'Oferta'],
+  ['Reloj oro rosa minimalista','relojes','v6','Oro rosa','rose',null,1990,null,4.4,15,null],
+  ['Dije de jade con glifo maya','jade','v2','Jade','gold','jade',2400,null,5.0,39,'Más vendido'],
+  ['Dije jade lavanda','jade','v2','Jade','silver','lavjade',3100,null,4.9,18,null],
+  ['Medallón de jade imperial','jade','v5','Jade','gold','jade',4600,null,4.8,9,'Nuevo'],
+  ['Anillo jade y plata','anillos','v2','Jade','silver','jade',1150,null,4.7,34,null]
+].map((r,i)=>({id:'p'+(i+1), name:r[0], cat:r[1], vendor:r[2], material:r[3]==='Oro blanco'?'Oro 18k':r[3], metal:r[4], gem:r[5], price:r[6], old:r[7], rating:r[8], reviews:r[9], badge:r[10], stock: [3,8,15,6,2,20,12,4,7,25,18,5][i%12], img:null}));
+
+/* ---------------- Ilustraciones SVG de joyas (no son fotos reales) ---------------- */
+const METALS = {gold:['#FFF1B0','#E8C35A','#9C6E19'], silver:['#FFFFFF','#C9D0D6','#7D8790'], rose:['#FFE1D2','#E3A68C','#9E5E46']};
+const GEMS = {ruby:['#FF8A9A','#C21836','#5E0718'], emerald:['#9CF0C4','#159060','#03442A'], sapphire:['#9FB7FF','#2346B8','#0C1C5C'],
+  diamond:['#FFFFFF','#DDEFFF','#9CB8D6'], pearl:['#FFFFFF','#F1EBE1','#C9BBA6'], amethyst:['#E2C4FF','#8A4CC9','#3D1468'],
+  jade:['#A8E6C0','#2F9466','#0D4A30'], lavjade:['#EEE2FF','#B9A3D9','#6F5A96']};
+let uidN = 0;
+function art(type, metal, gem){
+  const u = 'a'+(++uidN);
+  const m = METALS[metal]||METALS.gold, g = GEMS[gem]||GEMS.diamond;
+  const defs = `<defs>
+    <radialGradient id="bg${u}" cx="50%" cy="38%" r="75%"><stop offset="0" style="stop-color:var(--tile-a)"/><stop offset="1" style="stop-color:var(--tile-b)"/></radialGradient>
+    <linearGradient id="m${u}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${m[0]}"/><stop offset=".45" stop-color="${m[1]}"/><stop offset="1" stop-color="${m[2]}"/></linearGradient>
+    <radialGradient id="g${u}" cx="38%" cy="32%" r="70%"><stop offset="0" stop-color="${g[0]}"/><stop offset=".55" stop-color="${g[1]}"/><stop offset="1" stop-color="${g[2]}"/></radialGradient>
+  </defs><rect width="200" height="200" fill="url(#bg${u})"/>`;
+  const M = `url(#m${u})`, G = `url(#g${u})`;
+  const shadow = (cy,rx)=>`<ellipse cx="100" cy="${cy}" rx="${rx}" ry="7" fill="#000" opacity=".12"/>`;
+  const gemShape = (cx,cy,r)=> gem==='diamond'
+    ? `<polygon points="${cx-r},${cy-r*.3} ${cx-r*.55},${cy-r} ${cx+r*.55},${cy-r} ${cx+r},${cy-r*.3} ${cx},${cy+r}" fill="${G}" stroke="${g[2]}" stroke-width="1"/><polyline points="${cx-r},${cy-r*.3} ${cx+r},${cy-r*.3}" stroke="#fff" stroke-width="1" opacity=".8" fill="none"/><polyline points="${cx-r*.55},${cy-r} ${cx},${cy-r*.3} ${cx+r*.55},${cy-r}" stroke="#fff" opacity=".7" fill="none"/>`
+    : `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${G}"/><ellipse cx="${cx-r*.35}" cy="${cy-r*.4}" rx="${r*.3}" ry="${r*.18}" fill="#fff" opacity=".7"/>`;
+  let s = '';
+  if(type==='ring'){
+    s = shadow(172,52)+`<ellipse cx="100" cy="118" rx="50" ry="48" fill="none" stroke="${m[2]}" stroke-width="14" opacity=".35"/>
+      <ellipse cx="100" cy="116" rx="50" ry="48" fill="none" stroke="${M}" stroke-width="12"/>
+      <path d="M62 92 A50 48 0 0 1 100 68" stroke="#fff" stroke-width="3" fill="none" opacity=".6"/>`;
+    if(gem){ s += `<path d="M84 74 L92 56 M116 74 L108 56 M100 76 L100 54" stroke="${M}" stroke-width="4" stroke-linecap="round"/>` + gemShape(100,56,gem==='diamond'?20:17); }
+    else { s += `<rect x="86" y="62" width="28" height="12" rx="6" fill="${M}"/>`; }
+  } else if(type==='necklace'){
+    s = `<path d="M28 22 Q100 168 172 22" fill="none" stroke="${m[2]}" stroke-width="5" stroke-dasharray="1 7" stroke-linecap="round" opacity=".5"/>
+      <path d="M28 20 Q100 166 172 20" fill="none" stroke="${M}" stroke-width="4" stroke-dasharray="2 5" stroke-linecap="round"/>
+      <circle cx="100" cy="96" r="6" fill="none" stroke="${M}" stroke-width="3"/>`;
+    s += gem==='pearl' ? `<circle cx="100" cy="122" r="20" fill="${G}"/><ellipse cx="93" cy="114" rx="6" ry="4" fill="#fff" opacity=".8"/>`
+      : `<path d="M100 102 C124 124 118 158 100 162 C82 158 76 124 100 102Z" fill="${M}"/><path d="M100 110 C117 128 112 152 100 155 C88 152 83 128 100 110Z" fill="${G}"/><ellipse cx="93" cy="128" rx="4" ry="8" fill="#fff" opacity=".55"/>`;
+  } else if(type==='earrings'){
+    [66,134].forEach((x,i)=>{
+      s += `<path d="M${x} 34 q14 0 12 16 q-2 10 -12 14" fill="none" stroke="${M}" stroke-width="3.5" stroke-linecap="round"/>
+        <circle cx="${x}" cy="66" r="5" fill="${M}"/>`;
+      s += gem==='pearl' ? `<circle cx="${x}" cy="${100+i*0}" r="22" fill="${G}"/><ellipse cx="${x-8}" cy="91" rx="7" ry="4" fill="#fff" opacity=".8"/>`
+        : `<path d="M${x} 72 C${x+22} 96 ${x+18} 134 ${x} 140 C${x-18} 134 ${x-22} 96 ${x} 72Z" fill="${M}"/><path d="M${x} 82 C${x+16} 102 ${x+12} 128 ${x} 132 C${x-12} 128 ${x-16} 102 ${x} 82Z" fill="${G}"/><ellipse cx="${x-6}" cy="100" rx="3.5" ry="8" fill="#fff" opacity=".55"/>`;
+    });
+    s = shadow(172,70)+s;
+  } else if(type==='bracelet'){
+    s = shadow(168,74)+`<ellipse cx="100" cy="108" rx="72" ry="40" fill="none" stroke="${m[2]}" stroke-width="12" opacity=".35"/>
+      <ellipse cx="100" cy="106" rx="72" ry="40" fill="none" stroke="${M}" stroke-width="9"/>`;
+    if(gem){ for(let k=0;k<11;k++){ const a=Math.PI*(0.08+k*0.084); const x=100+72*Math.cos(a), y=106+40*Math.sin(a); s+=gemShape(+x.toFixed(1),+y.toFixed(1),gem==='jade'||gem==='amethyst'?9:6.5);} }
+    else { s += `<path d="M40 88 A72 40 0 0 1 160 88" stroke="#fff" stroke-width="2.5" fill="none" opacity=".6"/>`; }
+  } else if(type==='watch'){
+    const strap = metal==='silver' ? M : '#5A3A26';
+    s = `<rect x="76" y="6" width="48" height="62" rx="8" fill="${strap}"/><rect x="76" y="132" width="48" height="62" rx="8" fill="${strap}"/>
+      ${metal!=='silver'?'':'<g stroke="#000" opacity=".12">'+[18,30,42,54,144,156,168,180].map(y=>`<line x1="76" x2="124" y1="${y}" y2="${y}"/>`).join('')+'</g>'}
+      <circle cx="100" cy="100" r="46" fill="${M}"/><circle cx="100" cy="100" r="37" fill="#FBFAF6"/>
+      <rect x="145" y="94" width="8" height="12" rx="2" fill="${M}"/>`;
+    for(let k=0;k<12;k++){ const a=k*Math.PI/6; s+=`<line x1="${100+31*Math.sin(a)}" y1="${100-31*Math.cos(a)}" x2="${100+(k%3?33:28)*Math.sin(a)}" y2="${100-(k%3?33:28)*Math.cos(a)}" stroke="#2A2A2A" stroke-width="${k%3?1.2:2.4}"/>`; }
+    s += `<line x1="100" y1="100" x2="100" y2="76" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/><line x1="100" y1="100" x2="118" y2="108" stroke="#1A1A1A" stroke-width="2.2" stroke-linecap="round"/><circle cx="100" cy="100" r="3" fill="${m[2]}"/>`;
+  } else { // pendant (jade)
+    s = `<path d="M40 10 Q100 110 160 10" fill="none" stroke="#3B2A20" stroke-width="3"/>
+      <rect x="92" y="58" width="16" height="14" rx="4" fill="${M}"/>
+      ${shadow(180,40)}
+      <ellipse cx="100" cy="122" rx="40" ry="50" fill="${g[2]}" opacity=".45"/>
+      <ellipse cx="100" cy="120" rx="40" ry="50" fill="${G}"/>
+      <path d="M100 92 a22 22 0 1 1 -1 0 M100 104 a10 10 0 1 0 1 0 M84 140 h32 M88 150 h24" fill="none" stroke="${g[2]}" stroke-width="3" opacity=".55" stroke-linecap="round"/>
+      <ellipse cx="86" cy="96" rx="9" ry="14" fill="#fff" opacity=".35"/>`;
+  }
+  return `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">${defs}${s}</svg>`;
+}
+const catOf = id => CATS.find(c=>c.id===id);
+const venOf = id => VENDORS.find(v=>v.id===id);
+const pic = p => p.img ? `<img src="${p.img}" alt="">` : art(catOf(p.cat).type, p.metal, p.gem);
+const Q = n => 'Q'+n.toLocaleString('es-GT',{minimumFractionDigits:0,maximumFractionDigits:0});
+const stars = r => '★'.repeat(Math.round(r))+'☆'.repeat(5-Math.round(r));
+const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $ = s => document.querySelector(s);
+
+/* ---------------- Estado ---------------- */
+const st = { cat:'', q:'', mats:new Set(), vens:new Set(), max:12000, sort:'rel', cart:new Map(), me:null };
+
+/* ---------------- Tienda ---------------- */
+function renderChrome(){
+  $('#searchCat').innerHTML = '<option value="">Todas</option>'+CATS.map(c=>`<option value="${c.id}">${c.name}</option>`).join('');
+  $('#subnav').innerHTML = `<button data-cat="" aria-pressed="${!st.cat}">Todo</button>`+CATS.map(c=>`<button data-cat="${c.id}" aria-pressed="${st.cat===c.id}">${c.name}</button>`).join('')+'<button>Ofertas</button><button>Hecho en Guatemala</button><button class="sell" data-portal>Vende en Jadeíta</button>';
+  $('#cats').innerHTML = CATS.map(c=>`<button class="cat" data-cat="${c.id}" aria-pressed="${st.cat===c.id}"><span class="ic">${art(c.type,c.metal,c.gem)}</span>${c.name}</button>`).join('');
+  $('#heroArt').innerHTML = [['ring','gold','emerald'],['pendant','gold','jade'],['earrings','silver','pearl'],['watch','gold',null],['necklace','rose','amethyst'],['bracelet','silver','diamond']]
+    .map(a=>`<div class="tile">${art(...a)}</div>`).join('');
+}
+function renderFilters(){
+  const count = (fn)=>P.filter(fn).length;
+  $('#filters').innerHTML = `
+    <div class="fgroup"><h4>Material</h4>${MATERIALS.map(m=>`<label><input type="checkbox" data-mat="${m}" ${st.mats.has(m)?'checked':''}> ${m}<small class="num">${count(p=>p.material===m)}</small></label>`).join('')}</div>
+    <div class="fgroup"><h4>Precio máximo</h4><input type="range" id="maxPrice" min="300" max="12000" step="100" value="${st.max}" aria-label="Precio máximo"><div class="range-val num"><span>Q300</span><strong id="maxLbl">${Q(st.max)}</strong></div></div>
+    <div class="fgroup"><h4>Tienda</h4>${VENDORS.map(v=>`<label><input type="checkbox" data-ven="${v.id}" ${st.vens.has(v.id)?'checked':''}> ${v.name}<small class="num">${count(p=>p.vendor===v.id)}</small></label>`).join('')}</div>
+    <div class="fgroup"><h4>Envío</h4><label><input type="checkbox" checked> Envío a todo el país</label><label><input type="checkbox"> Recoger en tienda</label></div>`;
+}
+function filtered(){
+  const q = st.q.trim().toLowerCase();
+  let r = P.filter(p=>(!st.cat||p.cat===st.cat) && (!st.mats.size||st.mats.has(p.material)) && (!st.vens.size||st.vens.has(p.vendor)) && p.price<=st.max
+    && (!q || (p.name+' '+p.material+' '+venOf(p.vendor).name+' '+catOf(p.cat).name).toLowerCase().includes(q)));
+  if(st.sort==='asc') r.sort((a,b)=>a.price-b.price);
+  if(st.sort==='desc') r.sort((a,b)=>b.price-a.price);
+  if(st.sort==='rate') r.sort((a,b)=>b.rating-a.rating||b.reviews-a.reviews);
+  return r;
+}
+function card(p){
+  const v = venOf(p.vendor);
+  const cls = p.badge==='Oferta'?'sale':p.badge==='Nuevo'?'new':'';
+  return `<article class="card">
+    <button class="img" data-open="${p.id}" aria-label="Ver ${esc(p.name)}">${pic(p)}${p.badge?`<span class="badge ${cls}">${p.badge}</span>`:''}</button>
+    <div class="body">
+      <button class="vendor" data-ven-only="${v.id}">${esc(v.name)}</button>
+      <h3 data-open="${p.id}">${esc(p.name)}</h3>
+      <div class="stars"><span class="s">${stars(p.rating)}</span><span class="num">${p.rating.toFixed(1)} (${p.reviews})</span></div>
+      <div class="price num"><b><sup>Q</sup>${p.price.toLocaleString('es-GT')}</b>${p.old?`<s>${Q(p.old)}</s>`:''}</div>
+      <div class="meta">${esc(p.material)} · ${p.stock<=3?`<span style="color:var(--sale);font-weight:700">Quedan ${p.stock}</span>`:'<span class="ok">Envío en 24–48 h</span>'}</div>
+      <button class="btn btn-gold" data-add="${p.id}">Agregar al carrito</button>
+    </div></article>`;
+}
+function renderGrid(){
+  const r = filtered();
+  const vn = st.vens.size===1 ? venOf([...st.vens][0]).name : null;
+  $('#resTitle').textContent = vn ? vn : st.cat ? catOf(st.cat).name : (st.q ? `Resultados para “${st.q}”` : 'Todas las joyas');
+  $('#resCount').textContent = `${r.length} piezas de ${new Set(r.map(p=>p.vendor)).size} tiendas`;
+  $('#grid').innerHTML = r.length ? r.map(card).join('') : `<div class="empty" style="grid-column:1/-1">No hay piezas con esos filtros. Prueba quitar un material o subir el precio máximo.</div>`;
+}
+function renderVendors(){
+  $('#vendors').innerHTML = VENDORS.map(v=>`<button class="vcard" data-ven-only="${v.id}">
+    <span class="vlogo" style="background:${v.color}">${v.name.split(' ').filter(w=>w.length>2).slice(0,2).map(w=>w[0]).join('')}</span>
+    <span><h3>${esc(v.name)}</h3><p>${esc(v.city)}</p><p class="num"><span style="color:var(--gold-bright)">★</span> ${v.rating} · ${v.sales.toLocaleString('es-GT')} ventas · ${P.filter(p=>p.vendor===v.id).length} piezas</p></span></button>`).join('');
+}
+function renderShop(){ renderChrome(); renderFilters(); renderGrid(); renderVendors(); }
+
+/* ---------------- Carrito ---------------- */
+function cartCount(){ let n=0; st.cart.forEach(q=>n+=q); $('#cartCount').textContent=n; }
+function add(id){ st.cart.set(id,(st.cart.get(id)||0)+1); cartCount(); toast(`Agregado: ${P.find(p=>p.id===id).name}`); }
+function openCart(){
+  const items = [...st.cart].map(([id,q])=>({p:P.find(x=>x.id===id),q}));
+  const sub = items.reduce((s,i)=>s+i.p.price*i.q,0);
+  const ship = sub===0?0:(sub>=1500?0:35);
+  const stores = new Set(items.map(i=>i.p.vendor)).size;
+  $('#layer').innerHTML = `<div class="scrim" data-close></div><aside class="drawer" role="dialog" aria-label="Carrito">
+    <header><h2>Tu carrito</h2><button class="x" data-close aria-label="Cerrar">×</button></header>
+    <div class="citems">${items.length? items.map(({p,q})=>`<div class="citem"><span class="th">${pic(p)}</span><div><h4>${esc(p.name)}</h4><small>Vendido por ${esc(venOf(p.vendor).name)}</small>
+      <span class="qty"><button data-dec="${p.id}" aria-label="Quitar uno">−</button><span class="num">${q}</span><button data-inc="${p.id}" aria-label="Agregar uno">+</button></span></div><b class="num">${Q(p.price*q)}</b></div>`).join('')
+      : '<div class="empty">Tu carrito está vacío. Agrega una pieza desde el catálogo.</div>'}</div>
+    <div class="ctotal num">
+      <div class="row"><span>Subtotal</span><span>${Q(sub)}</span></div>
+      <div class="row"><span>Envío ${stores>1?`(${stores} tiendas)`:''}</span><span>${ship?Q(ship):(sub?'Gratis':'—')}</span></div>
+      <div class="row big"><span>Total</span><span>${Q(sub+ship)}</span></div>
+      ${sub?`<small>o 3 cuotas de ${Q(Math.ceil((sub+ship)/3))} sin recargo · Envío gratis desde Q1,500</small>`:''}
+      <button class="btn btn-gold" id="checkout" ${sub?'':'disabled'}>Continuar con la compra</button>
+    </div></aside>`;
+}
+
+/* ---------------- Detalle de producto ---------------- */
+function openProduct(id){
+  const p = P.find(x=>x.id===id), v = venOf(p.vendor);
+  const others = P.filter(x=>x.cat===p.cat && x.vendor!==p.vendor).slice(0,3);
+  $('#layer').innerHTML = `<div class="scrim" data-close></div><div class="modal" data-close-self><div class="mbox" role="dialog" aria-label="${esc(p.name)}">
+    <button class="x" data-close aria-label="Cerrar">×</button>
+    <div class="mimg">${pic(p)}</div>
+    <div class="mbody">
+      <button class="vendor" data-ven-only="${v.id}" style="background:none;border:0;padding:0;text-align:left;color:var(--jade);font-weight:700;font-size:13px">Visita la tienda ${esc(v.name)} · ${esc(v.city)}</button>
+      <h2>${esc(p.name)}</h2>
+      <div class="stars"><span class="s">${stars(p.rating)}</span><span class="num">${p.rating.toFixed(1)} · ${p.reviews} opiniones</span></div>
+      <div class="price num"><b><sup>Q</sup>${p.price.toLocaleString('es-GT')}</b>${p.old?`<s>${Q(p.old)}</s>`:''}</div>
+      <div class="meta num">o 3 cuotas de ${Q(Math.ceil(p.price/3))} sin recargo</div>
+      <dl class="spec"><dt>Material</dt><dd>${esc(p.material)}</dd><dt>Categoría</dt><dd>${catOf(p.cat).name}</dd><dt>Existencias</dt><dd class="num">${p.stock} disponibles</dd><dt>Envío</dt><dd>A los 22 departamentos · 24–72 h</dd><dt>Garantía</dt><dd>Certificado del vendedor · devolución en 30 días</dd></dl>
+      <button class="btn btn-gold" data-add="${p.id}">Agregar al carrito</button>
+      ${others.length?`<div class="others"><h4>También en otras tiendas</h4>${others.map(o=>`<button class="orow" data-open="${o.id}"><span class="th">${pic(o)}</span><span>${esc(o.name)}<small>${esc(venOf(o.vendor).name)}</small></span><b class="num">${Q(o.price)}</b></button>`).join('')}</div>`:''}
+    </div></div></div>`;
+}
+function closeLayer(){ $('#layer').innerHTML=''; }
+let tt; function toast(msg){ clearTimeout(tt); let t=$('.toast'); if(!t){t=document.createElement('div');t.className='toast';t.setAttribute('role','status');document.body.appendChild(t);} t.textContent=msg; tt=setTimeout(()=>t.remove(),2400); }
+
+/* ---------------- Portal de vendedores ---------------- */
+let pending = [];
+function showView(v){ $('#viewShop').hidden = v!=='shop'; $('#viewPortal').hidden = v!=='portal'; if(v==='portal') renderPortal(); window.scrollTo(0,0); }
+function renderPortal(){
+  const el = $('#viewPortal');
+  if(!st.me){
+    el.innerHTML = `<form class="login" id="loginForm">
+      <h2>Portal de tiendas</h2>
+      <p>Entra para administrar tu tienda, subir joyas y ver tus pedidos. Para la demo, elige cualquier tienda.</p>
+      <label class="field">Tienda<select id="loginVendor">${VENDORS.map(v=>`<option value="${v.id}">${esc(v.name)}</option>`).join('')}</select></label>
+      <label class="field">Correo<input id="loginEmail" type="email" value="ventas@mitienda.com.gt" autocomplete="off"></label>
+      <label class="field">Contraseña<input id="loginPass" type="password" value="demo1234" autocomplete="off"></label>
+      <button class="btn btn-jade" type="submit">Entrar</button>
+      <p class="hint">¿Aún no vendes en Jadeíta? Regístrate con tu NIT y empieza a publicar el mismo día.</p>
+    </form>`;
+    return;
+  }
+  const v = venOf(st.me), mine = P.filter(p=>p.vendor===v.id);
+  const stock = mine.reduce((s,p)=>s+p.stock,0);
+  el.innerHTML = `
+    <div class="dash-head">
+      <div class="who"><span class="vlogo" style="background:${v.color}">${v.name.split(' ').filter(w=>w.length>2).slice(0,2).map(w=>w[0]).join('')}</span>
+        <div><h2>${esc(v.name)}</h2><p>${esc(v.city)} · Vendedor desde ${v.since}</p></div></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-ghost" id="viewStore">Ver mi tienda pública</button><button class="btn btn-ghost" id="logout">Cerrar sesión</button></div>
+    </div>
+    <div class="kpis num">
+      <div class="kpi"><span>Ventas del mes</span><b>${Q(Math.round(v.sales*14.5))}</b><small>▲ 12% vs. septiembre</small></div>
+      <div class="kpi"><span>Pedidos por despachar</span><b>${(v.sales%9)+3}</b><small style="color:var(--gold)">2 vencen hoy</small></div>
+      <div class="kpi"><span>Visitas a tu tienda</span><b>${(v.sales*7).toLocaleString('es-GT')}</b><small>▲ 8% esta semana</small></div>
+      <div class="kpi"><span>Calificación</span><b>★ ${v.rating}</b><small style="color:var(--muted)">${mine.length} piezas · ${stock} unidades</small></div>
+    </div>
+    <div class="dash">
+      <section class="panel"><h3>Mis productos</h3><div class="tablewrap"><table class="num">
+        <thead><tr><th>Producto</th><th>Material</th><th class="r">Precio</th><th class="r">Exist.</th><th>Estado</th></tr></thead>
+        <tbody>${mine.map(p=>`<tr><td><span class="tthumb">${pic(p)}</span>${esc(p.name)}</td><td>${esc(p.material)}</td><td class="r">${Q(p.price)}</td><td class="r">${p.stock}</td><td>${p.stock<=3?'<span class="pill low">Pocas unidades</span>':'<span class="pill on">Publicado</span>'}</td></tr>`).join('')}</tbody>
+      </table></div></section>
+      <section class="panel"><h3>Subir una joya nueva</h3>
+        <form class="form" id="newForm">
+          <label class="field">Nombre de la pieza<input id="nName" required placeholder="Ej. Anillo de plata con jade" maxlength="70"></label>
+          <div class="two">
+            <label class="field">Categoría<select id="nCat">${CATS.map(c=>`<option value="${c.id}">${c.name}</option>`).join('')}</select></label>
+            <label class="field">Material<select id="nMat">${MATERIALS.map(m=>`<option>${m}</option>`).join('')}</select></label>
+          </div>
+          <div class="two">
+            <label class="field">Precio (Q)<input id="nPrice" type="number" min="50" step="10" required value="950"></label>
+            <label class="field">Existencias<input id="nStock" type="number" min="1" required value="5"></label>
+          </div>
+          <label class="field">Descripción<textarea id="nDesc" placeholder="Medidas, quilates, origen de la piedra, cuidados…"></textarea></label>
+          <div class="field">Fotos
+            <label class="drop" id="drop"><input id="nFiles" type="file" accept="image/*" multiple><strong>Arrastra tus fotos aquí o toca para elegir</strong><span class="hint">JPG o PNG · fondo claro · la primera será la portada</span></label>
+            <div class="previews" id="previews"></div>
+          </div>
+          <button class="btn btn-jade" type="submit">Publicar en Jadeíta</button>
+          <p class="hint">Sin foto, la demo usa una ilustración. Al publicar, la pieza aparece de inmediato en la tienda principal.</p>
+        </form>
+      </section>
+    </div>`;
+}
+function readFiles(files){
+  [...files].filter(f=>f.type.startsWith('image/')).slice(0,5).forEach(f=>{
+    const r = new FileReader(); r.onload = e=>{ pending.push(e.target.result); $('#previews').innerHTML = pending.map(s=>`<span class="pv"><img src="${s}" alt=""></span>`).join(''); }; r.readAsDataURL(f);
+  });
+}
+
+/* ---------------- Eventos ---------------- */
+document.addEventListener('click', e=>{
+  const t = e.target.closest('button,[data-open],[data-close],[data-close-self],label');
+  if(!t) return;
+  if(t.matches('[data-close-self]') && e.target!==t) return;
+  if(t.dataset.close!==undefined || t.matches('[data-close-self]')){ closeLayer(); return; }
+  if(t.dataset.open){ openProduct(t.dataset.open); return; }
+  if(t.dataset.add){ add(t.dataset.add); if($('.drawer')) openCart(); return; }
+  if(t.dataset.inc){ st.cart.set(t.dataset.inc, st.cart.get(t.dataset.inc)+1); cartCount(); openCart(); return; }
+  if(t.dataset.dec){ const n=st.cart.get(t.dataset.dec)-1; n?st.cart.set(t.dataset.dec,n):st.cart.delete(t.dataset.dec); cartCount(); openCart(); return; }
+  if(t.dataset.venOnly){ closeLayer(); showView('shop'); st.vens=new Set([t.dataset.venOnly]); st.cat=''; renderShop(); $('#catalogo').scrollIntoView({behavior:'smooth'}); return; }
+  if(t.dataset.cat!==undefined){ st.cat = st.cat===t.dataset.cat && t.classList.contains('cat') ? '' : t.dataset.cat; st.vens.clear(); showView('shop'); renderShop(); if(t.closest('.subnav')) $('#catalogo').scrollIntoView({behavior:'smooth'}); return; }
+  if(t.dataset.portal!==undefined || t.id==='toPortal' || t.id==='sellCta'){ showView('portal'); return; }
+  if(t.id==='goHome'){ st.cat='';st.q='';st.vens.clear();st.mats.clear();st.max=12000;$('#q').value='';showView('shop');renderShop();return; }
+  if(t.id==='openCart'){ openCart(); return; }
+  if(t.id==='checkout'){ toast('En la versión real aquí sigue el pago con tarjeta, transferencia o contra entrega.'); return; }
+  if(t.id==='logout'){ st.me=null; renderPortal(); return; }
+  if(t.id==='viewStore'){ showView('shop'); st.vens=new Set([st.me]); st.cat=''; renderShop(); $('#catalogo').scrollIntoView(); return; }
+});
+document.addEventListener('change', e=>{
+  const t = e.target;
+  if(t.dataset.mat){ t.checked?st.mats.add(t.dataset.mat):st.mats.delete(t.dataset.mat); renderGrid(); }
+  else if(t.dataset.ven){ t.checked?st.vens.add(t.dataset.ven):st.vens.delete(t.dataset.ven); renderGrid(); }
+  else if(t.id==='sort'){ st.sort=t.value; renderGrid(); }
+  else if(t.id==='nFiles'){ readFiles(t.files); }
+});
+document.addEventListener('input', e=>{ if(e.target.id==='maxPrice'){ st.max=+e.target.value; $('#maxLbl').textContent=Q(st.max); renderGrid(); } });
+document.addEventListener('submit', e=>{
+  e.preventDefault();
+  const f = e.target;
+  if(f.id==='searchForm'){ st.q=$('#q').value; st.cat=$('#searchCat').value; st.vens.clear(); showView('shop'); renderShop(); $('#catalogo').scrollIntoView({behavior:'smooth'}); }
+  if(f.id==='loginForm'){ st.me=$('#loginVendor').value; pending=[]; renderPortal(); toast(`Bienvenido, ${venOf(st.me).name}`); }
+  if(f.id==='newForm'){
+    const cat=$('#nCat').value, mat=$('#nMat').value, c=catOf(cat);
+    const p = {id:'n'+Date.now(), name:$('#nName').value.trim()||'Pieza nueva', cat, vendor:st.me, material:mat, metal:METAL_OF[mat]||'gold',
+      gem: mat==='Jade'?'jade':c.gem, price:Math.max(50,+$('#nPrice').value||0), old:null, rating:5, reviews:0, badge:'Nuevo', stock:Math.max(1,+$('#nStock').value||1), img:pending[0]||null};
+    P.unshift(p); pending=[]; renderPortal(); renderShop();
+    toast(`Publicado: ${p.name}. Ya aparece en la tienda principal.`);
+  }
+});
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeLayer(); });
+document.addEventListener('dragover', e=>{ const d=e.target.closest&&e.target.closest('#drop'); if(d){e.preventDefault(); d.classList.add('over');} });
+document.addEventListener('dragleave', e=>{ const d=e.target.closest&&e.target.closest('#drop'); if(d) d.classList.remove('over'); });
+document.addEventListener('drop', e=>{ const d=e.target.closest&&e.target.closest('#drop'); if(d){ e.preventDefault(); d.classList.remove('over'); readFiles(e.dataTransfer.files);} });
+
+renderShop(); cartCount();
+})();
+</script>
+</body>
+</html>
