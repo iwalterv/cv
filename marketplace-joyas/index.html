@@ -846,9 +846,9 @@ vec2 map(vec3 p){
     float strap=length(max(abs(vec2(sr, s.x))-vec2(0.03,0.30),0.))-0.02;
     
     res=vec2(strap, (uMetal.r<0.7&&uMetal.g<0.7) ? 1. : 6.);
-    float cse=sdCylZ(q-vec3(0.,0.,0.10), 0.58, 0.11, 0.05);
+    float cse=sdCylZ(q-vec3(0.,0.,0.06), 0.58, 0.11, 0.05);
     vec3 lq=vec3(abs(q.x)-0.22, abs(q.y)-0.58, q.z-0.05); float lug=sdBox(lq, vec3(0.05,0.12,0.06))-0.02;
-    float crown=sdCylZ((q-vec3(0.66,0.,0.10)).zyx, 0.07, 0.07, 0.02);
+    float crown=sdCylZ((q-vec3(0.66,0.,0.06)).zyx, 0.07, 0.07, 0.02);
     float bez=sdTorus((q-vec3(0.,0.,0.215)).xzy, vec2(0.53,0.05));
     res=U(res, vec2(smin(cse,crown,0.01),1.));
     res=U(res, vec2(bez,1.));
