@@ -38,4 +38,4 @@ Por eso nuestra prioridad #1 es lograr **muchos clics** (título + miniatura) y 
 | 8 | **Solicitar el YPP** | 1.000 suscriptores + 4.000 horas, y solicitud enviada |
 | 9 | **Escalar**: segundo canal u otro idioma con el mismo sistema | Canal 1 monetizado y estable |
 
-Detalle de cada paso: carpeta [`pasos/`](pasos/).
+Detalle de cada paso: carpeta [`pasos/`](pasos/). Resultado del paso 1: [`04-analisis-nichos.md`](04-analisis-nichos.md).
