@@ -4,25 +4,29 @@ Fecha: octubre de 2026. Las fuentes están al final. Casi todos los datos públi
 
 ---
 
-## 1. Antes que nada: la conexión de Virginia
+## 1. Situación legal y fiscal (actualizado: eres ciudadano estadounidense)
 
-**Lo que importa es dónde están los que *ven* el video, no desde dónde lo subes.** El RPM depende del país de tus espectadores. Un video en inglés que ven estadounidenses paga igual si lo subes desde Guatemala o desde Virginia. **El bridge no aumenta las ganancias.**
+Al ser **ciudadano de EE. UU.**, montamos el canal **como un creador estadounidense**. No hay que fingir nada: es tu situación real.
 
-**Para qué SÍ sirve (y es muy útil):**
-- **Investigar como un espectador de EE. UU.** Desde esa red, YouTube te muestra las tendencias, búsquedas sugeridas y recomendaciones del público estadounidense. Es justo el público al que le vamos a hablar.
-- Ver los anuncios y miniaturas que compiten en ese mercado.
+**Configuración recomendada:**
 
-**Lo que NO hay que hacer:**
-- **No declarar el canal ni AdSense como si vivieras en EE. UU.** si no es cierto. El país del canal, AdSense y los formularios de impuestos tienen que reflejar tu situación real. Si no coinciden, Google puede **retener los pagos o suspender AdSense**, y ahí se pierde todo el trabajo.
-- No alternar sin control entre las dos conexiones al administrar la cuenta. Los cambios de país frecuentes pueden disparar verificaciones de seguridad. Usa una sola de forma consistente para administrar el canal; para investigar, usa la que quieras.
+| Elemento | Qué poner | Por qué |
+|---|---|---|
+| Formulario de impuestos en AdSense | **W-9** con tu SSN | Es el formulario correcto para ciudadanos de EE. UU. Con un W-9 válido, **no hay retención del 30 %** |
+| Dirección de AdSense | Tu dirección permanente en **Virginia** (la casa de tu papá), si es tu domicilio o dirección postal en EE. UU. | A esa dirección te llega el PIN de verificación por correo; tu papá te lo puede pasar |
+| Cuenta bancaria para cobrar | Cuenta en **EE. UU.** a tu nombre | Cobras en dólares, sin conversión ni comisiones internacionales |
+| País del canal | **Estados Unidos** | Coherente con AdSense e impuestos; tienes acceso garantizado al YPP |
+| Conexión para administrar | La red de Virginia, **de forma consistente** | Evita alertas de seguridad por cambios de país. Es tu red de casa en EE. UU., así que no hay nada irregular |
 
-**Impuestos (importante para tus números):**
-- **Si no eres ciudadano ni residente de EE. UU.:** llenas el formulario **W-8BEN**. Google retiene impuestos **solo sobre lo que generan los espectadores de EE. UU.** Hasta donde sé, EE. UU. no tiene tratado fiscal con Guatemala, así que la retención sería del **30 %** sobre esa parte. **Confírmalo con un contador.**
-- **Si eres ciudadano o residente de EE. UU.:** llenas el **W-9**, que es otra situación. Avísame si es tu caso.
-- **Si no llenas ningún formulario:** Google puede retener hasta el 24-30 % de **todo** lo que ganes, no solo la parte de EE. UU.
-- Incluso con el 30 % de retención, el público de EE. UU. sigue pagando mucho más que el hispanohablante (ver la sección 2).
+**Lo que sigue siendo cierto:** el RPM depende de dónde están los espectadores, no de tu conexión. La red de Virginia sirve para administrar de forma consistente y para investigar lo que ve el público de EE. UU.
 
-**Verifica también** que el YouTube Partner Program esté disponible para Guatemala: YouTube Studio → Ganar dinero. Guatemala aparece en la lista de países habilitados, pero confírmalo ahí.
+**Impuestos (revisar con un contador de expatriados):**
+- Los ciudadanos de EE. UU. declaran **todo su ingreso mundial** (Form 1040) aunque vivan fuera. El canal es un negocio propio: se declara en el **Schedule C**, y si ganas más de $400 al año pagas **self-employment tax** (~15,3 %).
+- Como estás viviendo en Guatemala, podrías calificar para la **Foreign Earned Income Exclusion** (Form 2555). Exige, por ejemplo, 330 días fuera de EE. UU. en 12 meses. Ojo: esa exclusión **no** elimina el self-employment tax.
+- **Impuesto estatal de Virginia:** depende de si Virginia sigue siendo tu domicilio legal.
+- Guatemala podría tener sus propias reglas para residentes. Es otra razón para consultar con un contador.
+- **Recomendación práctica:** separa desde el día 1 un **20-30 % de cada pago** para impuestos, y guarda los recibos de las herramientas (ElevenLabs, Higgsfield, Claude, etc.), porque son **gastos deducibles**.
+- **Más adelante** (cuando el canal facture), vale la pena evaluar una **LLC**. Por ahora no hace falta.
 
 ---
 
@@ -34,7 +38,7 @@ Fecha: octubre de 2026. Las fuentes están al final. Casi todos los datos públi
 | Audiencia potencial | ~1.450 M | ~600 M |
 | Competencia | Alta | Menor |
 
-**Cuenta rápida:** con 100.000 vistas, un canal en inglés con público de EE. UU. podría generar varias veces lo mismo que uno en español. Esa diferencia es mayor que el 30 % de retención.
+**Cuenta rápida:** con 100.000 vistas, un canal en inglés con público de EE. UU. podría generar varias veces lo mismo que uno en español. Y como eres ciudadano de EE. UU. (W-9), no hay retención del 30 %.
 
 ### ¿Y hacerlo en ambos idiomas? Sí, pero de forma inteligente
 - **No abrimos 2 canales al mismo tiempo.** Dividiría el esfuerzo y las 4.000 horas se cuentan **por canal**. Con dos canales llegaríamos más lento a monetizar los dos.
