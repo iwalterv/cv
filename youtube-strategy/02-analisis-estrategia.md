@@ -45,17 +45,17 @@ Se copia el **formato** de un canal exitoso de dibujos simples (monigotes o "sti
 2. **Títulos y miniaturas**, que son lo que más pesa en el número de clics (CTR).
 3. **Gancho y retención**: los primeros 30 segundos y el ritmo de la narración.
 4. **Frecuencia de publicación** y consistencia.
-5. **Requisitos para monetizar (YouTube Partner Program)**: 1.000 suscriptores **y** 4.000 horas de reproducción pública en 12 meses (o 10 M de vistas en Shorts en 90 días).
+5. **Requisitos para monetizar (YouTube Partner Program)**: 1.000 suscriptores **y** 4.000 horas de reproducción pública en 12 meses (o 10 M de vistas en Shorts en 90 días). Hay un nivel previo con 500 suscriptores, 3 videos en 90 días y 3.000 horas, pero ese **no** paga anuncios. Varias fuentes reportan que desde el 1 de febrero de 2027 se pedirían 8.000 horas; está **sin confirmar** en la página oficial. Si es cierto, conviene llegar antes de esa fecha.
 6. **Políticas de YouTube** (ver riesgos abajo).
 7. **Costos** de las herramientas.
 
 ## 6. Riesgos importantes ⚠️
 
-1. **Política de "contenido no auténtico"** (antes llamada "contenido repetitivo", actualizada en julio de 2025). YouTube puede **quitar la monetización a todo el canal** si el contenido es producido en masa, con plantilla y poco esfuerzo. Este formato está justo en esa zona gris. La diferencia la marcan el valor añadido, la investigación y la variedad.
+1. **Política de "contenido no auténtico"** (antes llamada "contenido repetitivo", actualizada en julio de 2025). YouTube puede **quitar la monetización a todo el canal** si el contenido es producido en masa, con plantilla y poco esfuerzo. Este formato está justo en esa zona gris. La diferencia la marcan el valor añadido, la investigación y la variedad. Lo que más riesgo genera, según los reportes: un proceso 100 % automatizado, guiones copiados o de plantilla, publicar a diario sin revisión humana y videos casi idénticos entre sí. Hay reportes de cierres masivos de canales de IA en enero de 2026.
 2. **Copiar el guion de un competidor** ("mismo estilo, misma información") roza el **contenido reutilizado** y puede traer reclamos o problemas éticos.
    👉 **Nuestra versión:** usar a los competidores solo para **descubrir temas y estructuras** que funcionan, y escribir guiones **originales**, con datos verificados y un ángulo propio.
 3. **Exactitud histórica.** En temas de "humanos antiguos" la IA inventa datos con facilidad. Los errores generan comentarios negativos y le restan autoridad al canal.
-4. **Saturación.** Muchas personas vieron este mismo tutorial y van a copiar este mismo formato. Para diferenciarse hacen falta un estilo visual propio, una voz menos común (él mismo sugiere no usar las voces más populares) y un subnicho.
+4. **Saturación.** Una búsqueda rápida ya muestra muchos videos con el título casi idéntico "What Did Ancient Humans Do…" (… All Day, … All Night, … For Fun, … When Someone Died). Muchas personas vieron este mismo tutorial y van a copiar este mismo formato. Para diferenciarse hacen falta un estilo visual propio, una voz menos común (él mismo sugiere no usar las voces más populares) y un subnicho.
 5. **Divulgación de IA.** Los dibujos animados normalmente no requieren la etiqueta de "contenido alterado o sintético", pero hay que revisarlo caso por caso.
 
 ## 7. Costos aproximados (mensuales; verificar precios actuales)
