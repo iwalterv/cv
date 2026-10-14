@@ -1,5 +1,7 @@
 # Análisis de idioma y nicho (paso 1)
 
+> ⚠️ **Actualización:** la recomendación de nicho de este documento (dinero y salarios) quedó **descartada** al ver los datos reales de YouTube. La decisión final está en [`05-decision-nicho.md`](05-decision-nicho.md). Las secciones de idioma, impuestos y cuenta siguen vigentes.
+
 Fecha: octubre de 2026. Las fuentes están al final. Casi todos los datos públicos de RPM vienen de blogs y herramientas comerciales; el único estudio con datos medidos en YouTube Studio es el de AIR Media-Tech (300 canales). Tómalos como **dirección**, no como promesa.
 
 ---
