@@ -27,15 +27,15 @@ Este archivo es el traspaso de contexto para las sesiones de Claude Code en la M
 | Idioma | **Inglés**, público de EE. UU. El español irá después como pista de audio doblada en el mismo canal | `04-analisis-nichos.md` |
 | Nicho | **"La vida humana a través de la historia, vivida desde TU perspectiva"**, con monigotes, rotando épocas (Edad Media, Roma, vikingos, Egipto, aztecas, Edad de Hielo…). El nicho de dinero/salarios quedó **descartado** por los datos | `05-decision-nicho.md` |
 | Formatos de título | "What Did [X] Do When…?", "Why You Wouldn't Survive…", "Why It Sucked to Be a…", "Your Life as a…", "The Worst Jobs in…" | `05-decision-nicho.md` |
-| Identidad (propuesta) | Personaje **"Red"**: monigote de cabeza redonda con **bufanda roja siempre**; escenas ilustradas a color; texto de miniatura blanco con la palabra clave en rojo; nombre favorito **Yesteryou** | `06-identidad-canal.md` |
+| Identidad | Nombre **Time Peasant** (@timepeasant, verificado libre el 13-oct-2026; "Yesteryou" descartado porque ya existe en el nicho). Personaje **"Red"** (propuesto): monigote de cabeza redonda con **bufanda roja siempre**; escenas ilustradas a color; texto de miniatura blanco con la palabra clave en rojo | `06-identidad-canal.md` |
 | Datos de investigación | Búsquedas, canales de referencia, miniaturas y fotogramas | `datos/` |
 
 Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious History**, **Chat History**.
 
 ## Estado actual: PASO 2 (identidad), casi cerrado
-Pendiente:
-1. Que el usuario confirme el **nombre** (Yesteryou u otro) y el **personaje de la bufanda roja**.
-2. Verificar que el @handle esté libre: `curl -s -o /dev/null -w "%{http_code}" https://www.youtube.com/@<handle>` (404 = libre) y buscar nombres parecidos con `yt-dlp "ytsearch10:<nombre>"`. Candidatos: `yesteryou`, `borntooearly`, `stuckinhistory`, `backthenyou`, `theredscarf`.
+Hecho: nombre **Time Peasant** confirmado por el usuario; @timepeasant libre (verificado el 13-oct-2026, ver sección 4 de `06-identidad-canal.md`).
+Pendiente: que el usuario confirme el **personaje "Red"** (bufanda roja).
+Para verificar un handle: `curl -sL https://www.youtube.com/@<handle> | grep og:title` (vacío = libre; el código HTTP no sirve, siempre es 200).
 
 ## Ruta completa (ver `03-plan-maestro.md`)
 1. ✅ Idioma y nicho

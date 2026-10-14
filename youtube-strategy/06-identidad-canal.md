@@ -81,3 +81,22 @@ El texto (de 1 a 3 palabras) se agrega después en CapCut o Canva, para tener co
 **Mi recomendación: Yesteryou.** Es único (fácil de ser el primer resultado en búsquedas), resume el concepto en una palabra y queda bien como @handle.
 
 **Antes de decidir hay que verificar** que el @handle esté libre en YouTube y que no exista un canal con el mismo nombre.
+
+## 4. Verificación de nombres (13-oct-2026) y decisión
+
+**Método:** `curl -sL https://www.youtube.com/@<handle>` y leer el `og:title` (si está vacío, el handle está libre; **el código HTTP no sirve**, porque YouTube responde 200 siempre). Después, `yt-dlp "ytsearch8:<nombre>"` para detectar canales con el mismo nombre.
+
+| Candidato | Resultado |
+|---|---|
+| Yesteryou | ❌ @yesteryou ocupado ("Cash Cartoons"). Además ya existe un canal **"Yesteryou"** en nuestro nicho (*"What If You Arrived at Ellis Island in 1907?"*) |
+| Born Too Early / Stuck in History / Back Then You / The Red Scarf | ❌ handles ocupados |
+| Unlucky Ancestor | ❌ handle libre, pero existe **"Unlucky Ancestors"** con el formato "Why You Wouldn't Survive…" |
+| Ancestor Mode, Peasant Mode, Wrong Era, You In History, You Back Then | ❌ ocupados (competencia directa) |
+| Century Swap | ❌ es una marca de carriolas |
+| Past Tense You | ✅ libre, pero la búsqueda está llena de clases de gramática |
+| Red Through Time | ✅ libre (alternativa) |
+| **Time Peasant** | ✅ @timepeasant libre y sin canales con ese nombre |
+
+**Decisión del usuario: el nombre del canal es "Time Peasant" (@timepeasant).** Encaja con el personaje "Red": un campesino que viaja por las épocas.
+
+Nota: el nicho tiene varios competidores con el mismo formato; la diferencia tiene que venir del personaje, del humor de la voz y de la variedad de épocas.
