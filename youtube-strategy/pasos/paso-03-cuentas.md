@@ -6,9 +6,9 @@ Reglas: los datos personales, las contraseñas, el teléfono y los pagos los ing
 
 | # | Tarea | Quién | Estado |
 |---|---|---|---|
-| 3.1 | Crear un Gmail dedicado al canal | Usuario (guiado) | ⏳ |
-| 3.2 | Activar la verificación en dos pasos (2FA) en ese Gmail | Usuario (guiado) | ☐ |
-| 3.3 | Crear el canal de marca **Time Peasant**, handle **@timepeasant**, país **United States** | Usuario (guiado), con autorización | ☐ |
+| 3.1 | ~~Gmail dedicado~~ → se usa el Gmail personal del usuario (ya tiene teléfono). Decisión del 13-oct-2026: canal de marca **nuevo** en esa cuenta; el canal viejo "FactoMentes" (1 Short en español de 2023) queda aparte | Usuario | ✅ |
+| 3.2 | Activar la verificación en dos pasos (2FA) en el Gmail personal (si no está activa) | Usuario (guiado) | ☐ |
+| 3.3 ⏳ | Crear el canal de marca **Time Peasant**, handle **@timepeasant**, país **United States** | Usuario (guiado), con autorización | ☐ |
 | 3.4 | Verificar el canal por teléfono (youtube.com/verify): habilita videos de más de 15 min y miniaturas personalizadas | Usuario | ☐ |
 | 3.5 | ElevenLabs: crear cuenta y elegir voz entre 3 candidatas con el mismo párrafo de prueba. **Plan de pago solo con autorización** (el plan gratis no permite uso comercial) | Usuario + Claude | ☐ |
 | 3.6 | Higgsfield: crear cuenta y conectar el conector en Claude. **Plan de pago solo con autorización** | Usuario + Claude | ☐ |

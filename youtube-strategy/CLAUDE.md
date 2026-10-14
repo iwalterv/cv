@@ -34,7 +34,7 @@ Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious His
 
 ## Estado actual: PASO 3 (cuentas)
 Paso 2 cerrado el 13-oct-2026: nombre **Time Peasant** (@timepeasant) y personaje **Red** confirmados.
-Checklist y estado del paso 3: `pasos/paso-03-cuentas.md`. Subpaso actual: **3.1 (Gmail dedicado)**.
+Checklist y estado del paso 3: `pasos/paso-03-cuentas.md`. Subpaso actual: **3.3 (crear el canal de marca Time Peasant en el Gmail personal del usuario)**. El usuario ya tiene otro canal, "FactoMentes", que no se toca.
 Para verificar un handle: `curl -sL https://www.youtube.com/@<handle> | grep og:title` (vacío = libre; el código HTTP no sirve, siempre es 200).
 
 ## Ruta completa (ver `03-plan-maestro.md`)
