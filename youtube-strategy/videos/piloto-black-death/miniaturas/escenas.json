@@ -1,11 +1,49 @@
 {
  "reference": "imagenes/red-ficha/red-oficial.png",
  "model": "nano_banana_pro",
- "params": ["--aspect-ratio", "16:9", "--resolution", "2k"],
- "base": "YouTube thumbnail. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). 2D cartoon, clean bold black outlines, flat colors. {SCENE} Red very large in frame on the right two thirds, extreme readable emotion. High contrast, simple uncluttered background, empty dark space on the left third for text. No text, no letters, no watermark. 16:9.",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "YouTube thumbnail. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). 2D cartoon, clean bold black outlines, flat colors. {SCENE} Extreme readable emotion, high contrast, few elements, readable at small size. No text, no letters, no watermark. 16:9.",
  "scenes": [
-  {"id": "A-flowers", "SCENE": "Red as a medieval peasant with a huge bunch of colorful flowers stuffed up against his nose, eyes wide in total panic, sweat drops. Dark gloomy medieval village at night behind him, dark green and black tones so the flowers pop."},
-  {"id": "B-coin", "SCENE": "Red as a medieval peasant staring up in terror at a big shiny gold coin spinning in the air in front of him, his face lit by its glow. Deep black and dark red background."},
-  {"id": "C-rat", "SCENE": "Red as a medieval peasant nose to nose with an enormous grey rat as big as he is, both staring into each other's eyes, Red frozen in fear with a drop of sweat. Dark cobblestone alley at night, cold blue tones with a warm lantern glow."}
+  {
+   "id": "A-flowers",
+   "SCENE": "Red as a medieval peasant with a huge bunch of colorful flowers stuffed up against his nose, eyes wide in total panic, sweat drops. Dark gloomy medieval village at night behind him, dark green and black tones so the flowers pop. Red very large in frame on the right two thirds, simple uncluttered background, empty dark space on the left third for text."
+  },
+  {
+   "id": "B-coin",
+   "SCENE": "Red as a medieval peasant staring up in terror at a big shiny gold coin spinning in the air in front of him, his face lit by its glow. Deep black and dark red background. Red very large in frame on the right two thirds, simple uncluttered background, empty dark space on the left third for text."
+  },
+  {
+   "id": "C-rat",
+   "SCENE": "Red as a medieval peasant nose to nose with an enormous grey rat as big as he is, both staring into each other's eyes, Red frozen in fear with a drop of sweat. Dark cobblestone alley at night, cold blue tones with a warm lantern glow. Red very large in frame on the right two thirds, simple uncluttered background, empty dark space on the left third for text."
+  },
+  {
+   "id": "D-death",
+   "text": "YOU'RE NEXT?",
+   "SCENE": "Red as a medieval peasant in a patched brown tunic, in the lower right, frozen in terror with huge eyes and sweat drops, while a giant Grim Reaper (a tall cartoon skeleton in a black hooded robe holding a scythe, spooky but funny, not gory) looms right behind him and taps his shoulder with one bony finger. Dark medieval village street at night, sickly green moonlight, black shadows. Leave the top 30 percent of the image as plain dark background with nothing in it, for a title.",
+   "zoom": 1.2
+  },
+  {
+   "id": "E-egg",
+   "text": "EGG-SIZED?",
+   "SCENE": "Big close-up of Red as a medieval peasant in a patched brown tunic, arm raised, staring in total horror at a swollen round dark-purple lump the size of a chicken egg in his armpit, mouth wide open screaming, sweat drops flying. Cartoon, not gory, no blood. Dark peasant hut lit by one candle, warm orange against black. Leave the top 30 percent of the image as plain dark background with nothing in it, for a title.",
+   "zoom": 1.1
+  },
+  {
+   "id": "F-beak",
+   "text": "WRONG CENTURY!",
+   "SCENE": "On the left, a classic plague doctor figure in a long black coat, wide-brimmed black hat and long white bird-beak mask, with a huge bold red X painted across his whole body like a big crossed-out mark. On the right, Red as a medieval peasant in a patched brown tunic points at him with a smug know-it-all grin, one eyebrow raised. Plain deep dark red and black background. Leave the top 30 percent of the image as plain dark background with nothing in it, for a title.",
+   "zoom": 1.1
+  },
+  {
+   "id": "G-jupiter",
+   "text": "BLAME JUPITER?",
+   "SCENE": "A pompous medieval physician in a long red robe and round scholar's cap (no mask) points dramatically up at an enormous glowing orange-striped planet Jupiter filling the night sky, while next to him Red as a medieval peasant in a patched brown tunic stares at the planet with a deadpan, incredulous 'are you serious?' face. Dark blue night sky with stars, medieval rooftops at the bottom. Leave the top 30 percent of the image as plain dark background with nothing in it, for a title.",
+   "zoom": 1.15
+  }
  ]
 }
