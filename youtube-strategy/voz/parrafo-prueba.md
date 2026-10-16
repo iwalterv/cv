@@ -23,4 +23,4 @@ Notas del dato: la Peste Negra llegó a Inglaterra por Melcombe (Weymouth, Dorse
 | ~~Nubee – Sarcastic Podcast Host~~ | | | Descartada: voz premium, exige plan Creator |
 
 Cada voz generó 2 versiones del párrafo (~580 créditos por generación). Escuchar en ElevenLabs → Text to Speech → History.
-Elección: _pendiente del usuario_.
+**Elección (15-oct-2026): Holden – Warm Midwest Narrator.** Motivos: conversacional (retiene en videos largos), humor seco que acompaña la ironía del guion sin exagerarla, y poco usada (no suena a "otra voz de IA").

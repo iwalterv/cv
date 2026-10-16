@@ -100,3 +100,7 @@ El texto (de 1 a 3 palabras) se agrega después en CapCut o Canva, para tener co
 **Decisión del usuario: el nombre del canal es "Time Peasant" (@timepeasant).** Encaja con el personaje "Red": un campesino que viaja por las épocas.
 
 Nota: el nicho tiene varios competidores con el mismo formato; la diferencia tiene que venir del personaje, del humor de la voz y de la variedad de épocas.
+
+
+## 5. Voz elegida (15-oct-2026)
+**Holden – Warm Midwest Narrator** (ElevenLabs, biblioteca de voces). Detalle de la prueba en `voz/parrafo-prueba.md`.
