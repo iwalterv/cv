@@ -6,7 +6,12 @@ Why You Wouldn't Survive the Black Death
 Alternativa para probar después: "You Wouldn't Survive the Black Death (Here's Why)"
 
 ## Miniaturas (Test & Compare)
-**Favorita del usuario: `miniaturas/B-coin.jpg` (50/50?)**: se sube como principal. Las otras dos, `miniaturas/A-flowers.jpg` (FLOWERS?) y `miniaturas/C-rat.jpg` (1348?), entran en Test & Compare para que YouTube elija según el CTR. Son de 1280×720.
+Elegidas tras el análisis de `datos/miniaturas-analisis/` (el usuario delegó la elección el 16-oct-2026). Todas de 1280×720:
+1. **Principal: `miniaturas/D-death.jpg` ("YOU'RE NEXT?")**: la Muerte le toca el hombro a Red.
+2. `miniaturas/F-beak.jpg` ("WRONG CENTURY!"): médico de pico tachado; el video explica que el disfraz es del siglo XVII.
+3. `miniaturas/B-coin.jpg` ("50/50?"): la favorita del usuario en la v1.
+
+Sin bandera: en el celular no se distingue y confunde (ver el análisis). Descartadas: A, C, E (el bubón no se entiende) y G (no comunica el tema; se puede usar más adelante).
 
 ## Descripción
 ```
