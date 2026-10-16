@@ -1,0 +1,17 @@
+# nombre|url  (referencia de monigotes + competidores directos del formato "TÚ en la historia")
+ink-explainer|https://www.youtube.com/channel/UCpgrEMx8diLrw7YNQ6r3uUw
+zenn|https://www.youtube.com/channel/UCK8TbMQGDbB94EOR3aGJo3Q
+serious-history|https://www.youtube.com/channel/UCXI2sj5kaCfMCkYcGk1m44A
+chat-history|https://www.youtube.com/channel/UCicVSNyM7PMXEzdoAsTB02w
+sticktory|https://www.youtube.com/@StickTory
+axen|https://www.youtube.com/@AxenCool
+human-ish|https://www.youtube.com/@HUMAN-ISH88
+medieval-times-discovered|https://www.youtube.com/channel/UCyWu1tIrHSMmserB-U5NV_g
+unlucky-ancestors|https://www.youtube.com/@UnluckyAncestors
+yesteryou|https://www.youtube.com/@yesteryoutv
+you-in-history|https://www.youtube.com/@youinhistory
+you-back-then|https://www.youtube.com/@youbackthen
+survive-or-die|https://www.youtube.com/@wouldyousurvivehistory
+ancestor-mode|https://www.youtube.com/@ancestormode
+peasant-mode|https://www.youtube.com/@peasantmode
+wrong-era|https://www.youtube.com/@wrongera

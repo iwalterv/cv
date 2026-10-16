@@ -28,11 +28,14 @@ Este archivo es el traspaso de contexto para las sesiones de Claude Code en la M
 | Nicho | **"La vida humana a través de la historia, vivida desde TU perspectiva"**, con monigotes, rotando épocas (Edad Media, Roma, vikingos, Egipto, aztecas, Edad de Hielo…). El nicho de dinero/salarios quedó **descartado** por los datos | `05-decision-nicho.md` |
 | Formatos de título | "What Did [X] Do When…?", "Why You Wouldn't Survive…", "Why It Sucked to Be a…", "Your Life as a…", "The Worst Jobs in…" | `05-decision-nicho.md` |
 | Identidad | Nombre **Time Peasant** (@timepeasant, verificado libre el 13-oct-2026; "Yesteryou" descartado porque ya existe en el nicho). Voz **Holden** (ElevenLabs). Personaje **"Red"** (confirmado): monigote de cabeza redonda con **bufanda roja siempre**; escenas ilustradas a color; texto de miniatura blanco con la palabra clave en rojo | `06-identidad-canal.md` |
+| Banco de ideas | 30 títulos priorizados con datos (A/B/C) | `07-banco-ideas.md` |
 | Datos de investigación | Búsquedas, canales de referencia, miniaturas y fotogramas | `datos/` |
 
 Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious History**, **Chat History**.
 
-## Estado actual: PASO 4 (banco de 30 ideas)
+## Estado actual: PASO 4 (banco de 30 ideas), pendiente de que el usuario elija el piloto
+Banco: `07-banco-ideas.md` (datos en `datos/paso4/`). Recomendado para el piloto: **#1 "Why You Wouldn't Survive the Black Death"**.
+
 Paso 3 cerrado el 15-oct-2026 (detalle en `pasos/paso-03-cuentas.md`):
 - Canal **Time Peasant** (@TimePeasant), ID `UCgMVaxgxckffeHQt9SDR5ZA` (Studio: https://studio.youtube.com/channel/UCgMVaxgxckffeHQt9SDR5ZA): cuenta de marca en el Gmail personal del usuario, país United States, verificado por teléfono, 2FA activa. El usuario tiene otro canal, "FactoMentes", que no se toca: en Studio hay que asegurarse de estar en Time Peasant.
 - **ElevenLabs Starter** ($6/mes, renueva el 15 de cada mes), voz **Holden**. Por ahora el audio se genera en la web y se descarga con permiso del usuario; para producir conviene una API key en `ELEVENLABS_API_KEY` (la crea el usuario).
