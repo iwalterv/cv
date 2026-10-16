@@ -1,0 +1,15 @@
+{
+  "base": "2D hand-drawn cartoon illustration, warm comic style, clean bold black outlines, flat colors with soft shading. Main character \"Red\": a simple stick-figure person with a round white head, large expressive eyes, thin black stick limbs, always wearing a bright red scarf. Dressed as {ERA_OUTFIT}. Setting: {SCENE}, {ERA_PALETTE} color palette. Expression: {EMOTION}. Composition: single clear idea, character large in frame, uncluttered background. No text, no watermark. 16:9.",
+  "scenes": [
+    {"id": "01-medieval", "ERA_OUTFIT": "a medieval English peasant in a rough brown wool tunic and hood", "SCENE": "a muddy wheat field in 1347, plowing with a wooden plow while a distant castle looms on a hill", "ERA_PALETTE": "earthy browns and muted greens", "EMOTION": "exhausted and resigned"},
+    {"id": "02-roma", "ERA_OUTFIT": "a Roman legionary with a metal helmet and red tunic, carrying a huge heavy pack on a pole", "SCENE": "a long stone Roman road under a hot sun", "ERA_PALETTE": "terracotta, ochre and white", "EMOTION": "sweating and overwhelmed"},
+    {"id": "03-vikingo", "ERA_OUTFIT": "a Viking rower in fur and wool with a simple iron helmet", "SCENE": "rowing a wooden longship through freezing grey waves in a storm", "ERA_PALETTE": "cold blues and greys", "EMOTION": "shivering and miserable"},
+    {"id": "04-egipto", "ERA_OUTFIT": "an ancient Egyptian worker in a white linen kilt", "SCENE": "pulling a giant limestone block on a wooden sled with ropes, pyramid under construction behind", "ERA_PALETTE": "gold, sand and turquoise", "EMOTION": "determined but straining"},
+    {"id": "05-edad-hielo", "ERA_OUTFIT": "an Ice Age hunter-gatherer in animal furs", "SCENE": "sitting at the entrance of a snowy cave at night, staring at a tiny dying campfire", "ERA_PALETTE": "deep blues with warm orange firelight", "EMOTION": "worried and cold"}
+  ],
+  "models": [
+    {"id": "nano-banana-pro", "job": "nano_banana_pro", "params": ["--aspect-ratio", "16:9", "--resolution", "2k"]},
+    {"id": "seedream-5-flash", "job": "seedream_5_0_flash", "params": ["--aspect-ratio", "16:9", "--resolution", "2k"]},
+    {"id": "gpt-image-2-5", "job": "gpt_image_2_5", "params": ["--aspect-ratio", "16:9", "--resolution", "2k", "--quality", "medium"]}
+  ]
+}
