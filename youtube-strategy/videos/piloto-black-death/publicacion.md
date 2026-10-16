@@ -6,7 +6,7 @@ Why You Wouldn't Survive the Black Death
 Alternativa para probar después: "You Wouldn't Survive the Black Death (Here's Why)"
 
 ## Miniaturas (Test & Compare)
-`miniaturas/A-flowers.jpg` (FLOWERS?), `miniaturas/B-coin.jpg` (50/50?), `miniaturas/C-rat.jpg` (1348?). Son de 1280×720.
+**Favorita del usuario: `miniaturas/B-coin.jpg` (50/50?)**: se sube como principal. Las otras dos, `miniaturas/A-flowers.jpg` (FLOWERS?) y `miniaturas/C-rat.jpg` (1348?), entran en Test & Compare para que YouTube elija según el CTR. Son de 1280×720.
 
 ## Descripción
 ```
