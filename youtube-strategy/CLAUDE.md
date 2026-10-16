@@ -34,7 +34,7 @@ Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious His
 
 ## Estado actual: PASO 3 (cuentas)
 Paso 2 cerrado el 13-oct-2026: nombre **Time Peasant** (@timepeasant) y personaje **Red** confirmados.
-Checklist y estado del paso 3: `pasos/paso-03-cuentas.md`. Canal creado: **Time Peasant**, ID `UCgMVaxgxckffeHQt9SDR5ZA` (Studio: https://studio.youtube.com/channel/UCgMVaxgxckffeHQt9SDR5ZA), cuenta de marca en el Gmail personal del usuario. El usuario tiene otro canal, "FactoMentes", que no se toca: en Studio hay que asegurarse de estar en Time Peasant. Subpaso actual: **3.4 (verificación por teléfono)**.
+Checklist y estado del paso 3: `pasos/paso-03-cuentas.md`. Canal creado: **Time Peasant**, ID `UCgMVaxgxckffeHQt9SDR5ZA` (Studio: https://studio.youtube.com/channel/UCgMVaxgxckffeHQt9SDR5ZA), cuenta de marca en el Gmail personal del usuario. El usuario tiene otro canal, "FactoMentes", que no se toca: en Studio hay que asegurarse de estar en Time Peasant. Verificación por teléfono hecha (funciones intermedias y avanzadas activas). Pendiente: **3.2 (2FA en el Gmail)** y **3.5 (ElevenLabs)**.
 Nota: el clasificador de permisos de Claude Code bloquea los clics de "Save"/"Create" en YouTube; Claude deja todo listo y el usuario hace el clic final.
 Para verificar un handle: `curl -sL https://www.youtube.com/@<handle> | grep og:title` (vacío = libre; el código HTTP no sirve, siempre es 200).
 
