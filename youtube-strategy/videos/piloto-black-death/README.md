@@ -12,7 +12,8 @@
 | `subtitulos.ass` / `.srt` | Quemados en el video / para subir a YouTube |
 | `miniaturas/` | 3 miniaturas para Test & Compare (Nano Banana Pro + texto con ASS) |
 | `publicacion.md` | Título, descripción con capítulos y fuentes, etiquetas, comentario fijado y configuración |
-| `video.mp4` | El video final (no se sube a git) |
+| `musica.json` | Qué pista de `musica/` suena desde qué escena (juguetona / oscura / esperanzadora) |
+| `video.mp4` | El video final, con música (no se sube a git) |
 
 ## Cómo se rehace
 ```bash
@@ -21,6 +22,7 @@ python3 scripts/generar_escenas.py videos/piloto-black-death/escenas.json  # im�
 python3 scripts/tiempos_escenas.py videos/piloto-black-death/escenas.json  # tiempos.json (Whisper)
 python3 scripts/subtitulos.py videos/piloto-black-death/tiempos.json       # subtítulos
 python3 scripts/montar_video.py videos/piloto-black-death/tiempos.json     # video.mp4 con Survival Meter
+python3 scripts/musica.py videos/piloto-black-death/tiempos.json          # voz a -14 LUFS + música de fondo (~6 s)
 ```
 
 ## Survival Meter

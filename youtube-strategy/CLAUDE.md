@@ -47,6 +47,7 @@ Paso 3 cerrado el 15-oct-2026 (detalle en `pasos/paso-03-cuentas.md`):
   1. `scripts/generar_escenas.py videos/<v>/escenas.json`
   2. `scripts/subtitulos.py videos/<v>/tiempos.json` (whisper.cpp local, modelo `~/whisper-models/ggml-large-v3-turbo.bin`; el texto sale del guion)
   3. `scripts/montar_video.py videos/<v>/tiempos.json` (usa ffmpeg-full para quemar subtítulos)
+  4. `scripts/musica.py videos/<v>/tiempos.json` (voz a -14 LUFS + música de la YouTube Audio Library según `videos/<v>/musica.json`; pistas en `musica/`)
 - El clasificador de permisos de Claude Code bloquea algunos clics de "Save"/"Create" en YouTube: Claude deja todo listo y el usuario hace el clic final.
 Para verificar un handle: `curl -sL https://www.youtube.com/@<handle> | grep og:title` (vacío = libre; el código HTTP no sirve, siempre es 200).
 

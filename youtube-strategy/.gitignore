@@ -2,3 +2,6 @@
 imagenes/**/*.png
 videos/**/*.png
 videos/**/*.mp4
+
+# Música de la YouTube Audio Library: se vuelve a descargar desde Studio (ver musica/README.md).
+musica/*.mp3
