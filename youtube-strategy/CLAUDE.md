@@ -32,16 +32,22 @@ Este archivo es el traspaso de contexto para las sesiones de Claude Code en la M
 
 Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious History**, **Chat History**.
 
-## Estado actual: PASO 3 (cuentas)
-Paso 2 cerrado el 13-oct-2026: nombre **Time Peasant** (@timepeasant) y personaje **Red** confirmados.
-Checklist y estado del paso 3: `pasos/paso-03-cuentas.md`. Canal creado: **Time Peasant**, ID `UCgMVaxgxckffeHQt9SDR5ZA` (Studio: https://studio.youtube.com/channel/UCgMVaxgxckffeHQt9SDR5ZA), cuenta de marca en el Gmail personal del usuario. El usuario tiene otro canal, "FactoMentes", que no se toca: en Studio hay que asegurarse de estar en Time Peasant. Verificación por teléfono hecha (funciones intermedias y avanzadas activas). 2FA activa. ElevenLabs Starter con voz **Holden**. Higgsfield Starter conectado por CLI (`higgsfield ...`). Imágenes: Seedream 5.0 Flash + `imagenes/red-ficha/red-oficial.png` como referencia; miniaturas con Nano Banana Pro. Subpaso actual: **3.8 (prueba de 30 s de punta a punta)**.
-Nota: el clasificador de permisos de Claude Code bloquea los clics de "Save"/"Create" en YouTube; Claude deja todo listo y el usuario hace el clic final.
+## Estado actual: PASO 4 (banco de 30 ideas)
+Paso 3 cerrado el 15-oct-2026 (detalle en `pasos/paso-03-cuentas.md`):
+- Canal **Time Peasant** (@TimePeasant), ID `UCgMVaxgxckffeHQt9SDR5ZA` (Studio: https://studio.youtube.com/channel/UCgMVaxgxckffeHQt9SDR5ZA): cuenta de marca en el Gmail personal del usuario, país United States, verificado por teléfono, 2FA activa. El usuario tiene otro canal, "FactoMentes", que no se toca: en Studio hay que asegurarse de estar en Time Peasant.
+- **ElevenLabs Starter** ($6/mes, renueva el 15 de cada mes), voz **Holden**. Por ahora el audio se genera en la web y se descarga con permiso del usuario; para producir conviene una API key en `ELEVENLABS_API_KEY` (la crea el usuario).
+- **Higgsfield Starter** ($19/mes, 270 créditos, máx. 4 trabajos simultáneos), CLI `higgsfield` ya autenticado. Escenas con **Seedream 5.0 Flash** (0,5 créditos) + `imagenes/red-ficha/red-oficial.png` como referencia; miniaturas con **Nano Banana Pro** (2 créditos). ~80 créditos por video.
+- Pipeline probado en `videos/prueba-30s/` (el usuario aprobó el resultado con subtítulos):
+  1. `scripts/generar_escenas.py videos/<v>/escenas.json`
+  2. `scripts/subtitulos.py videos/<v>/tiempos.json` (whisper.cpp local, modelo `~/whisper-models/ggml-large-v3-turbo.bin`; el texto sale del guion)
+  3. `scripts/montar_video.py videos/<v>/tiempos.json` (usa ffmpeg-full para quemar subtítulos)
+- El clasificador de permisos de Claude Code bloquea algunos clics de "Save"/"Create" en YouTube: Claude deja todo listo y el usuario hace el clic final.
 Para verificar un handle: `curl -sL https://www.youtube.com/@<handle> | grep og:title` (vacío = libre; el código HTTP no sirve, siempre es 200).
 
 ## Ruta completa (ver `03-plan-maestro.md`)
 1. ✅ Idioma y nicho
 2. ✅ Identidad del canal
-3. **Configurar cuentas**: correo dedicado, canal de marca, verificación por teléfono, 2FA, ElevenLabs (elegir voz entre 3 candidatas), Higgsfield, conector de Higgsfield en Claude, y 5 imágenes de prueba del personaje "Red" con los prompts de `06-identidad-canal.md`. **Pedir autorización antes de cualquier plan de pago.**
+3. ✅ **Configurar cuentas**: correo dedicado, canal de marca, verificación por teléfono, 2FA, ElevenLabs (elegir voz entre 3 candidatas), Higgsfield, conector de Higgsfield en Claude, y 5 imágenes de prueba del personaje "Red" con los prompts de `06-identidad-canal.md`. **Pedir autorización antes de cualquier plan de pago.**
 4. Banco de 30 ideas de títulos validadas con datos (`yt-dlp`).
 5. Video piloto #1: guion → voz → timestamps (se pueden sacar localmente; no hace falta TurboScribe) → imágenes → montaje → miniatura → **publicación (con autorización)**.
 6. Producción constante: 2 a 4 videos por semana.
@@ -49,4 +55,4 @@ Para verificar un handle: `curl -sL https://www.youtube.com/@<handle> | grep og:
 8. Solicitar el YPP.
 9. Escalar: pista de audio en español o un segundo canal.
 
-Idea pendiente: un script con `ffmpeg` que arme el video automáticamente a partir del audio, las imágenes y la tabla de tiempos (reemplaza el montaje manual en CapCut).
+Hecho: `scripts/montar_video.py` arma el video con ffmpeg (reemplaza CapCut).

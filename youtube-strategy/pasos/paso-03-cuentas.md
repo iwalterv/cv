@@ -2,6 +2,8 @@
 
 **Listo cuando:** todo funciona de punta a punta con una prueba de 30 segundos (voz + imágenes de Red + montaje).
 
+✅ **Cerrado el 15-oct-2026.** El usuario aprobó la prueba de 30 s con subtítulos (blanco con contorno negro, palabra activa en rojo).
+
 Reglas: los datos personales, las contraseñas, el teléfono y los pagos los ingresa **el usuario**. Claude guía y verifica. Todo se hace **desde la red de Virginia** para que la cuenta sea consistente desde el primer día.
 
 | # | Tarea | Quién | Estado |
