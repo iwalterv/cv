@@ -33,8 +33,9 @@ Este archivo es el traspaso de contexto para las sesiones de Claude Code en la M
 
 Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious History**, **Chat History**.
 
-## Estado actual: PASO 4 (banco de 30 ideas), pendiente de que el usuario elija el piloto
-Banco: `07-banco-ideas.md` (datos en `datos/paso4/`). Recomendado para el piloto: **#1 "Why You Wouldn't Survive the Black Death"**.
+## Estado actual: PASO 5 (video piloto), guion en revisión
+Paso 4 cerrado el 15-oct-2026: banco en `07-banco-ideas.md` (datos en `datos/paso4/`). El usuario eligió el piloto **"Why You Wouldn't Survive the Black Death"**.
+Guion: `videos/piloto-black-death/guion.md` (borrador v1, ~10 min, con tabla de verificación de datos). Siguiente: revisión del usuario → voz → escenas → subtítulos → montaje → miniatura → publicar (con autorización).
 
 Paso 3 cerrado el 15-oct-2026 (detalle en `pasos/paso-03-cuentas.md`):
 - Canal **Time Peasant** (@TimePeasant), ID `UCgMVaxgxckffeHQt9SDR5ZA` (Studio: https://studio.youtube.com/channel/UCgMVaxgxckffeHQt9SDR5ZA): cuenta de marca en el Gmail personal del usuario, país United States, verificado por teléfono, 2FA activa. El usuario tiene otro canal, "FactoMentes", que no se toca: en Studio hay que asegurarse de estar en Time Peasant.
@@ -51,7 +52,7 @@ Para verificar un handle: `curl -sL https://www.youtube.com/@<handle> | grep og:
 1. ✅ Idioma y nicho
 2. ✅ Identidad del canal
 3. ✅ **Configurar cuentas**: correo dedicado, canal de marca, verificación por teléfono, 2FA, ElevenLabs (elegir voz entre 3 candidatas), Higgsfield, conector de Higgsfield en Claude, y 5 imágenes de prueba del personaje "Red" con los prompts de `06-identidad-canal.md`. **Pedir autorización antes de cualquier plan de pago.**
-4. Banco de 30 ideas de títulos validadas con datos (`yt-dlp`).
+4. ✅ Banco de 30 ideas de títulos validadas con datos (`yt-dlp`).
 5. Video piloto #1: guion → voz → timestamps (se pueden sacar localmente; no hace falta TurboScribe) → imágenes → montaje → miniatura → **publicación (con autorización)**.
 6. Producción constante: 2 a 4 videos por semana.
 7. Optimización con datos de YouTube Studio.

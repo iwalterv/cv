@@ -31,7 +31,7 @@ Por eso nuestra prioridad #1 es lograr **muchos clics** (título + miniatura) y 
 | **1** | **Elegir idioma y nicho** con investigación de competidores | Tenemos el idioma, el nicho y 3 a 5 canales de referencia validados |
 | 2 ✅ | **Identidad del canal**: nombre, personaje, guía de estilo visual, voz ([`06-identidad-canal.md`](06-identidad-canal.md)) | Nombre y personaje decididos; @handle libre. Las imágenes de prueba y la voz se hacen en el paso 3 |
 | 3 ✅ | **Configurar cuentas**: correo, canal de marca, verificación, 2FA, ElevenLabs, Higgsfield, conector en Claude | Todo funciona de punta a punta con una prueba de 30 segundos |
-| 4 | **Banco de 30 ideas** de títulos validadas con datos de competidores | Lista priorizada de 30 temas |
+| 4 ✅ | **Banco de 30 ideas** de títulos validadas con datos de competidores | Lista priorizada de 30 temas |
 | 5 | **Video piloto #1**: guion → voz → imágenes → montaje → miniatura → publicación | Video publicado y tiempo de producción medido |
 | 6 | **Producción constante**: 2 a 4 videos por semana | 10 videos publicados |
 | 7 | **Optimización con datos**: CTR, retención y fuentes de tráfico en YouTube Studio | Sabemos qué temas y miniaturas funcionan y doblamos la apuesta |
