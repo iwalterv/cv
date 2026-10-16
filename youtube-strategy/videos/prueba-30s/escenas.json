@@ -1,0 +1,14 @@
+{
+  "reference": "imagenes/red-ficha/red-oficial.png",
+  "model": "seedream_5_0_flash",
+  "params": ["--aspect-ratio", "16:9", "--resolution", "2k"],
+  "base": "Use the attached character sheet as the exact design reference for the main character \"Red\" (round white head, large expressive eyes, thin black stick body and limbs, bright red scarf). 2D hand-drawn cartoon illustration, warm comic style, clean bold black outlines, flat colors with soft shading. {SCENE} Single clear idea, character large in frame. Historically accurate details for England in 1347-1348. No text, no watermark, no border, full-bleed. 16:9.",
+  "scenes": [
+    {"id": "01", "SCENE": "Red as a newborn-era medieval English peasant in a rough brown wool tunic, standing in a muddy medieval village with thatched huts, giving the viewer an awkward nervous smile and a small shrug. Earthy browns and muted greens."},
+    {"id": "02", "SCENE": "Red as a medieval peasant turning out his empty pockets, small and humble in the foreground, while a huge stone castle of an unseen lord towers on a distant hill. Overcast sky, earthy palette."},
+    {"id": "03", "SCENE": "Red as an exhausted medieval peasant pushing a heavy wooden plow through the lord's large field, while his own tiny plot of land sits overgrown with weeds in the background. Late afternoon light, earthy browns and greens."},
+    {"id": "04", "SCENE": "Red as a medieval peasant sitting at a rough wooden table in a dark smoky hut, staring unimpressed at three plain loaves of bread and a small bowl of thin pottage. Warm dim firelight."},
+    {"id": "05", "SCENE": "A small medieval cargo ship (a cog) docking at the small English harbor of Melcombe at dusk in 1348, rats climbing down the mooring ropes onto the dock, Red as a peasant on the dock waving cheerfully, unaware. Ominous orange and dark blue sky."},
+    {"id": "06", "SCENE": "Close-up of Red as a medieval peasant with a shocked, wide-eyed expression, dark ominous background with swirling shadows. Dramatic contrast, deep reds and black."}
+  ]
+}

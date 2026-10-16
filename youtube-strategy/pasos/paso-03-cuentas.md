@@ -13,7 +13,7 @@ Reglas: los datos personales, las contraseñas, el teléfono y los pagos los ing
 | 3.5 ✅ | ElevenLabs: crear cuenta y elegir voz entre 3 candidatas con el mismo párrafo de prueba. **Plan de pago solo con autorización** (el plan gratis no permite uso comercial) | Usuario + Claude | ✅ voz **Holden**; plan **Starter** pagado el 15-oct-2026 (renueva el 15-nov, $6/mes) |
 | 3.6 ✅ | Higgsfield: plan **Starter** ($19/mes, 270 créditos) comprado por el usuario el 15-oct-2026. Conectado a Claude Code con el CLI oficial `@higgsfield/cli` 1.1.26 (`higgsfield auth login` hecho; workspace "Private" seleccionado). Límite del Starter: 4 trabajos simultáneos | Usuario + Claude | ✅ |
 | 3.7 ✅ | Prueba de Red con 3 modelos (`imagenes/prueba-red/`) y ficha oficial (`imagenes/red-ficha/red-oficial.png`). Decisión: **Seedream 5.0 Flash + ficha como referencia** para escenas (0,5 créditos) y **Nano Banana Pro** para miniaturas (2 créditos). ~80 créditos por video | Claude | ✅ |
-| 3.8 ⏳ | Prueba de 30 s de punta a punta: voz → timestamps → imágenes → montaje con ffmpeg | Claude | ☐ |
+| 3.8 ✅ | Prueba de 30 s hecha el 15-oct-2026: `videos/prueba-30s/` (voz Holden → pausas → 6 escenas Seedream → montaje con `scripts/montar_video.py`) | Claude | ✅ |
 
 ## Notas de ElevenLabs (precios vistos en elevenlabs.io/pricing el 15-oct-2026)
 

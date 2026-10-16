@@ -1,0 +1,12 @@
+{
+  "audio": "voz.mp3",
+  "tail": 1.2,
+  "scenes": [
+    {"id": "01", "start": 0.0,  "text": "Congratulations. You've just been born in England, the year is 1347, and honestly? Your timing is terrible."},
+    {"id": "02", "start": 8.6,  "text": "You're a peasant, which means you own nothing, you answer to a lord you've never met,"},
+    {"id": "03", "start": 13.5, "text": "and you'll spend roughly two hundred days a year working his fields before you're allowed to touch your own."},
+    {"id": "04", "start": 19.1, "text": "Breakfast is bread. Lunch is bread. Dinner, if things are going well, is bread with a little pottage."},
+    {"id": "05", "start": 26.4, "text": "But don't worry about the long term. In about a year, a ship is going to dock in a small port called Melcombe... and it's carrying something that will change your life."},
+    {"id": "06", "start": 35.3, "text": "Briefly."}
+  ]
+}
