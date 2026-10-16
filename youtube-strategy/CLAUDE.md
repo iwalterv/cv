@@ -33,9 +33,11 @@ Este archivo es el traspaso de contexto para las sesiones de Claude Code en la M
 
 Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious History**, **Chat History**.
 
-## Estado actual: PASO 5 (video piloto), guion en revisión
+## Estado actual: PASO 5 (video piloto), video montado, pendiente de revisión del usuario
 Paso 4 cerrado el 15-oct-2026: banco en `07-banco-ideas.md` (datos en `datos/paso4/`). El usuario eligió el piloto **"Why You Wouldn't Survive the Black Death"**.
-Guion: `videos/piloto-black-death/guion.md` (borrador v1, ~10 min, con tabla de verificación de datos). Siguiente: revisión del usuario → voz → escenas → subtítulos → montaje → miniatura → publicar (con autorización).
+Piloto en `videos/piloto-black-death/` (ver su `README.md`): guion v2 con todos los datos verificados, voz Holden (10:38), 137 escenas, Survival Meter, subtítulos, 3 miniaturas y `publicacion.md`. Copia en `~/Desktop/time-peasant-piloto/`.
+Siguiente: el usuario revisa el video completo → ajustes → **publicar solo con su autorización** (él hace los clics finales en YouTube Studio) → medir el tiempo de producción.
+Lección: revisar SIEMPRE la hoja de contactos de las escenas antes de montar (los flagelantes salieron con capuchas puntiagudas blancas, que parecían del KKK; se regeneraron).
 
 Paso 3 cerrado el 15-oct-2026 (detalle en `pasos/paso-03-cuentas.md`):
 - Canal **Time Peasant** (@TimePeasant), ID `UCgMVaxgxckffeHQt9SDR5ZA` (Studio: https://studio.youtube.com/channel/UCgMVaxgxckffeHQt9SDR5ZA): cuenta de marca en el Gmail personal del usuario, país United States, verificado por teléfono, 2FA activa. El usuario tiene otro canal, "FactoMentes", que no se toca: en Studio hay que asegurarse de estar en Time Peasant.

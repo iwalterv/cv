@@ -4,6 +4,7 @@ Uso: python3 scripts/generar_escenas.py videos/<video>/escenas.json
 Guarda videos/<video>/imagenes/<id>.png y se salta las que ya existen.
 """
 import json
+import os
 import subprocess
 import sys
 import urllib.request
@@ -38,6 +39,7 @@ def generate(scene):
         return f"ERROR      {scene['id']}: {e} {res.stderr[-300:]}"
 
 
-with ThreadPoolExecutor(max_workers=3) as pool:  # Starter: máx. 4 trabajos simultáneos
+# Starter: máx. 4 trabajos simultáneos en Higgsfield (WORKERS=1 si ya hay otro lote corriendo).
+with ThreadPoolExecutor(max_workers=int(os.environ.get("WORKERS", 3))) as pool:
     for line in pool.map(generate, config["scenes"]):
         print(line)

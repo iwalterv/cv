@@ -1,0 +1,698 @@
+{
+ "audio": "voz.mp3",
+ "tail": 1.5,
+ "scenes": [
+  {
+   "id": "001",
+   "start": 0.0,
+   "text": "You wake up with a fever."
+  },
+  {
+   "id": "002",
+   "start": 1.28,
+   "text": "There's a lump under your arm the size of an egg."
+  },
+  {
+   "id": "003",
+   "start": 5.31,
+   "text": "Your neighbor is already dead."
+  },
+  {
+   "id": "004",
+   "start": 7.83,
+   "text": "And the smartest doctors in Europe have just announced what's causing all this."
+  },
+  {
+   "id": "005",
+   "start": 12.71,
+   "text": "Jupiter."
+  },
+  {
+   "id": "006",
+   "start": 13.91,
+   "text": "And Saturn. And Mars. Basically, the sky."
+  },
+  {
+   "id": "007",
+   "start": 18.57,
+   "text": "Welcome to England, 1348.",
+   "meter": "100"
+  },
+  {
+   "id": "008",
+   "start": 21.33,
+   "text": "Today we're finding out exactly why you wouldn't survive the Black Death."
+  },
+  {
+   "id": "009",
+   "start": 25.84,
+   "text": "And see that little meter in the corner? Those are your odds of making it to the end of this video."
+  },
+  {
+   "id": "010",
+   "start": 31.25,
+   "text": "Spoiler: they're going down."
+  },
+  {
+   "id": "011",
+   "start": 33.47,
+   "text": "But stick around until the end, because the few people who did survive got something nobody in your village could have imagined."
+  },
+  {
+   "id": "012",
+   "start": 40.73,
+   "text": "But let's rewind a year. It's the spring of 1347."
+  },
+  {
+   "id": "013",
+   "start": 44.89,
+   "text": "You're a peasant in a small village in the south of England, and honestly? Life is fine."
+  },
+  {
+   "id": "014",
+   "start": 50.2,
+   "text": "Terrible, but fine."
+  },
+  {
+   "id": "015",
+   "start": 52.28,
+   "text": "You own almost nothing."
+  },
+  {
+   "id": "016",
+   "start": 54.2,
+   "text": "You owe your lord a couple of days of work in his fields every week, before you're allowed to touch your own."
+  },
+  {
+   "id": "017",
+   "start": 59.91,
+   "text": "And dinner is bread. With a little pottage, if things are going well."
+  },
+  {
+   "id": "018",
+   "start": 64.35,
+   "text": "Then the merchants at the market start talking about a sickness in the East."
+  },
+  {
+   "id": "019",
+   "start": 68.61,
+   "text": "By October 1347, it's in Sicily, arriving on ships at Messina."
+  },
+  {
+   "id": "020",
+   "start": 73.53,
+   "text": "Within months, it's in Italy. Then France. Then everywhere ships can go."
+  },
+  {
+   "id": "021",
+   "start": 78.86,
+   "text": "And you do what everyone does. You assume it's somebody else's problem."
+  },
+  {
+   "id": "022",
+   "start": 83.39,
+   "text": "England is an island. God is clearly on your side. And Sicily is very, very far away."
+  },
+  {
+   "id": "023",
+   "start": 90.27,
+   "text": "It is not that far away."
+  },
+  {
+   "id": "024",
+   "start": 92.33,
+   "text": "In June 1348, according to a chronicle written by friars in King's Lynn,"
+  },
+  {
+   "id": "025",
+   "start": 97.31,
+   "text": "two ships land at Melcombe, in Dorset."
+  },
+  {
+   "id": "026",
+   "start": 99.85,
+   "text": "On one of them is a sailor from Gascony, in France, and he's already sick."
+  },
+  {
+   "id": "027",
+   "start": 104.56,
+   "text": "The chronicle blames him. Historians aren't so sure it was that simple."
+  },
+  {
+   "id": "028",
+   "start": 109.09,
+   "text": "Bristol and Southampton also have a claim to being first. Nobody wins this competition."
+  },
+  {
+   "id": "029",
+   "start": 114.31,
+   "text": "From the coast, the plague moves the way everything moves in medieval England: along roads, rivers and markets."
+  },
+  {
+   "id": "030",
+   "start": 120.93,
+   "text": "Bristol by the summer. London by the autumn."
+  },
+  {
+   "id": "031",
+   "start": 123.81,
+   "text": "Over the next year, it reaches almost every corner of the country. Including your village."
+  },
+  {
+   "id": "032",
+   "start": 129.16,
+   "text": "And just like that, about half the people around you are not going to make it.",
+   "meter": "50"
+  },
+  {
+   "id": "033",
+   "start": 134.11,
+   "text": "We haven't even gotten to the bad part."
+  },
+  {
+   "id": "034",
+   "start": 136.45,
+   "text": "Now, you've probably heard that rats spread it. That's partly true."
+  },
+  {
+   "id": "035",
+   "start": 140.43,
+   "text": "The disease is caused by a bacterium called Yersinia pestis, and it's carried by fleas. Fleas live on rats."
+  },
+  {
+   "id": "036",
+   "start": 147.69,
+   "text": "But some researchers now think that in Europe, human fleas and body lice did a lot of the work, jumping from person to person in crowded, unwashed homes."
+  },
+  {
+   "id": "037",
+   "start": 157.36,
+   "text": "And your home is very crowded. And very unwashed."
+  },
+  {
+   "id": "038",
+   "start": 161.73,
+   "text": "You share one room with your whole family. Possibly also with the animals."
+  },
+  {
+   "id": "039",
+   "start": 166.67,
+   "text": "So, let's say a flea finds you. Here's what happens next."
+  },
+  {
+   "id": "040",
+   "start": 170.93,
+   "text": "First, fever. A headache. Chills."
+  },
+  {
+   "id": "041",
+   "start": 174.15,
+   "text": "Then a painful swelling appears in your groin, your armpit or your neck."
+  },
+  {
+   "id": "042",
+   "start": 178.95,
+   "text": "It's called a bubo, and that's where the name \"bubonic\" comes from."
+  },
+  {
+   "id": "043",
+   "start": 182.95,
+   "text": "That's the bubonic version, and believe it or not, it's the \"good\" one."
+  },
+  {
+   "id": "044",
+   "start": 187.07,
+   "text": "Even today, the World Health Organization estimates that untreated bubonic plague kills between 30 and 60 percent of the people who catch it."
+  },
+  {
+   "id": "045",
+   "start": 195.82,
+   "text": "So it's basically a coin flip.",
+   "meter": "50"
+  },
+  {
+   "id": "046",
+   "start": 198.07,
+   "text": "There's a worse version. If the infection reaches your lungs, it becomes pneumonic plague."
+  },
+  {
+   "id": "047",
+   "start": 203.53,
+   "text": "Now it spreads through coughing, person to person, no flea required."
+  },
+  {
+   "id": "048",
+   "start": 207.97,
+   "text": "Untreated, it's almost always fatal, sometimes within a day.",
+   "meter": "1"
+  },
+  {
+   "id": "049",
+   "start": 212.39,
+   "text": "And in 1348, nothing is treated. Because nobody knows what's happening."
+  },
+  {
+   "id": "050",
+   "start": 217.55,
+   "text": "Let's talk about your doctors."
+  },
+  {
+   "id": "051",
+   "start": 219.15,
+   "text": "Well, you're a peasant. You don't have a doctor."
+  },
+  {
+   "id": "052",
+   "start": 221.75,
+   "text": "But the people who do aren't doing much better."
+  },
+  {
+   "id": "053",
+   "start": 224.26,
+   "text": "In 1348, the King of France asked the top medical experts at the University of Paris to explain the plague."
+  },
+  {
+   "id": "054",
+   "start": 231.47,
+   "text": "Their official answer? The planets."
+  },
+  {
+   "id": "055",
+   "start": 234.01,
+   "text": "Specifically, a conjunction of Saturn, Jupiter and Mars on the 20th of March, 1345, which supposedly corrupted the air."
+  },
+  {
+   "id": "056",
+   "start": 242.91,
+   "text": "That idea, poisoned air, or \"miasma\", was the best science of the time."
+  },
+  {
+   "id": "057",
+   "start": 248.03,
+   "text": "So the cures actually make sense, in a terrible way."
+  },
+  {
+   "id": "058",
+   "start": 251.56,
+   "text": "Carry flowers or herbs, so you're breathing something nicer."
+  },
+  {
+   "id": "059",
+   "start": 255.01,
+   "text": "Splash vinegar around."
+  },
+  {
+   "id": "060",
+   "start": 256.55,
+   "text": "Burn something that smells strong."
+  },
+  {
+   "id": "061",
+   "start": 258.63,
+   "text": "Don't bathe too much."
+  },
+  {
+   "id": "062",
+   "start": 260.19,
+   "text": "The Paris experts listed bathing right next to too much exercise and too much sex, as things that made your body more vulnerable."
+  },
+  {
+   "id": "063",
+   "start": 267.81,
+   "text": "Honestly, for a medieval peasant, that one wasn't hard to follow."
+  },
+  {
+   "id": "064",
+   "start": 271.19,
+   "text": "And of course, bloodletting, which was the medieval answer to almost everything."
+  },
+  {
+   "id": "065",
+   "start": 275.83,
+   "text": "Feeling weak and feverish? Let's remove some of your blood.",
+   "meter": "-10"
+  },
+  {
+   "id": "066",
+   "start": 278.98,
+   "text": "Even the Pope, Clement the Sixth, in Avignon, was advised by his physician to keep fires burning to purify the air."
+  },
+  {
+   "id": "067",
+   "start": 286.45,
+   "text": "And to be fair, he survived. Maybe the fire helped. Maybe he was just lucky."
+  },
+  {
+   "id": "068",
+   "start": 291.11,
+   "text": "Oh, and that creepy bird mask you're imagining? The plague doctor with the long beak?"
+  },
+  {
+   "id": "069",
+   "start": 295.55,
+   "text": "Not here. That costume shows up in the 1600s, about three hundred years later."
+  },
+  {
+   "id": "070",
+   "start": 300.99,
+   "text": "In 1348, the person treating you looks like... a guy. Probably a very nervous guy."
+  },
+  {
+   "id": "071",
+   "start": 308.39,
+   "text": "We're about halfway through, and your odds are not looking great."
+  },
+  {
+   "id": "072",
+   "start": 312.61,
+   "text": "But remember: if you make it to the end, things get weirdly good."
+  },
+  {
+   "id": "073",
+   "start": 316.81,
+   "text": "First, though... it gets worse."
+  },
+  {
+   "id": "074",
+   "start": 319.31,
+   "text": "So the doctors can't help. What about the Church?"
+  },
+  {
+   "id": "075",
+   "start": 322.22,
+   "text": "For you, in 1348, the Church is everything."
+  },
+  {
+   "id": "076",
+   "start": 326.91,
+   "text": "And the worst thing that can happen isn't dying. It's dying without confession."
+  },
+  {
+   "id": "077",
+   "start": 332.11,
+   "text": "Here's the problem. Priests visit the sick."
+  },
+  {
+   "id": "078",
+   "start": 334.87,
+   "text": "Priests catch the plague. Priests die."
+  },
+  {
+   "id": "079",
+   "start": 337.93,
+   "text": "So many that in January 1349, the Bishop of Bath and Wells sent an emergency message to his diocese:"
+  },
+  {
+   "id": "080",
+   "start": 345.53,
+   "text": "if no priest can be found, the dying can confess to an ordinary person."
+  },
+  {
+   "id": "081",
+   "start": 350.09,
+   "text": "And if no man is available... even to a woman."
+  },
+  {
+   "id": "082",
+   "start": 353.35,
+   "text": "For the medieval Church, that was a five-alarm fire."
+  },
+  {
+   "id": "083",
+   "start": 356.89,
+   "text": "Nobody is safe. Not even the top of society."
+  },
+  {
+   "id": "084",
+   "start": 360.21,
+   "text": "In 1348, the King's own daughter, Princess Joan, died of plague near Bordeaux, on her way to marry a Spanish prince."
+  },
+  {
+   "id": "085",
+   "start": 368.38,
+   "text": "In 1349, the man chosen to be Archbishop of Canterbury died."
+  },
+  {
+   "id": "086",
+   "start": 373.31,
+   "text": "Then his replacement died too, just weeks after taking the job."
+  },
+  {
+   "id": "087",
+   "start": 377.43,
+   "text": "In London, the churchyards filled up."
+  },
+  {
+   "id": "088",
+   "start": 380.19,
+   "text": "So the city opened new emergency cemeteries, with long trenches for the dead."
+  },
+  {
+   "id": "089",
+   "start": 385.55,
+   "text": "In 2011, scientists pulled the plague's DNA from skeletons buried at one of them, East Smithfield."
+  },
+  {
+   "id": "090",
+   "start": 392.15,
+   "text": "More than six hundred and fifty years later, the culprit was finally confirmed."
+  },
+  {
+   "id": "091",
+   "start": 396.95,
+   "text": "So, what can you actually do? Let's look at your options."
+  },
+  {
+   "id": "092",
+   "start": 400.95,
+   "text": "Option one: run. That's what the rich did."
+  },
+  {
+   "id": "093",
+   "start": 403.77,
+   "text": "In Florence, the writer Giovanni Boccaccio described wealthy families leaving the city for their country houses and waiting it out."
+  },
+  {
+   "id": "094",
+   "start": 411.23,
+   "text": "Great plan. If you have a country house."
+  },
+  {
+   "id": "095",
+   "start": 413.6,
+   "text": "You don't. You're tied to your lord's land."
+  },
+  {
+   "id": "096",
+   "start": 416.59,
+   "text": "Leaving without permission can get you into serious trouble."
+  },
+  {
+   "id": "097",
+   "start": 419.83,
+   "text": "And even if you did leave, where would you go? Every village is dealing with the same thing."
+  },
+  {
+   "id": "098",
+   "start": 425.25,
+   "text": "And the plague is usually already there, waiting for you."
+  },
+  {
+   "id": "099",
+   "start": 429.07,
+   "text": "Option two: pray harder."
+  },
+  {
+   "id": "100",
+   "start": 431.49,
+   "text": "Across Europe, groups called flagellants marched from town to town, whipping themselves in public to beg God for mercy."
+  },
+  {
+   "id": "101",
+   "start": 438.58,
+   "text": "In 1349, a group of them crossed over from Holland and Zeeland and put on a show in London."
+  },
+  {
+   "id": "102",
+   "start": 444.84,
+   "text": "The Londoners watched. Mostly, they did not join in. Very English."
+  },
+  {
+   "id": "103",
+   "start": 449.72,
+   "text": "Option three, and this is the dark one: blame someone."
+  },
+  {
+   "id": "104",
+   "start": 453.52,
+   "text": "In many parts of Europe, terrified people blamed Jewish communities for poisoning the wells, and thousands of innocent people were murdered."
+  },
+  {
+   "id": "105",
+   "start": 462.04,
+   "text": "In England, there were no Jewish communities left to blame. They had been expelled in 1290."
+  },
+  {
+   "id": "106",
+   "start": 468.14,
+   "text": "It's one of the most shameful chapters of the whole pandemic, and a reminder that fear can be as deadly as any disease."
+  },
+  {
+   "id": "107",
+   "start": 475.92,
+   "text": "So: you can't run, praying doesn't seem to work, and blaming people is horrifying."
+  },
+  {
+   "id": "108",
+   "start": 481.92,
+   "text": "Which leaves you with option four. Wait. And hope."
+  },
+  {
+   "id": "109",
+   "start": 487.6,
+   "text": "Be honest: which one would you have picked? Tell me in the comments."
+  },
+  {
+   "id": "110",
+   "start": 491.32,
+   "text": "So, how bad was it really? Historians still argue about the exact numbers."
+  },
+  {
+   "id": "111",
+   "start": 496.94,
+   "text": "Medieval record-keeping wasn't great, and it's hard to count when the people counting are also dying."
+  },
+  {
+   "id": "112",
+   "start": 503.18,
+   "text": "But most estimates for England land somewhere between 40 and 60 percent of the population, dead, in about two years."
+  },
+  {
+   "id": "113",
+   "start": 511.26,
+   "text": "Across Europe, estimates range from about a third to more than half."
+  },
+  {
+   "id": "114",
+   "start": 515.74,
+   "text": "And it's not just people. A chronicler in Leicester, Henry Knighton, wrote that sheep and cattle wandered loose through the fields and the crops, because there was no one left to drive them."
+  },
+  {
+   "id": "115",
+   "start": 526.22,
+   "text": "Harvests rotted in the ground. There simply weren't enough hands."
+  },
+  {
+   "id": "116",
+   "start": 530.54,
+   "text": "Picture your village. A hundred people."
+  },
+  {
+   "id": "117",
+   "start": 532.86,
+   "text": "The miller. The blacksmith. Your neighbors."
+  },
+  {
+   "id": "118",
+   "start": 535.58,
+   "text": "The annoying guy who always borrows your plow without asking."
+  },
+  {
+   "id": "119",
+   "start": 538.94,
+   "text": "By 1350, around half of them are gone."
+  },
+  {
+   "id": "120",
+   "start": 542.87,
+   "text": "Statistically... so are you.",
+   "meter": "≈50"
+  },
+  {
+   "id": "121",
+   "start": 545.5,
+   "text": "But let's say you're lucky. Let's say you're one of the people who make it. What's your life like now?"
+  },
+  {
+   "id": "122",
+   "start": 551.18,
+   "text": "Weirdly... better.",
+   "meter": "WAGES"
+  },
+  {
+   "id": "123",
+   "start": 552.86,
+   "text": "Think about it. Half the workers are gone. The fields still need plowing."
+  },
+  {
+   "id": "124",
+   "start": 557.5,
+   "text": "Suddenly, your lord needs you more than you need him."
+  },
+  {
+   "id": "125",
+   "start": 561.26,
+   "text": "So peasants start asking for higher wages. And they get them."
+  },
+  {
+   "id": "126",
+   "start": 564.94,
+   "text": "The people in charge hate this."
+  },
+  {
+   "id": "127",
+   "start": 567.26,
+   "text": "In 1349, King Edward the Third issued the Ordinance of Labourers, and in 1351 Parliament passed the Statute of Labourers."
+  },
+  {
+   "id": "128",
+   "start": 576.22,
+   "text": "Both tried to force wages back to what they were before the plague, and punished anyone who refused to work."
+  },
+  {
+   "id": "129",
+   "start": 582.54,
+   "text": "It didn't really work. Wages kept creeping up. Workers moved to wherever paid better."
+  },
+  {
+   "id": "130",
+   "start": 588.06,
+   "text": "And over the following generations, many ordinary people ate more meat, drank more ale and lived better than their parents ever had."
+  },
+  {
+   "id": "131",
+   "start": 596.14,
+   "text": "About thirty years later, in 1381, all that tension exploded into the Peasants' Revolt. But that's a story for another video."
+  },
+  {
+   "id": "132",
+   "start": 604.46,
+   "text": "So congratulations, again. You probably wouldn't survive the Black Death."
+  },
+  {
+   "id": "133",
+   "start": 609.26,
+   "text": "But if you did... you might finally get something more than bread."
+  },
+  {
+   "id": "134",
+   "start": 613.34,
+   "text": "Oh, and one last thing. \"Ring Around the Rosie\"? Not about the plague."
+  },
+  {
+   "id": "135",
+   "start": 617.82,
+   "text": "The rhyme first appeared in print in 1881, and folklorists only connected it to the plague in the twentieth century. Sorry."
+  },
+  {
+   "id": "136",
+   "start": 626.54,
+   "text": "If you want to know what it was like to be the person who walked into plague houses on purpose, the next video is right here."
+  },
+  {
+   "id": "137",
+   "start": 633.18,
+   "text": "And subscribe, because this little guy in the red scarf has a lot more centuries to suffer through."
+  }
+ ]
+}

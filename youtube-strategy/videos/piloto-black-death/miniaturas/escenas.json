@@ -1,0 +1,11 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "nano_banana_pro",
+ "params": ["--aspect-ratio", "16:9", "--resolution", "2k"],
+ "base": "YouTube thumbnail. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). 2D cartoon, clean bold black outlines, flat colors. {SCENE} Red very large in frame on the right two thirds, extreme readable emotion. High contrast, simple uncluttered background, empty dark space on the left third for text. No text, no letters, no watermark. 16:9.",
+ "scenes": [
+  {"id": "A-flowers", "SCENE": "Red as a medieval peasant with a huge bunch of colorful flowers stuffed up against his nose, eyes wide in total panic, sweat drops. Dark gloomy medieval village at night behind him, dark green and black tones so the flowers pop."},
+  {"id": "B-coin", "SCENE": "Red as a medieval peasant staring up in terror at a big shiny gold coin spinning in the air in front of him, his face lit by its glow. Deep black and dark red background."},
+  {"id": "C-rat", "SCENE": "Red as a medieval peasant nose to nose with an enormous grey rat as big as he is, both staring into each other's eyes, Red frozen in fear with a drop of sweat. Dark cobblestone alley at night, cold blue tones with a warm lantern glow."}
+ ]
+}

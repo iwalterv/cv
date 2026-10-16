@@ -47,9 +47,55 @@ for i, scene in enumerate(scenes):
         f"{fade_in},setsar=1[v{i}]")
     labels.append(f"[v{i}]")
 
+def meter_filters():
+    """"Survival Meter": barra en la esquina superior derecha. Una escena con "meter" cambia el valor
+    (número de 0 a 100, negativo, "≈50" o "WAGES") y se mantiene hasta el siguiente cambio."""
+    changes = [(starts[i], str(s["meter"])) for i, s in enumerate(scenes) if "meter" in s]
+    if not changes:
+        return ""
+    x0, y0, bw = W - 470, 40, 400            # panel
+    bx, by, bh = x0 + 15, y0 + 58, 34        # barra
+    f = [f"drawbox=x={x0}:y={y0}:w={bw + 30}:h=150:color=black@0.55:t=fill:enable='gte(t,{changes[0][0]})'"]
+    prev = 100.0
+    for k, (a, value) in enumerate(changes):
+        b = changes[k + 1][0] if k + 1 < len(changes) else total + 1
+        on = f"between(t,{a:.2f},{b:.2f})"
+        if value == "WAGES":
+            label, shown, pct, color, note = "IF YOU SURVIVED", "", 100.0, "0x3FA34D", "wages went UP"
+        else:
+            num = float(value.lstrip("≈~"))
+            label, color = "YOUR ODDS", "0xD62828"
+            shown = ("~" if value[0] in "≈~" else "") + f"{num:g}%"
+            pct = max(num, 0.0)
+            note = "not helping" if num < 0 else "rough odds, for fun"
+        font = "fontfile='/System/Library/Fonts/Supplemental/Arial Black.ttf'"
+        f += [
+            f"drawtext={font}:text='{label}':expansion=none:fontsize=30:fontcolor=white:x={bx}:y={y0 + 14}:enable='{on}'",
+            f"drawbox=x={bx}:y={by}:w={bw}:h={bh}:color=white:t=4:enable='{on}'",
+            f"drawtext={font}:text='{note}':expansion=none:fontsize=20:fontcolor=white@0.85:x={bx}:y={by + bh + 12}:enable='{on}'",
+        ]
+        if shown:
+            f.append(f"drawtext={font}:text='{shown}':expansion=none:fontsize=30:fontcolor=white:"
+                     f"x={bx + bw}-tw:y={y0 + 14}:enable='{on}'")
+        # El relleno pasa del valor anterior al nuevo en 6 pasos de 0,1 s (drawbox no anima el ancho con t).
+        for step in range(1, 7):
+            w = round((bw - 8) * (prev + (pct - prev) * step / 6) / 100)
+            s0 = a + (step - 1) * 0.1
+            s1 = a + step * 0.1 if step < 6 else b
+            if w > 0:
+                f.append(f"drawbox=x={bx + 4}:y={by + 4}:w={w}:h={bh - 8}:color={color}:t=fill:"
+                         f"enable='between(t,{s0:.2f},{s1:.2f})'")
+        if value != "WAGES" and float(value.lstrip("≈~")) <= 1:
+            # Valores críticos: el panel parpadea en rojo durante 2 s.
+            f.append(f"drawbox=x={x0}:y={y0}:w={bw + 30}:h=150:color=0xD62828@0.45:t=fill:"
+                     f"enable='between(t,{a:.2f},{a + 2:.2f})*lt(mod((t-{a:.2f})*4\\,2)\\,1)'")
+        prev = pct
+    return "," + ",".join(f)
+
+
 subs = base / "subtitulos.ass"
 burn = f",ass=filename='{subs}'" if subs.exists() else ""
-filters.append(f"{''.join(labels)}concat=n={len(scenes)}:v=1:a=0{burn},format=yuv420p[v]")
+filters.append(f"{''.join(labels)}concat=n={len(scenes)}:v=1:a=0{meter_filters()}{burn},format=yuv420p[v]")
 filters.append(f"[{len(scenes)}:a]apad=whole_dur={total:.3f}[a]")
 
 out = base / "video.mp4"

@@ -1,0 +1,887 @@
+1
+00:00:00,060 --> 00:00:01,280
+You wake up with a fever.
+
+2
+00:00:01,280 --> 00:00:04,380
+There's a lump under your arm the size of an egg.
+
+3
+00:00:05,460 --> 00:00:07,520
+Your neighbor is already dead.
+
+4
+00:00:07,980 --> 00:00:12,020
+And the smartest doctors in Europe have just announced what's causing all this.
+
+5
+00:00:12,860 --> 00:00:13,240
+Jupiter.
+
+6
+00:00:13,240 --> 00:00:14,730
+And Saturn.
+
+7
+00:00:14,730 --> 00:00:16,020
+And Mars.
+
+8
+00:00:16,020 --> 00:00:18,040
+Basically, the sky.
+
+9
+00:00:18,720 --> 00:00:20,940
+Welcome to England, 1348.
+
+10
+00:00:21,480 --> 00:00:25,840
+Today we're finding out exactly why you wouldn't survive the Black Death.
+
+11
+00:00:25,900 --> 00:00:27,970
+And see that little meter in the corner?
+
+12
+00:00:27,970 --> 00:00:31,020
+Those are your odds of making it to the end of this video.
+
+13
+00:00:31,400 --> 00:00:33,240
+Spoiler: they're going down.
+
+14
+00:00:33,620 --> 00:00:40,460
+But stick around until the end, because the few people who did survive got something nobody in your village could have imagined.
+
+15
+00:00:40,880 --> 00:00:42,230
+But let's rewind a year.
+
+16
+00:00:42,230 --> 00:00:44,520
+It's the spring of 1347.
+
+17
+00:00:45,040 --> 00:00:47,740
+You're a peasant in a small village in the south of England,
+
+18
+00:00:48,160 --> 00:00:48,940
+and honestly?
+
+19
+00:00:48,940 --> 00:00:50,200
+Life is fine.
+
+20
+00:00:50,200 --> 00:00:52,280
+Terrible, but fine.
+
+21
+00:00:52,340 --> 00:00:54,200
+You own almost nothing.
+
+22
+00:00:54,200 --> 00:00:57,980
+You owe your lord a couple of days of work in his fields every week,
+
+23
+00:00:57,980 --> 00:00:59,820
+before you're allowed to touch your own.
+
+24
+00:01:00,060 --> 00:01:01,810
+And dinner is bread.
+
+25
+00:01:01,810 --> 00:01:04,140
+With a little pottage, if things are going well.
+
+26
+00:01:04,500 --> 00:01:08,500
+Then the merchants at the market start talking about a sickness in the East.
+
+27
+00:01:08,760 --> 00:01:13,420
+By October 1347, it's in Sicily, arriving on ships at Messina.
+
+28
+00:01:13,680 --> 00:01:15,500
+Within months, it's in Italy.
+
+29
+00:01:15,500 --> 00:01:16,620
+Then France.
+
+30
+00:01:16,680 --> 00:01:18,860
+Then everywhere ships can go.
+
+31
+00:01:18,860 --> 00:01:20,900
+And you do what everyone does.
+
+32
+00:01:21,160 --> 00:01:23,220
+You assume it's somebody else's problem.
+
+33
+00:01:23,540 --> 00:01:24,600
+England is an island.
+
+34
+00:01:24,600 --> 00:01:26,860
+God is clearly on your side.
+
+35
+00:01:27,120 --> 00:01:30,000
+And Sicily is very, very far away.
+
+36
+00:01:30,420 --> 00:01:32,100
+It is not that far away.
+
+37
+00:01:32,480 --> 00:01:37,200
+In June 1348, according to a chronicle written by friars in King's Lynn,
+
+38
+00:01:37,460 --> 00:01:39,800
+two ships land at Melcombe, in Dorset.
+
+39
+00:01:40,000 --> 00:01:44,560
+On one of them is a sailor from Gascony, in France, and he's already sick.
+
+40
+00:01:44,620 --> 00:01:46,240
+The chronicle blames him.
+
+41
+00:01:46,560 --> 00:01:48,940
+Historians aren't so sure it was that simple.
+
+42
+00:01:49,240 --> 00:01:52,240
+Bristol and Southampton also have a claim to being first.
+
+43
+00:01:52,600 --> 00:01:53,960
+Nobody wins this competition.
+
+44
+00:01:54,460 --> 00:01:59,050
+From the coast, the plague moves the way everything moves in medieval England: along roads,
+
+45
+00:01:59,050 --> 00:02:00,660
+rivers and markets.
+
+46
+00:02:01,080 --> 00:02:02,180
+Bristol by the summer.
+
+47
+00:02:02,520 --> 00:02:03,640
+London by the autumn.
+
+48
+00:02:03,960 --> 00:02:07,480
+Over the next year, it reaches almost every corner of the country.
+
+49
+00:02:07,480 --> 00:02:09,160
+Including your village.
+
+50
+00:02:09,160 --> 00:02:13,720
+And just like that, about half the people around you are not going to make it.
+
+51
+00:02:14,260 --> 00:02:16,200
+We haven't even gotten to the bad part.
+
+52
+00:02:16,600 --> 00:02:19,000
+Now, you've probably heard that rats spread it.
+
+53
+00:02:19,200 --> 00:02:20,300
+That's partly true.
+
+54
+00:02:20,580 --> 00:02:25,840
+The disease is caused by a bacterium called Yersinia pestis, and it's carried by fleas.
+
+55
+00:02:26,160 --> 00:02:27,520
+Fleas live on rats.
+
+56
+00:02:27,840 --> 00:02:33,560
+But some researchers now think that in Europe, human fleas and body lice did a lot of the work,
+
+57
+00:02:33,840 --> 00:02:37,360
+jumping from person to person in crowded, unwashed homes.
+
+58
+00:02:37,420 --> 00:02:39,760
+And your home is very crowded.
+
+59
+00:02:40,080 --> 00:02:41,640
+And very unwashed.
+
+60
+00:02:41,880 --> 00:02:44,260
+You share one room with your whole family.
+
+61
+00:02:44,580 --> 00:02:46,340
+Possibly also with the animals.
+
+62
+00:02:46,820 --> 00:02:49,340
+So, let's say a flea finds you.
+
+63
+00:02:49,640 --> 00:02:50,740
+Here's what happens next.
+
+64
+00:02:51,080 --> 00:02:52,240
+First, fever.
+
+65
+00:02:52,580 --> 00:02:53,100
+A headache.
+
+66
+00:02:53,480 --> 00:02:53,860
+Chills.
+
+67
+00:02:54,300 --> 00:02:58,900
+Then a painful swelling appears in your groin, your armpit or your neck.
+
+68
+00:02:59,100 --> 00:03:02,860
+It's called a bubo, and that's where the name "bubonic" comes from.
+
+69
+00:03:03,100 --> 00:03:06,940
+That's the bubonic version, and believe it or not, it's the "good" one.
+
+70
+00:03:07,220 --> 00:03:15,820
+Even today, the World Health Organization estimates that untreated bubonic plague kills between 30 and 60 percent of the people who catch it.
+
+71
+00:03:15,960 --> 00:03:17,960
+So it's basically a coin flip.
+
+72
+00:03:18,220 --> 00:03:19,340
+There's a worse version.
+
+73
+00:03:19,400 --> 00:03:23,380
+If the infection reaches your lungs, it becomes pneumonic plague.
+
+74
+00:03:23,680 --> 00:03:27,720
+Now it spreads through coughing, person to person, no flea required.
+
+75
+00:03:28,120 --> 00:03:32,260
+Untreated, it's almost always fatal, sometimes within a day.
+
+76
+00:03:32,540 --> 00:03:35,280
+And in 1348, nothing is treated.
+
+77
+00:03:35,580 --> 00:03:37,340
+Because nobody knows what's happening.
+
+78
+00:03:37,700 --> 00:03:38,860
+Let's talk about your doctors.
+
+79
+00:03:39,300 --> 00:03:40,400
+Well, you're a peasant.
+
+80
+00:03:40,660 --> 00:03:41,620
+You don't have a doctor.
+
+81
+00:03:41,900 --> 00:03:44,260
+But the people who do aren't doing much better.
+
+82
+00:03:44,320 --> 00:03:51,340
+In 1348, the King of France asked the top medical experts at the University of Paris to explain the plague.
+
+83
+00:03:51,620 --> 00:03:52,540
+Their official answer?
+
+84
+00:03:52,920 --> 00:03:53,680
+The planets.
+
+85
+00:03:54,160 --> 00:03:58,890
+Specifically, a conjunction of Saturn, Jupiter and Mars on the 20th of March,
+
+86
+00:03:58,890 --> 00:04:02,740
+1345, which supposedly corrupted the air.
+
+87
+00:04:03,060 --> 00:04:07,920
+That idea, poisoned air, or "miasma", was the best science of the time.
+
+88
+00:04:08,180 --> 00:04:11,560
+So the cures actually make sense, in a terrible way.
+
+89
+00:04:11,620 --> 00:04:14,800
+Carry flowers or herbs, so you're breathing something nicer.
+
+90
+00:04:15,160 --> 00:04:16,399
+Splash vinegar around.
+
+91
+00:04:16,700 --> 00:04:18,500
+Burn something that smells strong.
+
+92
+00:04:18,779 --> 00:04:20,060
+Don't bathe too much.
+
+93
+00:04:20,339 --> 00:04:25,130
+The Paris experts listed bathing right next to too much exercise and too much sex,
+
+94
+00:04:25,130 --> 00:04:27,560
+as things that made your body more vulnerable.
+
+95
+00:04:27,960 --> 00:04:31,020
+Honestly, for a medieval peasant, that one wasn't hard to follow.
+
+96
+00:04:31,340 --> 00:04:35,540
+And of course, bloodletting, which was the medieval answer to almost everything.
+
+97
+00:04:35,980 --> 00:04:37,340
+Feeling weak and feverish?
+
+98
+00:04:37,600 --> 00:04:38,980
+Let's remove some of your blood.
+
+99
+00:04:39,040 --> 00:04:46,300
+Even the Pope, Clement the Sixth, in Avignon, was advised by his physician to keep fires burning to purify the air.
+
+100
+00:04:46,600 --> 00:04:48,320
+And to be fair, he survived.
+
+101
+00:04:48,600 --> 00:04:49,580
+Maybe the fire helped.
+
+102
+00:04:49,880 --> 00:04:50,960
+Maybe he was just lucky.
+
+103
+00:04:51,260 --> 00:04:53,520
+Oh, and that creepy bird mask you're imagining?
+
+104
+00:04:53,820 --> 00:04:55,480
+The plague doctor with the long beak?
+
+105
+00:04:55,700 --> 00:04:56,220
+Not here.
+
+106
+00:04:56,480 --> 00:05:00,800
+That costume shows up in the 1600s, about three hundred years later.
+
+107
+00:05:01,140 --> 00:05:05,120
+In 1348, the person treating you looks like...
+
+108
+00:05:05,120 --> 00:05:05,820
+a guy.
+
+109
+00:05:06,160 --> 00:05:08,140
+Probably a very nervous guy.
+
+110
+00:05:08,540 --> 00:05:12,560
+We're about halfway through, and your odds are not looking great.
+
+111
+00:05:12,760 --> 00:05:16,720
+But remember: if you make it to the end, things get weirdly good.
+
+112
+00:05:16,960 --> 00:05:17,990
+First, though...
+
+113
+00:05:17,990 --> 00:05:19,020
+it gets worse.
+
+114
+00:05:19,460 --> 00:05:21,060
+So the doctors can't help.
+
+115
+00:05:21,320 --> 00:05:22,220
+What about the Church?
+
+116
+00:05:22,280 --> 00:05:26,620
+For you, in 1348, the Church is everything.
+
+117
+00:05:27,060 --> 00:05:29,480
+And the worst thing that can happen isn't dying.
+
+118
+00:05:29,800 --> 00:05:31,740
+It's dying without confession.
+
+119
+00:05:32,260 --> 00:05:32,980
+Here's the problem.
+
+120
+00:05:33,320 --> 00:05:34,720
+Priests visit the sick.
+
+121
+00:05:35,020 --> 00:05:36,340
+Priests catch the plague.
+
+122
+00:05:36,640 --> 00:05:37,800
+Priests die.
+
+123
+00:05:38,080 --> 00:05:47,020
+So many that in January 1349, the Bishop of Bath and Wells sent an emergency message to his diocese: if no priest can be found,
+
+124
+00:05:47,020 --> 00:05:49,960
+the dying can confess to an ordinary person.
+
+125
+00:05:50,240 --> 00:05:52,060
+And if no man is available...
+
+126
+00:05:52,060 --> 00:05:53,140
+even to a woman.
+
+127
+00:05:53,500 --> 00:05:56,660
+For the medieval Church, that was a five-alarm fire.
+
+128
+00:05:57,040 --> 00:05:58,080
+Nobody is safe.
+
+129
+00:05:58,340 --> 00:05:59,960
+Not even the top of society.
+
+130
+00:06:00,360 --> 00:06:06,040
+In 1348, the King's own daughter, Princess Joan, died of plague near Bordeaux,
+
+131
+00:06:06,040 --> 00:06:08,380
+on her way to marry a Spanish prince.
+
+132
+00:06:08,380 --> 00:06:13,080
+In 1349, the man chosen to be Archbishop of Canterbury died.
+
+133
+00:06:13,460 --> 00:06:17,300
+Then his replacement died too, just weeks after taking the job.
+
+134
+00:06:17,580 --> 00:06:20,060
+In London, the churchyards filled up.
+
+135
+00:06:20,340 --> 00:06:25,440
+So the city opened new emergency cemeteries, with long trenches for the dead.
+
+136
+00:06:25,700 --> 00:06:31,220
+In 2011, scientists pulled the plague's DNA from skeletons buried at one of them,
+
+137
+00:06:31,220 --> 00:06:32,040
+East Smithfield.
+
+138
+00:06:32,300 --> 00:06:36,880
+More than six hundred and fifty years later, the culprit was finally confirmed.
+
+139
+00:06:37,100 --> 00:06:39,400
+So, what can you actually do?
+
+140
+00:06:39,660 --> 00:06:40,700
+Let's look at your options.
+
+141
+00:06:41,100 --> 00:06:42,420
+Option one: run.
+
+142
+00:06:42,780 --> 00:06:43,680
+That's what the rich did.
+
+143
+00:06:43,920 --> 00:06:51,140
+In Florence, the writer Giovanni Boccaccio described wealthy families leaving the city for their country houses and waiting it out.
+
+144
+00:06:51,380 --> 00:06:51,980
+Great plan.
+
+145
+00:06:52,280 --> 00:06:53,600
+If you have a country house.
+
+146
+00:06:53,600 --> 00:06:54,420
+You don't.
+
+147
+00:06:54,680 --> 00:06:56,420
+You're tied to your lord's land.
+
+148
+00:06:56,740 --> 00:06:59,700
+Leaving without permission can get you into serious trouble.
+
+149
+00:06:59,980 --> 00:07:02,520
+And even if you did leave, where would you go?
+
+150
+00:07:02,520 --> 00:07:05,250
+Every village is dealing with the same thing.
+
+151
+00:07:05,250 --> 00:07:08,880
+And the plague is usually already there, waiting for you.
+
+152
+00:07:09,220 --> 00:07:11,220
+Option two: pray harder.
+
+153
+00:07:11,640 --> 00:07:18,580
+Across Europe, groups called flagellants marched from town to town, whipping themselves in public to beg God for mercy.
+
+154
+00:07:18,580 --> 00:07:24,840
+In 1349, a group of them crossed over from Holland and Zeeland and put on a show in London.
+
+155
+00:07:24,900 --> 00:07:26,520
+The Londoners watched.
+
+156
+00:07:26,520 --> 00:07:28,640
+Mostly, they did not join in.
+
+157
+00:07:28,640 --> 00:07:29,720
+Very English.
+
+158
+00:07:29,720 --> 00:07:33,520
+Option three, and this is the dark one: blame someone.
+
+159
+00:07:33,520 --> 00:07:39,300
+In many parts of Europe, terrified people blamed Jewish communities for poisoning the wells,
+
+160
+00:07:39,300 --> 00:07:42,040
+and thousands of innocent people were murdered.
+
+161
+00:07:42,100 --> 00:07:45,800
+In England, there were no Jewish communities left to blame.
+
+162
+00:07:45,800 --> 00:07:48,140
+They had been expelled in 1290.
+
+163
+00:07:48,140 --> 00:07:55,920
+It's one of the most shameful chapters of the whole pandemic, and a reminder that fear can be as deadly as any disease.
+
+164
+00:07:55,980 --> 00:08:01,920
+So: you can't run, praying doesn't seem to work, and blaming people is horrifying.
+
+165
+00:08:01,920 --> 00:08:04,180
+Which leaves you with option four.
+
+166
+00:08:04,180 --> 00:08:06,180
+Wait.
+
+167
+00:08:06,180 --> 00:08:07,600
+And hope.
+
+168
+00:08:07,600 --> 00:08:09,980
+Be honest: which one would you have picked?
+
+169
+00:08:10,040 --> 00:08:11,320
+Tell me in the comments.
+
+170
+00:08:11,320 --> 00:08:13,740
+So, how bad was it really?
+
+171
+00:08:13,740 --> 00:08:16,940
+Historians still argue about the exact numbers.
+
+172
+00:08:16,940 --> 00:08:23,180
+Medieval record-keeping wasn't great, and it's hard to count when the people counting are also dying.
+
+173
+00:08:23,180 --> 00:08:29,100
+But most estimates for England land somewhere between 40 and 60 percent of the population,
+
+174
+00:08:29,100 --> 00:08:31,260
+dead, in about two years.
+
+175
+00:08:31,260 --> 00:08:35,740
+Across Europe, estimates range from about a third to more than half.
+
+176
+00:08:35,740 --> 00:08:37,260
+And it's not just people.
+
+177
+00:08:37,320 --> 00:08:43,669
+A chronicler in Leicester, Henry Knighton, wrote that sheep and cattle wandered loose through the fields and the crops,
+
+178
+00:08:43,669 --> 00:08:46,220
+because there was no one left to drive them.
+
+179
+00:08:46,220 --> 00:08:48,380
+Harvests rotted in the ground.
+
+180
+00:08:48,380 --> 00:08:50,540
+There simply weren't enough hands.
+
+181
+00:08:50,540 --> 00:08:51,820
+Picture your village.
+
+182
+00:08:51,820 --> 00:08:52,860
+A hundred people.
+
+183
+00:08:52,860 --> 00:08:53,660
+The miller.
+
+184
+00:08:53,660 --> 00:08:54,620
+The blacksmith.
+
+185
+00:08:54,620 --> 00:08:55,580
+Your neighbors.
+
+186
+00:08:55,580 --> 00:08:58,940
+The annoying guy who always borrows your plow without asking.
+
+187
+00:08:58,940 --> 00:09:02,060
+By 1350, around half of them are gone.
+
+188
+00:09:03,020 --> 00:09:04,050
+Statistically...
+
+189
+00:09:04,050 --> 00:09:05,500
+so are you.
+
+190
+00:09:05,560 --> 00:09:07,180
+But let's say you're lucky.
+
+191
+00:09:07,180 --> 00:09:09,580
+Let's say you're one of the people who make it.
+
+192
+00:09:09,580 --> 00:09:11,180
+What's your life like now?
+
+193
+00:09:11,180 --> 00:09:12,000
+Weirdly...
+
+194
+00:09:12,000 --> 00:09:12,860
+better.
+
+195
+00:09:12,860 --> 00:09:13,820
+Think about it.
+
+196
+00:09:13,820 --> 00:09:15,500
+Half the workers are gone.
+
+197
+00:09:15,500 --> 00:09:17,500
+The fields still need plowing.
+
+198
+00:09:17,500 --> 00:09:21,260
+Suddenly, your lord needs you more than you need him.
+
+199
+00:09:21,260 --> 00:09:23,980
+So peasants start asking for higher wages.
+
+200
+00:09:23,980 --> 00:09:24,940
+And they get them.
+
+201
+00:09:24,940 --> 00:09:27,260
+The people in charge hate this.
+
+202
+00:09:27,320 --> 00:09:36,220
+In 1349, King Edward the Third issued the Ordinance of Labourers, and in 1351 Parliament passed the Statute of Labourers.
+
+203
+00:09:36,220 --> 00:09:40,040
+Both tried to force wages back to what they were before the plague,
+
+204
+00:09:40,040 --> 00:09:42,540
+and punished anyone who refused to work.
+
+205
+00:09:42,540 --> 00:09:44,060
+It didn't really work.
+
+206
+00:09:44,060 --> 00:09:45,820
+Wages kept creeping up.
+
+207
+00:09:45,820 --> 00:09:48,060
+Workers moved to wherever paid better.
+
+208
+00:09:48,060 --> 00:09:56,140
+And over the following generations, many ordinary people ate more meat, drank more ale and lived better than their parents ever had.
+
+209
+00:09:56,140 --> 00:10:02,220
+About thirty years later, in 1381, all that tension exploded into the Peasants' Revolt.
+
+210
+00:10:02,220 --> 00:10:04,460
+But that's a story for another video.
+
+211
+00:10:04,460 --> 00:10:06,700
+So congratulations, again.
+
+212
+00:10:06,700 --> 00:10:09,260
+You probably wouldn't survive the Black Death.
+
+213
+00:10:09,260 --> 00:10:10,380
+But if you did...
+
+214
+00:10:10,380 --> 00:10:13,340
+you might finally get something more than bread.
+
+215
+00:10:13,400 --> 00:10:15,180
+Oh, and one last thing.
+
+216
+00:10:15,180 --> 00:10:16,700
+"Ring Around the Rosie"?
+
+217
+00:10:16,700 --> 00:10:17,820
+Not about the plague.
+
+218
+00:10:17,820 --> 00:10:25,740
+The rhyme first appeared in print in 1881, and folklorists only connected it to the plague in the twentieth century.
+
+219
+00:10:25,740 --> 00:10:26,540
+Sorry.
+
+220
+00:10:26,540 --> 00:10:31,260
+If you want to know what it was like to be the person who walked into plague houses on purpose,
+
+221
+00:10:31,260 --> 00:10:33,180
+the next video is right here.
+
+222
+00:10:33,180 --> 00:10:38,540
+And subscribe, because this little guy in the red scarf has a lot more centuries to suffer through.

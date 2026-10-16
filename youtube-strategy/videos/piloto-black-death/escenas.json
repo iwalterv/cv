@@ -1,0 +1,705 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "seedream_5_0_flash",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "Use the attached character sheet as the exact design reference for the main character \"Red\" (round white head, large expressive eyes, thin black stick body and limbs, bright red scarf). 2D hand-drawn cartoon illustration, warm comic style, clean bold black outlines, flat colors with soft shading. {SCENE} Single clear idea, main subject large in frame. Historically plausible 14th-century details unless stated otherwise; all people drawn in the same simple round-headed stick-figure cartoon style. No text, no letters, no watermark, no border, full-bleed. 16:9.",
+ "scenes": [
+  {
+   "id": "001",
+   "text": "You wake up with a fever.",
+   "SCENE": "Red as a medieval English peasant waking up at night on a straw mattress, sweating, eyes wide, a single candle. Dark blue and warm candle tones."
+  },
+  {
+   "id": "002",
+   "text": "There's a lump under your arm the size of an egg.",
+   "SCENE": "Red as a medieval peasant lifting one arm and peeking under it in pure horror, a plain white egg floating beside him for size comparison (comedic, nothing graphic). Dim hut interior."
+  },
+  {
+   "id": "003",
+   "text": "Your neighbor is already dead.",
+   "SCENE": "Red as a medieval peasant peeking out of a small hut window at the neighbor's closed, silent hut across a muddy lane, a black crow on its thatched roof. Gloomy grey morning."
+  },
+  {
+   "id": "004",
+   "text": "And the smartest doctors in Europe have just announced what's causing all this.",
+   "SCENE": "A solemn group of medieval university scholars in long dark academic robes and caps standing in a stone hall, looking very confident. Rich reds and browns."
+  },
+  {
+   "id": "005",
+   "text": "Jupiter.",
+   "SCENE": "Medieval scholars in robes all pointing dramatically up at a giant glowing planet Jupiter in the night sky, totally sure of themselves."
+  },
+  {
+   "id": "006",
+   "text": "And Saturn. And Mars. Basically, the sky.",
+   "SCENE": "Medieval scholars pointing in every direction at a night sky crowded with planets (Saturn with rings, red Mars), Red as a peasant standing among them, deeply confused."
+  },
+  {
+   "id": "007",
+   "text": "Welcome to England, 1348.",
+   "SCENE": "Wide establishing shot of a small medieval English village with thatched cottages, a stone church and green fields, Red as a peasant standing in front, small in the frame. Earthy browns and muted greens.",
+   "meter": "100"
+  },
+  {
+   "id": "008",
+   "text": "Today we're finding out exactly why you wouldn't survive the Black Death.",
+   "SCENE": "Red as a medieval peasant gulping nervously, looking straight at the viewer, while dark storm clouds gather over the village behind him."
+  },
+  {
+   "id": "009",
+   "text": "And see that little meter in the corner? Those are your odds of making it to the end of this video.",
+   "SCENE": "Red as a medieval peasant pointing up toward the top-right corner of the frame with a curious face, leaving the top-right corner empty."
+  },
+  {
+   "id": "010",
+   "text": "Spoiler: they're going down.",
+   "SCENE": "Red as a medieval peasant with a forced, sweaty, nervous grin, giving a shaky thumbs up."
+  },
+  {
+   "id": "011",
+   "text": "But stick around until the end, because the few people who did survive got something nobody in your village could have imagined.",
+   "SCENE": "Red as a medieval peasant on a hilltop at golden sunrise, holding up a shiny gold coin that sparkles, hopeful expression."
+  },
+  {
+   "id": "012",
+   "text": "But let's rewind a year. It's the spring of 1347.",
+   "SCENE": "A cheerful medieval English village in spring: blossoming trees, lambs, sunshine, peasants working the fields. Fresh greens and soft yellows."
+  },
+  {
+   "id": "013",
+   "text": "You're a peasant in a small village in the south of England, and honestly? Life is fine.",
+   "SCENE": "Red as a medieval peasant in a rough brown wool tunic standing in a muddy village lane, giving the viewer an awkward nervous smile and a small shrug."
+  },
+  {
+   "id": "014",
+   "text": "Terrible, but fine.",
+   "SCENE": "Red as a medieval peasant sitting in a mud puddle in the rain, soaked, still giving a calm thumbs up."
+  },
+  {
+   "id": "015",
+   "text": "You own almost nothing.",
+   "SCENE": "Red as a medieval peasant turning out his empty pockets, small in the foreground, while a huge stone castle towers on a distant hill. Overcast sky."
+  },
+  {
+   "id": "016",
+   "text": "You owe your lord a couple of days of work in his fields every week, before you're allowed to touch your own.",
+   "SCENE": "Red as an exhausted medieval peasant pushing a heavy wooden plow through the lord's large field, while his own tiny plot sits overgrown with weeds in the background."
+  },
+  {
+   "id": "017",
+   "text": "And dinner is bread. With a little pottage, if things are going well.",
+   "SCENE": "Red as a medieval peasant at a rough wooden table in a dark smoky hut, staring unimpressed at a loaf of dark bread and a small bowl of thin pottage. Warm dim firelight."
+  },
+  {
+   "id": "018",
+   "text": "Then the merchants at the market start talking about a sickness in the East.",
+   "SCENE": "A busy medieval market: two merchants whispering behind their hands with worried faces, Red as a peasant leaning in to eavesdrop."
+  },
+  {
+   "id": "019",
+   "text": "By October 1347, it's in Sicily, arriving on ships at Messina.",
+   "SCENE": "Medieval wooden trading galleys arriving in a sunny Mediterranean harbor town in Sicily, an ominous dark cloud following the ships. No people visible up close."
+  },
+  {
+   "id": "020",
+   "text": "Within months, it's in Italy. Then France. Then everywhere ships can go.",
+   "SCENE": "An old parchment-style map of Europe and the Mediterranean with a dark creeping shadow spreading along the sea routes and coasts. No labels, no text."
+  },
+  {
+   "id": "021",
+   "text": "And you do what everyone does. You assume it's somebody else's problem.",
+   "SCENE": "Red as a medieval peasant in a cozy village tavern, holding a wooden mug of ale, shrugging carelessly."
+  },
+  {
+   "id": "022",
+   "text": "England is an island. God is clearly on your side. And Sicily is very, very far away.",
+   "SCENE": "Red as a medieval peasant lying relaxed on a grassy English cliff top, hands behind his head, looking out over a calm sea, totally carefree."
+  },
+  {
+   "id": "023",
+   "text": "It is not that far away.",
+   "SCENE": "Red as a medieval peasant smiling innocently at the viewer while an enormous dark shadow with glowing eyes looms right behind him. Dramatic contrast, deep reds and black."
+  },
+  {
+   "id": "024",
+   "text": "In June 1348, according to a chronicle written by friars in King's Lynn,",
+   "SCENE": "A medieval friar in a grey habit writing a chronicle with a quill in a big book by candlelight, in a stone friary."
+  },
+  {
+   "id": "025",
+   "text": "two ships land at Melcombe, in Dorset.",
+   "SCENE": "Two small medieval cargo ships (cogs) sailing into a small English harbor town on a bright summer day, gulls overhead."
+  },
+  {
+   "id": "026",
+   "text": "On one of them is a sailor from Gascony, in France, and he's already sick.",
+   "SCENE": "A pale, sweaty, coughing medieval sailor stepping off a ship onto a wooden dock, while Red as a peasant on the dock waves at him cheerfully, unaware."
+  },
+  {
+   "id": "027",
+   "text": "The chronicle blames him. Historians aren't so sure it was that simple.",
+   "SCENE": "Three modern historians with glasses and stacks of books squinting skeptically at an old chronicle, one raising an eyebrow."
+  },
+  {
+   "id": "028",
+   "text": "Bristol and Southampton also have a claim to being first. Nobody wins this competition.",
+   "SCENE": "Three medieval town criers from three different port towns each raising a hand eagerly to be first, while Red as a peasant facepalms."
+  },
+  {
+   "id": "029",
+   "text": "From the coast, the plague moves the way everything moves in medieval England: along roads, rivers and markets.",
+   "SCENE": "A dark shadow creeping along a winding dirt road and a river through the English countryside, past carts and travelers who don't notice it."
+  },
+  {
+   "id": "030",
+   "text": "Bristol by the summer. London by the autumn.",
+   "SCENE": "Medieval London in autumn seen from across the Thames: old London Bridge with houses on it, the tall spire of old St Paul's, gloomy orange sky."
+  },
+  {
+   "id": "031",
+   "text": "Over the next year, it reaches almost every corner of the country. Including your village.",
+   "SCENE": "Red as a medieval peasant in his village looking up in alarm as a huge dark cloud rolls over the hill toward the cottages."
+  },
+  {
+   "id": "032",
+   "text": "And just like that, about half the people around you are not going to make it.",
+   "SCENE": "Red as a medieval peasant standing in a crowd of villagers, half of whom have turned pale grey and faded like ghosts, Red looking around in shock.",
+   "meter": "50"
+  },
+  {
+   "id": "033",
+   "text": "We haven't even gotten to the bad part.",
+   "SCENE": "Close-up of Red as a medieval peasant staring at the viewer with deadpan horror, one eye twitching."
+  },
+  {
+   "id": "034",
+   "text": "Now, you've probably heard that rats spread it. That's partly true.",
+   "SCENE": "A fat cartoon rat sitting on a barrel in a medieval street, Red as a peasant stepping back warily."
+  },
+  {
+   "id": "035",
+   "text": "The disease is caused by a bacterium called Yersinia pestis, and it's carried by fleas. Fleas live on rats.",
+   "SCENE": "A giant wingless cartoon flea (six legs, no wings) riding a rat like a tiny knight on a horse, looking proud, Red peeking at them in disbelief. Funny, not gross."
+  },
+  {
+   "id": "036",
+   "text": "But some researchers now think that in Europe, human fleas and body lice did a lot of the work, jumping from person to person in crowded, unwashed homes.",
+   "SCENE": "Tiny cartoon fleas leaping happily between medieval peasants squeezed together in a cramped hut, little motion lines showing the jumps. Funny, not gross."
+  },
+  {
+   "id": "037",
+   "text": "And your home is very crowded. And very unwashed.",
+   "SCENE": "Red's large peasant family crammed shoulder to shoulder in a tiny dirty one-room hut, everyone grimy, Red squeezed in the middle."
+  },
+  {
+   "id": "038",
+   "text": "You share one room with your whole family. Possibly also with the animals.",
+   "SCENE": "Inside a one-room medieval hut: Red's family sleeping on straw next to a cow, a pig and chickens, the cow's head right next to Red's face."
+  },
+  {
+   "id": "039",
+   "text": "So, let's say a flea finds you. Here's what happens next.",
+   "SCENE": "Close-up of a tiny cartoon flea landing on Red's arm, Red looking the other way, unaware."
+  },
+  {
+   "id": "040",
+   "text": "First, fever. A headache. Chills.",
+   "SCENE": "Red as a medieval peasant in bed with a wet cloth on his forehead, shivering under a thin blanket, sweat drops."
+  },
+  {
+   "id": "041",
+   "text": "Then a painful swelling appears in your groin, your armpit or your neck.",
+   "SCENE": "Red as a medieval peasant in bed clutching his neck and armpit with a pained face. Nothing graphic, no visible wounds."
+  },
+  {
+   "id": "042",
+   "text": "It's called a bubo, and that's where the name \"bubonic\" comes from.",
+   "SCENE": "Red dressed as a medieval teacher pointing with a stick at a simple diagram of a stick figure with red circles marking the neck, armpit and groin. No words."
+  },
+  {
+   "id": "043",
+   "text": "That's the bubonic version, and believe it or not, it's the \"good\" one.",
+   "SCENE": "Red as a sick medieval peasant in bed giving a weak, wobbly thumbs up with a tired smile."
+  },
+  {
+   "id": "044",
+   "text": "Even today, the World Health Organization estimates that untreated bubonic plague kills between 30 and 60 percent of the people who catch it.",
+   "SCENE": "A modern doctor in a white coat holding a clipboard next to a big pie chart that is about half red, Red as a medieval peasant looking at it nervously."
+  },
+  {
+   "id": "045",
+   "text": "So it's basically a coin flip.",
+   "SCENE": "Red as a medieval peasant watching a giant gold coin spin in the air above him, eyes following it, sweating.",
+   "meter": "50"
+  },
+  {
+   "id": "046",
+   "text": "There's a worse version. If the infection reaches your lungs, it becomes pneumonic plague.",
+   "SCENE": "Cartoon cross-section of Red's chest showing two lungs glowing an alarming red, Red looking down at his own chest in horror."
+  },
+  {
+   "id": "047",
+   "text": "Now it spreads through coughing, person to person, no flea required.",
+   "SCENE": "Red as a medieval peasant coughing into his elbow while villagers around him jump back in alarm."
+  },
+  {
+   "id": "048",
+   "text": "Untreated, it's almost always fatal, sometimes within a day.",
+   "SCENE": "Red as a medieval peasant in bed next to a large hourglass whose sand is running out very fast, Red staring at it in panic.",
+   "meter": "1"
+  },
+  {
+   "id": "049",
+   "text": "And in 1348, nothing is treated. Because nobody knows what's happening.",
+   "SCENE": "A group of medieval villagers all scratching their heads with big question marks floating above them, Red in the middle looking at the viewer."
+  },
+  {
+   "id": "050",
+   "text": "Let's talk about your doctors.",
+   "SCENE": "A wealthy medieval physician in a fine red robe and round hat, holding a glass flask up to the light, looking important."
+  },
+  {
+   "id": "051",
+   "text": "Well, you're a peasant. You don't have a doctor.",
+   "SCENE": "Red as a medieval peasant behind a wooden fence watching the rich physician walk into a big manor house, the gate closing."
+  },
+  {
+   "id": "052",
+   "text": "But the people who do aren't doing much better.",
+   "SCENE": "A rich medieval noble sick in a canopy bed while the physician beside him scratches his head, completely puzzled."
+  },
+  {
+   "id": "053",
+   "text": "In 1348, the King of France asked the top medical experts at the University of Paris to explain the plague.",
+   "SCENE": "A 14th-century French king on a throne with blue and gold fleur-de-lis drapes, addressing a row of nervous scholars in robes."
+  },
+  {
+   "id": "054",
+   "text": "Their official answer? The planets.",
+   "SCENE": "Medieval Paris scholars proudly presenting an astrological chart with planets and circles to the king. No words."
+  },
+  {
+   "id": "055",
+   "text": "Specifically, a conjunction of Saturn, Jupiter and Mars on the 20th of March, 1345, which supposedly corrupted the air.",
+   "SCENE": "Saturn, Jupiter and Mars lined up in a dark night sky while a sickly green mist drifts down onto a medieval city below."
+  },
+  {
+   "id": "056",
+   "text": "That idea, poisoned air, or \"miasma\", was the best science of the time.",
+   "SCENE": "Red as a medieval peasant pinching his nose inside a swirling cloud of green 'bad air'."
+  },
+  {
+   "id": "057",
+   "text": "So the cures actually make sense, in a terrible way.",
+   "SCENE": "Red as a medieval peasant with a thoughtful hand on his chin, then a slow reluctant nod, a little lightbulb above his head."
+  },
+  {
+   "id": "058",
+   "text": "Carry flowers or herbs, so you're breathing something nicer.",
+   "SCENE": "Red as a medieval peasant with a big bunch of flowers and herbs stuffed against his nose, walking around very seriously."
+  },
+  {
+   "id": "059",
+   "text": "Splash vinegar around.",
+   "SCENE": "Red as a medieval peasant splashing vinegar from a clay jug all over his hut, droplets flying, very committed."
+  },
+  {
+   "id": "060",
+   "text": "Burn something that smells strong.",
+   "SCENE": "Red as a medieval peasant waving smoke from a smoking pot of burning herbs, coughing, eyes watering."
+  },
+  {
+   "id": "061",
+   "text": "Don't bathe too much.",
+   "SCENE": "Red as a medieval peasant looking suspiciously at a wooden bathtub as if it were dangerous, backing away."
+  },
+  {
+   "id": "062",
+   "text": "The Paris experts listed bathing right next to too much exercise and too much sex, as things that made your body more vulnerable.",
+   "SCENE": "A stern medieval scholar in robes wagging his finger at three things: a wooden bathtub, a man running, and a closed curtained bed. Family friendly."
+  },
+  {
+   "id": "063",
+   "text": "Honestly, for a medieval peasant, that one wasn't hard to follow.",
+   "SCENE": "Red as a very dirty medieval peasant, covered in mud with a couple of cartoon flies around his head, smiling proudly."
+  },
+  {
+   "id": "064",
+   "text": "And of course, bloodletting, which was the medieval answer to almost everything.",
+   "SCENE": "A medieval barber-surgeon holding a small metal bowl next to Red's outstretched arm, Red looking away nervously. Nothing graphic, no blood visible."
+  },
+  {
+   "id": "065",
+   "text": "Feeling weak and feverish? Let's remove some of your blood.",
+   "SCENE": "Red as a medieval peasant, very pale and dizzy with swirly eyes, while the barber-surgeon smiles cheerfully.",
+   "meter": "-10"
+  },
+  {
+   "id": "066",
+   "text": "Even the Pope, Clement the Sixth, in Avignon, was advised by his physician to keep fires burning to purify the air.",
+   "SCENE": "A 14th-century pope in white robes and papal tiara sitting on a throne between two large roaring fires in a stone palace hall, sweating heavily."
+  },
+  {
+   "id": "067",
+   "text": "And to be fair, he survived. Maybe the fire helped. Maybe he was just lucky.",
+   "SCENE": "The pope fanning himself with a hand, shrugging with a relieved but uncertain smile."
+  },
+  {
+   "id": "068",
+   "text": "Oh, and that creepy bird mask you're imagining? The plague doctor with the long beak?",
+   "SCENE": "A classic plague doctor in a long black coat, wide-brimmed hat and long white beaked mask standing in a dark alley, creepy."
+  },
+  {
+   "id": "069",
+   "text": "Not here. That costume shows up in the 1600s, about three hundred years later.",
+   "SCENE": "Red as a medieval peasant holding up a hand to stop the beak-masked plague doctor, who looks embarrassed, a big red X over the doctor."
+  },
+  {
+   "id": "070",
+   "text": "In 1348, the person treating you looks like... a guy. Probably a very nervous guy.",
+   "SCENE": "An ordinary medieval man in a plain brown tunic holding a few herbs, sweating and very nervous, standing at Red's bedside."
+  },
+  {
+   "id": "071",
+   "text": "We're about halfway through, and your odds are not looking great.",
+   "SCENE": "Red as a medieval peasant looking at a half-empty hourglass, worried."
+  },
+  {
+   "id": "072",
+   "text": "But remember: if you make it to the end, things get weirdly good.",
+   "SCENE": "Red as a medieval peasant daydreaming, a thought bubble above him showing a table full of roast meat and ale."
+  },
+  {
+   "id": "073",
+   "text": "First, though... it gets worse.",
+   "SCENE": "The thought bubble popping, Red's face falling as rain pours on him."
+  },
+  {
+   "id": "074",
+   "text": "So the doctors can't help. What about the Church?",
+   "SCENE": "A small stone medieval English village church with a bell tower under a grey sky."
+  },
+  {
+   "id": "075",
+   "text": "For you, in 1348, the Church is everything.",
+   "SCENE": "Red as a medieval peasant kneeling and praying inside a candlelit stone church, colored light from a stained-glass window."
+  },
+  {
+   "id": "076",
+   "text": "And the worst thing that can happen isn't dying. It's dying without confession.",
+   "SCENE": "Red as a sick medieval peasant in bed reaching anxiously toward an empty open doorway, waiting for someone who doesn't come."
+  },
+  {
+   "id": "077",
+   "text": "Here's the problem. Priests visit the sick.",
+   "SCENE": "A kind medieval priest with a small cross and a lantern knocking at a peasant's hut door."
+  },
+  {
+   "id": "078",
+   "text": "Priests catch the plague. Priests die.",
+   "SCENE": "An empty church pulpit with a single candle that has just been blown out, a thin wisp of smoke. Somber."
+  },
+  {
+   "id": "079",
+   "text": "So many that in January 1349, the Bishop of Bath and Wells sent an emergency message to his diocese:",
+   "SCENE": "A medieval bishop in a mitre writing an urgent letter by candlelight, a wax seal ready, a messenger waiting at the door."
+  },
+  {
+   "id": "080",
+   "text": "if no priest can be found, the dying can confess to an ordinary person.",
+   "SCENE": "Red as a sick medieval peasant in bed whispering his confession to a surprised ordinary peasant neighbor sitting beside him."
+  },
+  {
+   "id": "081",
+   "text": "And if no man is available... even to a woman.",
+   "SCENE": "A medieval peasant woman sitting at Red's bedside, listening kindly, while Red looks surprised."
+  },
+  {
+   "id": "082",
+   "text": "For the medieval Church, that was a five-alarm fire.",
+   "SCENE": "A group of medieval bishops in mitres running around in panic in a cathedral, one ringing a bell."
+  },
+  {
+   "id": "083",
+   "text": "Nobody is safe. Not even the top of society.",
+   "SCENE": "Medieval nobles at a long banquet table looking nervously at each other, one dropping a goblet."
+  },
+  {
+   "id": "084",
+   "text": "In 1348, the King's own daughter, Princess Joan, died of plague near Bordeaux, on her way to marry a Spanish prince.",
+   "SCENE": "A young medieval princess with a small golden crown looking out of a royal carriage window, dark clouds gathering over the road ahead. Somber."
+  },
+  {
+   "id": "085",
+   "text": "In 1349, the man chosen to be Archbishop of Canterbury died.",
+   "SCENE": "An ornate archbishop's mitre resting on an empty carved chair in a cathedral."
+  },
+  {
+   "id": "086",
+   "text": "Then his replacement died too, just weeks after taking the job.",
+   "SCENE": "A second archbishop's mitre placed on a second empty chair beside the first, Red as a peasant staring at both in disbelief."
+  },
+  {
+   "id": "087",
+   "text": "In London, the churchyards filled up.",
+   "SCENE": "A crowded medieval London churchyard full of simple wooden crosses, seen from a distance, grey sky. Nothing graphic."
+  },
+  {
+   "id": "088",
+   "text": "So the city opened new emergency cemeteries, with long trenches for the dead.",
+   "SCENE": "A distant view of an open field outside medieval London with long dug trenches and a few workers with shovels. No bodies visible."
+  },
+  {
+   "id": "089",
+   "text": "In 2011, scientists pulled the plague's DNA from skeletons buried at one of them, East Smithfield.",
+   "SCENE": "Modern scientists in white lab coats and gloves examining an old bone with a magnifying glass in a lab, Red as a medieval peasant peeking in from behind them."
+  },
+  {
+   "id": "090",
+   "text": "More than six hundred and fifty years later, the culprit was finally confirmed.",
+   "SCENE": "A cartoon rod-shaped bacterium with a guilty face standing in a police lineup, Red as a medieval peasant pointing at it triumphantly."
+  },
+  {
+   "id": "091",
+   "text": "So, what can you actually do? Let's look at your options.",
+   "SCENE": "Red as a medieval peasant standing at a crossroads with three wooden signposts pointing different ways, scratching his head. Signs blank."
+  },
+  {
+   "id": "092",
+   "text": "Option one: run. That's what the rich did.",
+   "SCENE": "Wealthy medieval nobles in a fancy horse-drawn carriage speeding away from a city, luggage piled on top."
+  },
+  {
+   "id": "093",
+   "text": "In Florence, the writer Giovanni Boccaccio described wealthy families leaving the city for their country houses and waiting it out.",
+   "SCENE": "Elegant 14th-century Florentines relaxing in the garden of a Tuscan country villa with cypress trees, telling stories, Florence's dome far away on the horizon."
+  },
+  {
+   "id": "094",
+   "text": "Great plan. If you have a country house.",
+   "SCENE": "Red as a medieval peasant giving a sarcastic thumbs up with a flat unimpressed face."
+  },
+  {
+   "id": "095",
+   "text": "You don't. You're tied to your lord's land.",
+   "SCENE": "Red as a medieval peasant holding a small travel sack, looking at the road out of the village, while the lord's stern steward watches him from the field."
+  },
+  {
+   "id": "096",
+   "text": "Leaving without permission can get you into serious trouble.",
+   "SCENE": "A stern medieval steward with a wooden staff blocking the village road, wagging a finger at Red."
+  },
+  {
+   "id": "097",
+   "text": "And even if you did leave, where would you go? Every village is dealing with the same thing.",
+   "SCENE": "Red as a medieval peasant on a hilltop looking out over several distant villages, each one under its own dark cloud."
+  },
+  {
+   "id": "098",
+   "text": "And the plague is usually already there, waiting for you.",
+   "SCENE": "A dark shadowy figure leaning casually against the gate of the next village, waving at Red as he arrives."
+  },
+  {
+   "id": "099",
+   "text": "Option two: pray harder.",
+   "SCENE": "Red as a medieval peasant praying extremely hard, eyes squeezed shut, hands clasped, sweat drops."
+  },
+  {
+   "id": "100",
+   "text": "Across Europe, groups called flagellants marched from town to town, whipping themselves in public to beg God for mercy.",
+   "SCENE": "A long procession of barefoot medieval penitents in plain brown and grey tunics, heads uncovered (no hoods, no pointed hats), walking in a line through a town behind a large wooden cross, seen from a distance, holding knotted cords. Nothing graphic."
+  },
+  {
+   "id": "101",
+   "text": "In 1349, a group of them crossed over from Holland and Zeeland and put on a show in London.",
+   "SCENE": "The same procession of barefoot penitents in plain brown tunics, heads uncovered (no hoods, no pointed hats), walking behind a wooden cross down a medieval London street near old St Paul's, seen from a distance."
+  },
+  {
+   "id": "102",
+   "text": "The Londoners watched. Mostly, they did not join in. Very English.",
+   "SCENE": "A row of medieval Londoners watching the procession with crossed arms and raised eyebrows, deeply unimpressed, Red among them."
+  },
+  {
+   "id": "103",
+   "text": "Option three, and this is the dark one: blame someone.",
+   "SCENE": "A single candle burning in the dark beside an old torn parchment. Serious, somber mood, muted colors."
+  },
+  {
+   "id": "104",
+   "text": "In many parts of Europe, terrified people blamed Jewish communities for poisoning the wells, and thousands of innocent people were murdered.",
+   "SCENE": "A lonely medieval stone well in an empty town square at dusk, a few wilted flowers and a candle placed on its edge. Somber, respectful, no people."
+  },
+  {
+   "id": "105",
+   "text": "In England, there were no Jewish communities left to blame. They had been expelled in 1290.",
+   "SCENE": "An empty, quiet street in a medieval English town at dusk, closed shutters, long shadows. Somber, no people."
+  },
+  {
+   "id": "106",
+   "text": "It's one of the most shameful chapters of the whole pandemic, and a reminder that fear can be as deadly as any disease.",
+   "SCENE": "Red as a medieval peasant standing alone in the dark holding a small candle, sad and thoughtful."
+  },
+  {
+   "id": "107",
+   "text": "So: you can't run, praying doesn't seem to work, and blaming people is horrifying.",
+   "SCENE": "Red as a medieval peasant sitting on the floor hugging his knees, looking defeated."
+  },
+  {
+   "id": "108",
+   "text": "Which leaves you with option four. Wait. And hope.",
+   "SCENE": "Red as a medieval peasant sitting on his doorstep at dusk, waiting, a small candle at his feet, a tiny hopeful smile."
+  },
+  {
+   "id": "109",
+   "text": "Be honest: which one would you have picked? Tell me in the comments.",
+   "SCENE": "Red as a medieval peasant pointing straight at the viewer with a playful, curious expression."
+  },
+  {
+   "id": "110",
+   "text": "So, how bad was it really? Historians still argue about the exact numbers.",
+   "SCENE": "Two modern historians arguing across a table piled with books, pointing at each other, Red watching from the side."
+  },
+  {
+   "id": "111",
+   "text": "Medieval record-keeping wasn't great, and it's hard to count when the people counting are also dying.",
+   "SCENE": "A confused medieval scribe counting on his fingers with a long scroll, sneezing, ink splattered."
+  },
+  {
+   "id": "112",
+   "text": "But most estimates for England land somewhere between 40 and 60 percent of the population, dead, in about two years.",
+   "SCENE": "A simple parchment-style map of England where about half of the little villages have turned grey and faded. No labels, no text."
+  },
+  {
+   "id": "113",
+   "text": "Across Europe, estimates range from about a third to more than half.",
+   "SCENE": "A simple parchment-style map of Europe with large areas turned grey. No labels, no text."
+  },
+  {
+   "id": "114",
+   "text": "And it's not just people. A chronicler in Leicester, Henry Knighton, wrote that sheep and cattle wandered loose through the fields and the crops, because there was no one left to drive them.",
+   "SCENE": "Sheep and cows wandering loose through an unharvested wheat field with nobody around, an abandoned shepherd's crook on the ground."
+  },
+  {
+   "id": "115",
+   "text": "Harvests rotted in the ground. There simply weren't enough hands.",
+   "SCENE": "A drooping, rotting wheat field under a grey sky with a lone scythe stuck in the ground."
+  },
+  {
+   "id": "116",
+   "text": "Picture your village. A hundred people.",
+   "SCENE": "Red's medieval village seen from above, crowded with many little villagers going about their day."
+  },
+  {
+   "id": "117",
+   "text": "The miller. The blacksmith. Your neighbors.",
+   "SCENE": "A cheerful miller with a flour sack and a burly blacksmith with a hammer waving at Red as a peasant."
+  },
+  {
+   "id": "118",
+   "text": "The annoying guy who always borrows your plow without asking.",
+   "SCENE": "A sneaky medieval villager tiptoeing away with Red's wooden plow while Red glares at him with crossed arms."
+  },
+  {
+   "id": "119",
+   "text": "By 1350, around half of them are gone.",
+   "SCENE": "Red's village seen from above with half of the little villagers faded to grey and the lanes much emptier."
+  },
+  {
+   "id": "120",
+   "text": "Statistically... so are you.",
+   "SCENE": "Red as a medieval peasant looking down at his own hands, which are fading and semi-transparent, with a resigned shrug.",
+   "meter": "≈50"
+  },
+  {
+   "id": "121",
+   "text": "But let's say you're lucky. Let's say you're one of the people who make it. What's your life like now?",
+   "SCENE": "Red as a medieval peasant slowly standing up at sunrise, weak but alive, golden light on his face."
+  },
+  {
+   "id": "122",
+   "text": "Weirdly... better.",
+   "SCENE": "Red as a medieval peasant with a surprised face and a big question mark above his head, sunshine breaking through clouds.",
+   "meter": "WAGES"
+  },
+  {
+   "id": "123",
+   "text": "Think about it. Half the workers are gone. The fields still need plowing.",
+   "SCENE": "Huge empty fields with an abandoned plow and nobody working, the lord's manor in the background."
+  },
+  {
+   "id": "124",
+   "text": "Suddenly, your lord needs you more than you need him.",
+   "SCENE": "A medieval lord in fine clothes on his knees begging, while Red as a peasant stands with his arms crossed and his nose up."
+  },
+  {
+   "id": "125",
+   "text": "So peasants start asking for higher wages. And they get them.",
+   "SCENE": "Red as a medieval peasant grinning as coins are dropped into his open hands by an annoyed steward."
+  },
+  {
+   "id": "126",
+   "text": "The people in charge hate this.",
+   "SCENE": "A group of medieval nobles fuming, red-faced, steam coming out of their ears."
+  },
+  {
+   "id": "127",
+   "text": "In 1349, King Edward the Third issued the Ordinance of Labourers, and in 1351 Parliament passed the Statute of Labourers.",
+   "SCENE": "A 14th-century English king with a crown and beard angrily signing a long scroll with a quill, royal red and gold."
+  },
+  {
+   "id": "128",
+   "text": "Both tried to force wages back to what they were before the plague, and punished anyone who refused to work.",
+   "SCENE": "A stern royal official reading a scroll aloud in a village square to unhappy peasants, Red rolling his eyes."
+  },
+  {
+   "id": "129",
+   "text": "It didn't really work. Wages kept creeping up. Workers moved to wherever paid better.",
+   "SCENE": "Red as a medieval peasant walking cheerfully down a road with his sack toward another village whose lord is waving him in."
+  },
+  {
+   "id": "130",
+   "text": "And over the following generations, many ordinary people ate more meat, drank more ale and lived better than their parents ever had.",
+   "SCENE": "Red as a medieval peasant at a table full of roast meat, bread and a big mug of ale, with a satisfied smile, warm golden light."
+  },
+  {
+   "id": "131",
+   "text": "About thirty years later, in 1381, all that tension exploded into the Peasants' Revolt. But that's a story for another video.",
+   "SCENE": "A crowd of medieval peasants with pitchforks and banners marching toward a city, seen from a distance."
+  },
+  {
+   "id": "132",
+   "text": "So congratulations, again. You probably wouldn't survive the Black Death.",
+   "SCENE": "Red as a medieval peasant looking at the viewer with a wry smile, raising a mug."
+  },
+  {
+   "id": "133",
+   "text": "But if you did... you might finally get something more than bread.",
+   "SCENE": "Red as a medieval peasant proudly holding up a big piece of roast meat with a huge grin."
+  },
+  {
+   "id": "134",
+   "text": "Oh, and one last thing. \"Ring Around the Rosie\"? Not about the plague.",
+   "SCENE": "Victorian-era children in 1880s clothes holding hands and dancing in a ring in a park, a big red stamp-like circle with a slash over the scene."
+  },
+  {
+   "id": "135",
+   "text": "The rhyme first appeared in print in 1881, and folklorists only connected it to the plague in the twentieth century. Sorry.",
+   "SCENE": "Red as a medieval peasant holding an old Victorian printed book open, giving an apologetic shrug."
+  },
+  {
+   "id": "136",
+   "text": "If you want to know what it was like to be the person who walked into plague houses on purpose, the next video is right here.",
+   "SCENE": "Red as a medieval peasant pointing to the right side of the frame, where the silhouette of a beak-masked plague doctor stands in a doorway."
+  },
+  {
+   "id": "137",
+   "text": "And subscribe, because this little guy in the red scarf has a lot more centuries to suffer through.",
+   "SCENE": "Red waving goodbye with a big smile, standing in front of three glowing doorways showing ancient Rome, a Viking longship and an Egyptian pyramid."
+  }
+ ]
+}
