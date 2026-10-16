@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 VOICE_LUFS = -14.0   # nivel al que YouTube normaliza
-MUSIC_LUFS = -31.0   # música en las pausas; debajo de la voz baja unos dB más (sidechain)
+MUSIC_LUFS = -25.0   # música en las pausas; debajo de la voz baja unos dB más (sidechain)
 XFADE = 2.0          # segundos de fundido entre tramos
 MUSIC_DIR = Path(__file__).resolve().parent.parent / "musica"
 
@@ -57,7 +57,7 @@ for k, p in enumerate(plan):
     parts.append(f"[m{k}]")
 filters += [
     f"{''.join(parts)}amix=inputs={len(parts)}:normalize=0,apad=whole_dur={total:.3f}[musica]",
-    "[musica][llave]sidechaincompress=threshold=0.03:ratio=4:attack=80:release=600[bajo]",
+    "[musica][llave]sidechaincompress=threshold=0.05:ratio=2.5:attack=80:release=600[bajo]",
     "[voz][bajo]amix=inputs=2:normalize=0:duration=longest,alimiter=limit=0.89:level=false[a]",
 ]
 
