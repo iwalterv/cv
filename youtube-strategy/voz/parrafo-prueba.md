@@ -12,3 +12,15 @@ Melcombe... and it's carrying something that will change your life. Briefly.
 ```
 
 Notas del dato: la Peste Negra llegó a Inglaterra por Melcombe (Weymouth, Dorset) en junio de 1348. Fuente a citar en el guion real: Ziegler, *The Black Death* (1969), cap. 7; y Horrox, *The Black Death* (Manchester Univ. Press, 1994).
+
+## Prueba del 15-oct-2026 (ElevenLabs, modelo Eleven v4, plan Free)
+
+| Candidata | Perfil | Usuarios en la biblioteca | Notas |
+|---|---|---|---|
+| **Holden** – Warm Midwest Narrator | Hombre, Medio Oeste de EE. UU., cálido, conversacional, "hint of dry humor" | ~180 | Poco usada: no suena a "otro canal de IA" |
+| **Talia** – Warm Confident Narrator | Mujer, EE. UU., clara, segura, conversacional | ~800 | Alternativa femenina |
+| **Darby Skelm** – Witty and Sarcastic | Hombre de mediana edad, Medio Oeste, ingenioso y sarcástico | ~1.400 | La más irónica |
+| ~~Nubee – Sarcastic Podcast Host~~ | | | Descartada: voz premium, exige plan Creator |
+
+Cada voz generó 2 versiones del párrafo (~580 créditos por generación). Escuchar en ElevenLabs → Text to Speech → History.
+Elección: _pendiente del usuario_.
