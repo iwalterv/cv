@@ -1,50 +1,50 @@
 # Piloto #1: Why You Wouldn't Survive the Black Death
 
-**Estado:** BORRADOR v1 (15-oct-2026). Pendiente de revisión humana antes de producir.
+**Estado:** BORRADOR v2 (15-oct-2026), con los cambios de retención de `analisis-viral.md`. Pendiente de revisión humana antes de producir.
 **Duración estimada:** ~10 min (1.650 palabras narradas a ~165 palabras/min). Con más de 8 minutos YouTube permite anuncios a mitad del video.
-**Miniatura:** Red como campesino, mirando de reojo una rata en su hombro; texto **"1348?"** con "1348" en rojo.
+**Miniaturas (3 para Test & Compare de YouTube):** A) Red con un ramo de flores metido en la nariz, cara de pánico → **"FLOWERS?"**; B) Red mirando una moneda en el aire → **"50/50?"**; C) Red y una rata enorme mirándose → **"1348?"**. Palabra clave en rojo.
 **Título alternativo (para pruebas A/B):** "You Wouldn't Survive the Black Death (Here's Why)".
 
 Notas de producción:
 - Lo que va en **negrita entre corchetes** es la indicación visual de la escena (no se narra).
 - Pronunciación: *Melcombe* = "MEL-kum". *Yersinia pestis* = "yer-SIN-ee-uh PES-tiss". Si Holden lo lee mal, se escribe fonéticamente solo en el texto para la voz.
+- **[MEDIDOR: XX %]** = el "Survival Meter": barra en una esquina con "YOUR ODDS" que sube o baja. Es un recurso de humor (cifras redondeadas a partir de los datos del guion) y lleva la nota pequeña "rough odds, for fun". Será la firma visual de la serie.
+- Etiquetas de voz de ElevenLabs v4 entre corchetes en minúscula ([pause], [sarcastic], [whispers]): marcan el ritmo de los chistes. No se muestran en los subtítulos.
 - Tono: irónico, cercano y nunca morboso. Nada de imágenes gráficas de cadáveres ni bubones: se sugiere, no se muestra (para los anunciantes).
 
 ---
 
-## 0. Gancho
+## 0. Gancho (los primeros 30 segundos deciden todo)
+
+**[Red en la cama de paja, sudando, mirándose la axila con horror]**
+You wake up with a fever. There's a lump under your arm the size of an egg. [pause] Your neighbor is already dead.
+
+**[Sabios de París con togas señalando el cielo con total seguridad]**
+And the smartest doctors in Europe have just announced what's causing all this. [pause] Jupiter. [pause] And Saturn. And Mars. Basically, the sky.
+
+**[Título en pantalla: ENGLAND, 1348. Aparece el medidor en la esquina]**
+**[MEDIDOR: 100 %]**
+Welcome to England, 1348. Today we're finding out exactly why you wouldn't survive the Black Death. And see that little meter in the corner? Those are your odds of making it to the end of this video. [sarcastic] Spoiler: they're going down.
+
+**[Red mirando hacia un amanecer, con una moneda brillante]**
+But stick around until the end, because the few people who *did* survive got something nobody in your village could have imagined.
+
+## 1. Un año antes
 
 **[Red, campesino, en una aldea inglesa en primavera; sonrisa nerviosa]**
-It's the spring of 1347. You're a peasant in a small village in the south of England, and honestly? Life is fine. Terrible, but fine.
+But let's rewind a year. It's the spring of 1347. You're a peasant in a small village in the south of England, and honestly? Life is fine. [pause] Terrible, but fine.
 
 **[Red con los bolsillos vacíos; castillo del señor al fondo]**
 You own almost nothing. You owe your lord a couple of days of work in his fields every week, before you're allowed to touch your own. And dinner is bread. With a little pottage, if things are going well.
 
-**[Barco medieval llegando a un puerto pequeño al atardecer; ratas en las cuerdas; Red saludando sin saber nada]**
-But in about a year, a ship is going to dock in a small port called Melcombe. And it's carrying something that will kill roughly half the people you know.
-
-**[Red con cara de shock, fondo oscuro]**
-Today, we're going to walk through exactly why you wouldn't survive the Black Death. Not just the disease. The doctors. The cures. The rules. And the people around you.
-
-**[Red mirando hacia el futuro, con una moneda brillante]**
-And stick around until the end, because the people who *did* survive got something nobody in your village could have imagined.
-
-## 1. Rumores
-
 **[Mercaderes en un mercado medieval cuchicheando; Red escuchando]**
-News travels slowly in 1347. But bad news travels anyway. Merchants at the market talk about a sickness in the East.
-
-**[Mapa estilizado: Asia → mar Negro → Caffa]**
-They say it reached Caffa, a trading port on the Black Sea. According to one Italian writer, the army besieging the city started throwing its own dead over the walls. Historians aren't sure he saw that himself. But that's the story people are telling.
-
-**[Barcos llegando a Messina, Sicilia]**
-By October 1347, the sickness is in Sicily, arriving on ships at Messina. Within months, it's in Italy. Then France. Then everywhere ships can go.
+Then the merchants at the market start talking about a sickness in the East. By October 1347, it's in Sicily, arriving on ships at Messina. Within months, it's in Italy. Then France. Then everywhere ships can go.
 
 **[Red encogiéndose de hombros en la taberna]**
 And you do what everyone does. You assume it's somebody else's problem. England is an island. God is clearly on your side. And Sicily is very, very far away.
 
 **[Red sonriendo; una sombra enorme detrás de él]**
-It is not that far away.
+[whispers] It is not that far away.
 
 ## 2. Llega
 
@@ -56,6 +56,10 @@ The chronicle blames him. Historians aren't so sure it was that simple. Bristol 
 
 **[Línea roja que avanza por caminos y ríos de Inglaterra]**
 From the coast, the plague moves the way everything moves in medieval England: along roads, rivers and markets. Bristol by the summer. London by the autumn. Over the next year, it reaches almost every corner of the country. Including your village.
+
+**[MEDIDOR: 100 % → 50 %]**
+**[Red mirando el medidor bajar de golpe]**
+And just like that, about half the people around you are not going to make it. [pause] We haven't even gotten to the bad part.
 
 **[Rata con pulga gigante (caricatura); Red retrocediendo]**
 Now, you've probably heard that rats spread it. That's partly true. The disease is caused by a bacterium called *Yersinia pestis*, and it's carried by fleas. Fleas live on rats.
@@ -74,8 +78,12 @@ First, fever. A headache. Chills. Then a painful swelling appears in your groin,
 **[Red mirando un cartel de "probabilidades" con una moneda al aire]**
 That's the bubonic version, and believe it or not, it's the "good" one. Even today, the World Health Organization estimates that untreated bubonic plague kills between 30 and 60 percent of the people who catch it. So it's basically a coin flip.
 
+**[MEDIDOR: 50 %]**
+
 **[Red tosiendo; otra persona dando un paso atrás]**
 There's a worse version. If the infection reaches your lungs, it becomes pneumonic plague. Now it spreads through coughing, person to person, no flea required. Untreated, it's almost always fatal, sometimes within a day.
+
+**[MEDIDOR: parpadea en rojo, 1 %]**
 
 **[Red mirando a cámara]**
 And in 1348, nothing is treated. Because nobody knows what's happening.
@@ -101,7 +109,9 @@ Splash vinegar around. Burn something that smells strong.
 Don't bathe too much. The Paris experts listed bathing right next to too much exercise and too much sex, as things that made your body more vulnerable. Honestly, for a medieval peasant, that one wasn't hard to follow.
 
 **[Médico con un cuenco, haciendo una sangría; Red pálido]**
-And of course, bloodletting, which was the medieval answer to almost everything.
+And of course, bloodletting, which was the medieval answer to almost everything. [sarcastic] Feeling weak and feverish? Let's remove some of your blood.
+
+**[MEDIDOR: −10 %, con la nota "not helping"]**
 
 **[El Papa en Avignon sentado entre fogatas, sudando]**
 Even the Pope, Clement the Sixth, in Avignon, was advised by his physician to keep fires burning to purify the air. And to be fair, he survived. Maybe the fire helped. Maybe he was just lucky.
@@ -113,6 +123,9 @@ Oh, and that creepy bird mask you're imagining? The plague doctor with the long 
 In 1348, the person treating you looks like... a guy. Probably a very nervous guy.
 
 ## 5. Todo se cae
+
+**[Red mirando el medidor, que está muy bajo; reloj de arena a la mitad]**
+We're about halfway through, and your odds are not looking great. But remember: if you make it to the end, things get weirdly good. First, though... it gets worse.
 
 **[Red rezando en una iglesia de piedra]**
 So the doctors can't help. What about the Church? For you, in 1348, the Church is everything. And the worst thing that can happen isn't dying. It's dying without confession.
@@ -153,7 +166,10 @@ Option two: pray harder. Across Europe, groups called flagellants marched from t
 Option three, and this is the dark one: blame someone. In many parts of Europe, terrified people blamed Jewish communities for poisoning the wells, and thousands of innocent people were murdered. In England, there were no Jewish communities left to blame. They had been expelled in 1290. It's one of the most shameful chapters of the whole pandemic, and a reminder that fear can be as deadly as any disease.
 
 **[Red sentado, abrazando sus rodillas]**
-So: you can't run, praying doesn't seem to work, and blaming people is horrifying. Which leaves you with option four. Wait. And hope.
+So: you can't run, praying doesn't seem to work, and blaming people is horrifying. Which leaves you with option four. Wait. [pause] And hope.
+
+**[Red señalando a la cámara; los tres carteles RUN / PRAY / WAIT]**
+Be honest: which one would you have picked? Tell me in the comments.
 
 ## 6. Las cifras
 
@@ -170,7 +186,9 @@ And it's not just people. A chronicler in Leicester, Henry Knighton, wrote that 
 Picture your village. A hundred people. The miller. The blacksmith. Your neighbors. The annoying guy who always borrows your plow without asking.
 
 **[Red solo en la plaza de la aldea]**
-By 1350, around half of them are gone. Statistically... so are you.
+By 1350, around half of them are gone. [pause] Statistically... so are you.
+
+**[MEDIDOR: "≈ 50 %" se queda congelado]**
 
 ## 7. El giro: los que sobreviven
 
@@ -179,6 +197,8 @@ But let's say you're lucky. Let's say you're one of the people who make it. What
 
 **[Red sorprendido, con un signo de interrogación]**
 Weirdly... better.
+
+**[MEDIDOR: se convierte en "IF YOU SURVIVED: WAGES ↑"]**
 
 **[Campos vacíos; el señor buscando trabajadores; Red cruzado de brazos]**
 Think about it. Half the workers are gone. The fields still need plowing. Suddenly, your lord needs you more than you need him. So peasants start asking for higher wages. And they get them.
@@ -212,8 +232,9 @@ If you want to know what it was like to be the person who walked *into* plague h
 
 | # | Dato del guion | Fuentes | Estado |
 |---|---|---|---|
+| 0 | Bubón "del tamaño de un huevo" | Boccaccio, *Decameron*, Jornada I ("some as big as a common apple, others as an egg") | ✅ |
 | 1 | Llegada a Melcombe (Dorset), junio de 1348, dos barcos, marinero de Gascuña, según la crónica de los frailes de King's Lynn; Bristol y Southampton disputan ser los primeros | [Dorset History Centre](https://news.dorsetcouncil.gov.uk/dorset-history-centre-blog/?p=1340); [Carlin, UWM: The Black Death in the British Isles](https://sites.uwm.edu/carlin/?p=887); Horrox, *The Black Death* (Manchester Univ. Press, 1994) | ✅ (la fecha exacta es incierta: decimos "June 1348") |
-| 2 | Caffa: cadáveres lanzados por encima de las murallas, según un escritor italiano (Gabriele de' Mussis); no es seguro que lo viera | Horrox 1994 (traduce a de' Mussis); Wheelis, "Biological warfare at the 1346 siege of Caffa", *Emerging Infectious Diseases* 8(9), 2002 | ✅ (contado como "la historia que se cuenta") |
+| 2 | ~~Caffa~~ | Se quitó en la v2 (el relato es discutido y frenaba el ritmo) | — |
 | 3 | Messina, octubre de 1347 | Michele da Piazza (en Horrox 1994); Benedictow, *The Black Death 1346-1353* (2004) | ✅ |
 | 4 | *Yersinia pestis* transmitida por pulgas; hipótesis de pulgas humanas y piojos en Europa | [Dean et al., PNAS 115 (2018)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5819418); [National Geographic](https://www.nationalgeographic.com/science/article/rats-plague-black-death-humans-lice-health-science) | ✅ (dicho como "some researchers now think") |
 | 5 | Peste bubónica sin tratar: 30-60 % de letalidad; neumónica casi siempre mortal, a veces en un día | [OMS, ficha sobre la peste](https://who.int/news-room/fact-sheets/detail/plague) | ✅ |
