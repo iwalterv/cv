@@ -1,0 +1,27 @@
+# nombre|url — canales del nicho (historia animada / "tú en la historia") + historia-entretenimiento grande
+ink-explainer|https://www.youtube.com/channel/UCpgrEMx8diLrw7YNQ6r3uUw
+zenn|https://www.youtube.com/channel/UCK8TbMQGDbB94EOR3aGJo3Q
+serious-history|https://www.youtube.com/channel/UCXI2sj5kaCfMCkYcGk1m44A
+chat-history|https://www.youtube.com/channel/UCicVSNyM7PMXEzdoAsTB02w
+sticktory|https://www.youtube.com/@StickTory
+axen|https://www.youtube.com/@AxenCool
+human-ish|https://www.youtube.com/@HUMAN-ISH88
+medieval-times-discovered|https://www.youtube.com/channel/UCyWu1tIrHSMmserB-U5NV_g
+unlucky-ancestors|https://www.youtube.com/@UnluckyAncestors
+you-in-history|https://www.youtube.com/@youinhistory
+you-back-then|https://www.youtube.com/@youbackthen
+survive-or-die|https://www.youtube.com/@wouldyousurvivehistory
+peasant-mode|https://www.youtube.com/@peasantmode
+wrong-era|https://www.youtube.com/@wrongera
+simple-history|https://www.youtube.com/@SimpleHistory
+weird-history|https://www.youtube.com/@WeirdHistory
+infographics-show|https://www.youtube.com/@TheInfographicsShow
+history-matters|https://www.youtube.com/@HistoryMatters
+sam-onella|https://www.youtube.com/@SamONellaAcademy
+nutty-history|https://www.youtube.com/@NuttyHistory
+medieval-madness|https://www.youtube.com/@MedievalMadness
+history-hit|https://www.youtube.com/@HistoryHit
+tasting-history|https://www.youtube.com/@TastingHistory
+sleepless-historian|https://www.youtube.com/@SleeplessHistorian
+blue-jay|https://www.youtube.com/@BlueJay
+the-past-in-ink|https://www.youtube.com/@thepastinink

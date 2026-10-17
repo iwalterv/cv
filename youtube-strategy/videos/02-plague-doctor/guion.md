@@ -1,6 +1,6 @@
 # Video #2: Why It Sucked to Be a Plague Doctor
 
-**Estado:** v1 (16-oct-2026), borrador para que el usuario lo apruebe **antes** de gastar en voz e imágenes.
+**Estado:** v1 (16-oct-2026), **EN PAUSA**. El análisis de `datos/viral-video2/` mostró que las copias recientes del tema sacan muy pocas vistas; se retoma si el piloto da buenos datos.
 **Por qué este tema:** el comentario fijado del piloto lo promete ("Next up: what it was like to be the person who walked INTO plague houses on purpose") y arma serie con el #1. Banco de ideas #7: TED-Ed "beaked masks" 2,4 M; con este título solo hay un video fuerte (403K).
 **Duración estimada:** ~10 min (≈1.650 palabras).
 **Miniaturas (Test & Compare), siguiendo el análisis de `datos/miniaturas-analisis/`:**
