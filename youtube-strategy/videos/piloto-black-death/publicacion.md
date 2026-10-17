@@ -52,8 +52,9 @@ Illustrations and narration created with AI tools; script written and fact-check
 black death, bubonic plague, medieval history, middle ages, plague, 1348, why you wouldn't survive, history explained, medieval peasant, plague doctor, animated history, time peasant
 
 ## Comentario fijado
+Publicado y fijado el 17-oct-2026 (texto cambiado para anunciar el invierno; el médico de la peste quedó en pausa).
 ```
-Run, pray, or wait: which one would YOU have picked? 👇 (Next up: what it was like to be the person who walked INTO plague houses on purpose.)
+Run, pray, or wait: which one would YOU have picked? 👇 (Next up: surviving a medieval winter, where your heater was a cow.)
 ```
 
 ## Configuración al subir

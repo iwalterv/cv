@@ -1,0 +1,713 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "seedream_5_0_flash",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "Use the attached character sheet as the exact design reference for the main character \"Red\" (round white head, large expressive eyes, thin black stick body and limbs, bright red scarf). 2D hand-drawn cartoon illustration, warm comic style, clean bold black outlines, flat colors with soft shading. {SCENE} Single clear idea, main subject large in frame. Unless stated otherwise, Red is a poor medieval English peasant in a brown wool tunic and hood, always with his bright red scarf, and the setting is medieval England in winter, with a palette of cold snowy blues and warm orange firelight. Historically plausible 13th-15th century details; all people drawn in the same simple round-headed stick-figure cartoon style. No text, no letters, no watermark, no border, full-bleed. 16:9.",
+ "scenes": [
+  {
+   "id": "001",
+   "text": "Your house has no chimney.",
+   "SCENE": "Red coughing inside a small one-room medieval hut filled with grey smoke from an open fire burning in the middle of the dirt floor, no chimney, smoke curling under the thatch. Orange firelight, cold blue shadows."
+  },
+  {
+   "id": "002",
+   "text": "Your bed is made of straw, and you're sharing it with your entire family.",
+   "SCENE": "Red squeezed in the middle of a straw mattress on the floor between his mother, father, grandmother and three small siblings, all under one rough wool blanket, dim firelight."
+  },
+  {
+   "id": "003",
+   "text": "And just on the other side of the room, there's a cow.",
+   "SCENE": "Red lying in the crowded family straw bed, slowly turning his head to see a big brown-and-white cow standing a few steps away inside the same room, staring back at him."
+  },
+  {
+   "id": "004",
+   "text": "That's not a punishment.",
+   "SCENE": "Close-up of the brown-and-white family cow chewing calmly and looking straight at the viewer, inside a dim hut, warm firelight on its face."
+  },
+  {
+   "id": "005",
+   "text": "That's your heating system.",
+   "SCENE": "Red happily snuggled up against the side of the brown-and-white cow, warm steam rising from the cow, little wavy heat lines, frost on the walls behind."
+  },
+  {
+   "id": "006",
+   "text": "Welcome to winter, in medieval England.",
+   "SCENE": "Wide establishing shot of a small medieval English village buried in deep snow at dusk: thatched cottages with snow on their roofs, a little stone church, bare trees, smoke rising through the thatch, Red small in the foreground. Cold blues and warm orange windows.",
+   "meter": {
+    "value": "100",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "007",
+   "text": "You have five months to survive.",
+   "SCENE": "Red standing in the open doorway of his hut staring out at endless snow, five tally marks scratched into the wooden door frame beside him, worried face."
+  },
+  {
+   "id": "008",
+   "text": "And see that meter in the corner? Those are your odds of making it to spring.",
+   "SCENE": "Red in snow pointing up toward the top-right corner of the frame with a curious face, leaving the top-right corner empty."
+  },
+  {
+   "id": "009",
+   "text": "They're about to have a very bad November.",
+   "SCENE": "Red shivering in the snow with a forced, nervous grin, giving a shaky thumbs up, icicles hanging from his nose."
+  },
+  {
+   "id": "010",
+   "text": "And stick around, because in one of these winters, it got so cold that people were buying their wine by the pound.",
+   "SCENE": "A medieval market stall in snow: a merchant placing a solid block of frozen red wine, shaped like the jug it came from, on a big balance scale, Red staring at it in disbelief."
+  },
+  {
+   "id": "011",
+   "text": "Let's start with November.",
+   "SCENE": "Red standing next to a giant illustrated medieval calendar wheel showing the twelve months as little farm scenes, his finger on the cold, grey autumn one. No letters."
+  },
+  {
+   "id": "012",
+   "text": "The old English name for this month was Blotmonath.",
+   "SCENE": "An Anglo-Saxon monk with a tonsure writing in a large old book with a quill by candlelight in a cold stone cell, frost on the small window."
+  },
+  {
+   "id": "013",
+   "text": "Blood month.",
+   "SCENE": "The page of an old illuminated calendar slowly turning deep red, Red standing beside it gulping nervously. No letters."
+  },
+  {
+   "id": "014",
+   "text": "And the name is honest.",
+   "SCENE": "Red standing face to face with his fat pink pig in a muddy yard, the pig looking up at him trustingly, Red hiding a butcher's knife behind his back with a guilty face. Cartoonish, no blood."
+  },
+  {
+   "id": "015",
+   "text": "Around now, families slaughtered a lot of their animals.",
+   "SCENE": "A grey late-autumn medieval village with bare trees and the first frost: families leading pigs and sheep across the lane toward a barn, sad-faced animals. No blood, nothing graphic."
+  },
+  {
+   "id": "016",
+   "text": "Not out of cruelty. Out of math.",
+   "SCENE": "Red sitting on a stool doing sums with tally marks scratched on a wooden board, looking back and forth between three cows and one small haystack, thinking hard."
+  },
+  {
+   "id": "017",
+   "text": "Grass stops growing in winter. Hay is limited.",
+   "SCENE": "A frosty brown field with dead grass, a single small haystack under grey sky, a thin cow sniffing the frozen ground."
+  },
+  {
+   "id": "018",
+   "text": "You can't feed every animal until spring, so you keep the ones you need, the breeding stock and the ones that pull the plough, and the rest become dinner.",
+   "SCENE": "Inside a barn, Red standing proudly next to two strong oxen with a plough yoke and one cow, while a pig tiptoes away behind them toward the door with a nervous sweat drop."
+  },
+  {
+   "id": "019",
+   "text": "And because there's no fridge, the meat gets salted, smoked or dried.",
+   "SCENE": "Red throwing handfuls of coarse salt into a wooden barrel full of chunks of meat, hams and sausages hanging from the smoky rafters above him."
+  },
+  {
+   "id": "020",
+   "text": "A family pig, killed around Saint Martin's Day, on the 11th of November,",
+   "SCENE": "A medieval English village gathered on a cold November feast day in front of the stone church, a painted church banner showing a knight on horseback cutting his cloak in half to share it, villagers bundled up."
+  },
+  {
+   "id": "021",
+   "text": "could be the difference between eating meat this winter and not.",
+   "SCENE": "Red hugging a big cured ham protectively with both arms, eyes closed in relief, snow falling outside the hut door."
+  },
+  {
+   "id": "022",
+   "text": "Very, very salty meat. For months.",
+   "SCENE": "Red biting a rock-hard strip of salted meat, face puckered and lips shriveled, desperately gulping from a water jug.",
+   "meter": {
+    "value": "85",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "023",
+   "text": "Now, let's look at your house.",
+   "SCENE": "Red standing in the snow in front of his small thatched cottage, gesturing at it proudly like a tour guide."
+  },
+  {
+   "id": "024",
+   "text": "One main room.",
+   "SCENE": "Cutaway view of the inside of a small medieval peasant cottage: a single room with a dirt floor, a few stools, a chest, straw beds along the walls and a fire in the middle."
+  },
+  {
+   "id": "025",
+   "text": "Walls of wattle and daub, which is woven sticks covered in mud and dung.",
+   "SCENE": "Close-up of a cottage wall being built: thin sticks woven together like a basket, Red smearing brown mud onto it with his hands and a disgusted face, flies buzzing."
+  },
+  {
+   "id": "026",
+   "text": "A thatched roof.",
+   "SCENE": "A thick thatched straw roof covered in snow with a row of icicles hanging from its edge."
+  },
+  {
+   "id": "027",
+   "text": "And in the middle of the floor, an open fire.",
+   "SCENE": "A simple open fire on a ring of stones in the middle of a dirt floor, smoke rising, family stools around it."
+  },
+  {
+   "id": "028",
+   "text": "No chimney.",
+   "SCENE": "Red looking straight up from the fire at a smoke-blackened roof with no chimney, just soot-covered rafters and smoke."
+  },
+  {
+   "id": "029",
+   "text": "Chimneys and fireplaces were spreading in richer homes, but in a lot of ordinary houses the smoke just drifted up into the roof and found its own way out.",
+   "SCENE": "Split scene in the snow: on the left a rich stone manor house with a proper chimney puffing smoke, on the right Red's little hut with smoke seeping out everywhere through the thatch."
+  },
+  {
+   "id": "030",
+   "text": "Eventually.",
+   "SCENE": "Red inside the smoky hut waving his arms to clear the smoke, eyes red and teary."
+  },
+  {
+   "id": "031",
+   "text": "So you're always either too smoky or too cold. Usually both.",
+   "SCENE": "Red standing half in thick grey smoke and half covered in white frost, unhappy on both sides."
+  },
+  {
+   "id": "032",
+   "text": "Your face is roasting and your back is freezing.",
+   "SCENE": "Red's family sitting on stools around the central fire, faces glowing red and sweaty, while their backs are covered in frost and little icicles."
+  },
+  {
+   "id": "033",
+   "text": "And in some parts of England, like Dartmoor, people lived in longhouses.",
+   "SCENE": "A long low stone longhouse with a thatched roof on a bleak snowy moorland with granite rocks, smoke rising, Red walking up to the door."
+  },
+  {
+   "id": "034",
+   "text": "One long building, with the family at one end, a passage in the middle, and the cattle at the other end, under the same roof, especially in the coldest months.",
+   "SCENE": "Cutaway view of a long stone farmhouse: on the left the family around a fire, a passage with two doors in the middle, on the right cows in stalls, all under one long thatched roof."
+  },
+  {
+   "id": "035",
+   "text": "Is it smelly? Absolutely.",
+   "SCENE": "Red pinching his nose with a green face, the cows right behind him, little stink lines in the air."
+  },
+  {
+   "id": "036",
+   "text": "But a cow is basically a big, warm radiator that eats grass.",
+   "SCENE": "Red warming his hands against the side of the brown-and-white cow as if it were a fireplace, the cow glowing warm orange, chewing hay."
+  },
+  {
+   "id": "037",
+   "text": "In January, you stop complaining about the smell.",
+   "SCENE": "Red fast asleep and smiling, curled up against the cow, snow piled up against the outside of the window."
+  },
+  {
+   "id": "038",
+   "text": "As for clothes, the strategy is simple: wear everything you own.",
+   "SCENE": "Red standing next to a wooden chest pulling out clothes and putting on layer after layer as fast as he can."
+  },
+  {
+   "id": "039",
+   "text": "A linen shirt, wool tunics on top of each other, wool hose on your legs, a cloak, and a hood if you have one.",
+   "SCENE": "Red wearing so many brown and grey wool layers, cloak and hood that he is as round as a ball, only his eyes and his red scarf peeking out, arms sticking out stiffly."
+  },
+  {
+   "id": "040",
+   "text": "Women spun the wool themselves, so every layer you're wearing took someone in your family hours to make.",
+   "SCENE": "Red's mother sitting by the fire spinning wool with a drop spindle, a basket of raw wool beside her, Red watching gratefully."
+  },
+  {
+   "id": "041",
+   "text": "And your shoes are thin leather.",
+   "SCENE": "Close-up of a pair of thin, simple medieval leather shoes standing in the snow."
+  },
+  {
+   "id": "042",
+   "text": "There are no rubber boots. Every time you go outside, your feet get wet.",
+   "SCENE": "Red stepping into ankle-deep slush outside his hut, his thin leather shoes soaked, wincing, water splashing."
+  },
+  {
+   "id": "043",
+   "text": "And there is no dryer. Just the smoky fire, and a lot of patience.",
+   "SCENE": "Red sitting by the fire holding his soaked shoes on a stick over the flames, steam rising, bored face, chin on hand."
+  },
+  {
+   "id": "044",
+   "text": "Here's something we forget.",
+   "SCENE": "Red in snow raising one finger like he's about to share a secret."
+  },
+  {
+   "id": "045",
+   "text": "In the middle of an English winter, the sun sets before four in the afternoon.",
+   "SCENE": "A snowy medieval field where peasants are still working, looking up in surprise as the sun is already setting low on the horizon, long blue shadows, orange sky."
+  },
+  {
+   "id": "046",
+   "text": "And then it's dark. Really dark.",
+   "SCENE": "An almost completely black scene, only Red's two big white eyes visible in the darkness."
+  },
+  {
+   "id": "047",
+   "text": "No electricity, obviously.",
+   "SCENE": "Red in a pitch-dark hut feeling his way along the wall with his hands, bumping into a stool."
+  },
+  {
+   "id": "048",
+   "text": "Good candles were made of beeswax, and those were for churches and rich people.",
+   "SCENE": "Inside a medieval stone church: tall golden beeswax candles glowing beautifully on the altar, a priest lighting them, Red peeking enviously from the door."
+  },
+  {
+   "id": "049",
+   "text": "Beeswax could cost about three times as much as tallow, which is candles made from animal fat.",
+   "SCENE": "A big balance scale: one golden beeswax candle on one side balanced by three greasy yellowish tallow candles on the other, a small pile of coins next to the beeswax one."
+  },
+  {
+   "id": "050",
+   "text": "And a lot of poor families couldn't even afford that.",
+   "SCENE": "Red turning his empty leather purse upside down, only a moth flying out."
+  },
+  {
+   "id": "051",
+   "text": "They used rushlights: dried rushes dipped in fat, burning for a few minutes each.",
+   "SCENE": "Red sitting by the fire peeling long green rushes and dipping them in a small pan of melted grease, a bundle of dried rushes beside him."
+  },
+  {
+   "id": "052",
+   "text": "Your whole evening, lit by a greasy plant.",
+   "SCENE": "Red's family squinting around a single tiny flickering rushlight held in a small iron clip, the rest of the hut in deep shadow."
+  },
+  {
+   "id": "053",
+   "text": "And then a bell rings,",
+   "SCENE": "A village stone church tower at night in the snow, its bell swinging, little sound lines, stars above."
+  },
+  {
+   "id": "054",
+   "text": "and it's time to cover the fire, to keep it from burning down the house, and the whole village with it.",
+   "SCENE": "Red carefully placing a round clay cover with holes over the glowing embers of the fire, a thatched village visible through the door behind him."
+  },
+  {
+   "id": "055",
+   "text": "That bell had a name in Old French: cuevrefeu.",
+   "SCENE": "A Norman bell-ringer in a tunic pulling the bell rope inside a stone tower at night, very serious."
+  },
+  {
+   "id": "056",
+   "text": "\"Cover fire\". Which is where we get the word \"curfew\".",
+   "SCENE": "Red looking at the viewer amazed, pointing at the covered fire glowing faintly through the holes of the clay cover.",
+   "meter": {
+    "value": "70",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "057",
+   "text": "So, bedtime.",
+   "SCENE": "Red yawning hugely, holding a dying rushlight, the hut almost dark."
+  },
+  {
+   "id": "058",
+   "text": "Your mattress is a sack of straw, on the floor or up in a loft.",
+   "SCENE": "A lumpy sack stuffed with straw lying on the dirt floor, straw poking out, and a small wooden loft above with another one."
+  },
+  {
+   "id": "059",
+   "text": "And you're not alone in it.",
+   "SCENE": "Red lying on the straw sack with a peaceful smile while siblings start climbing in on both sides."
+  },
+  {
+   "id": "060",
+   "text": "Families slept together, huddled up, because body heat is free.",
+   "SCENE": "Red's whole family huddled together in one pile under a wool blanket, Red squashed in the middle, only his head and red scarf sticking out."
+  },
+  {
+   "id": "061",
+   "text": "And here's where it gets interesting.",
+   "SCENE": "Red lying awake in the dark, eyes wide open, everyone around him snoring with little Z's."
+  },
+  {
+   "id": "062",
+   "text": "According to historian Roger Ekirch, for centuries, Europeans often didn't sleep in one long block.",
+   "SCENE": "A modern historian with glasses at a desk piled with old books and a lamp, reading an old diary with a magnifying glass. Generic character, not a real likeness."
+  },
+  {
+   "id": "063",
+   "text": "They had a \"first sleep\", then woke up in the middle of the night for an hour or so, and then went back for a \"second sleep\".",
+   "SCENE": "A snowy cottage at night under a big moon, cut in two: on the left the family asleep, in the middle Red sitting up awake by the embers, on the right everyone asleep again."
+  },
+  {
+   "id": "064",
+   "text": "In that gap, people prayed, did small chores, talked, visited neighbors,",
+   "SCENE": "Midnight inside the hut: grandmother praying with a rosary, mother mending clothes by the embers, father chatting quietly with a neighbor at the door."
+  },
+  {
+   "id": "065",
+   "text": "and, well, made more peasants.",
+   "SCENE": "Red covering his eyes with both hands, embarrassed, in front of a drawn curtain around the parents' bed, a few little hearts floating above it. Family friendly."
+  },
+  {
+   "id": "066",
+   "text": "With fourteen hours of darkness, you'd probably wake up in the middle too.",
+   "SCENE": "Red looking straight at the viewer in the dark, wide awake, shrugging."
+  },
+  {
+   "id": "067",
+   "text": "Then comes December, and the best news of the whole winter: Christmas.",
+   "SCENE": "A snowy medieval village at night, the lord's big manor house on the hill glowing with warm light, holly and ivy on the doors, smoke from its chimney."
+  },
+  {
+   "id": "068",
+   "text": "And for you, Christmas is a big deal, because it's one of the few times in the year when the work actually stops.",
+   "SCENE": "Red happily throwing his spade and pitchfork over his shoulder into the snow, arms raised in celebration."
+  },
+  {
+   "id": "069",
+   "text": "On a lot of manors, tenants owed the lord some rent at Christmas, often paid in food.",
+   "SCENE": "The lord's steward in a fine cloak at a table outside the manor door, checking notched wooden tally sticks as peasants line up in the snow carrying food."
+  },
+  {
+   "id": "070",
+   "text": "Hens, bread, ale.",
+   "SCENE": "A still life on a table: two live hens, round loaves of bread and a clay jug of ale."
+  },
+  {
+   "id": "071",
+   "text": "So you walk up to the big house, holding your chickens.",
+   "SCENE": "Red trudging up the snowy hill toward the glowing manor house with a hen tucked under each arm, the hens looking annoyed."
+  },
+  {
+   "id": "072",
+   "text": "And on some manors, there was a feast for the tenants.",
+   "SCENE": "A great hall with a long wooden table, a roaring fireplace, roasted meat and bread, peasants sitting down to eat."
+  },
+  {
+   "id": "073",
+   "text": "But the tradition, according to some accounts, was that you brought your own plate. And your own firewood.",
+   "SCENE": "Red arriving at the great hall door holding his own wooden plate in one hand and a log of firewood under the other arm, slightly confused."
+  },
+  {
+   "id": "074",
+   "text": "Still, it's meat, it's warm, and nobody is making you work.",
+   "SCENE": "Red at the long feast table with a huge grin, holding a big piece of roast meat, cheeks full."
+  },
+  {
+   "id": "075",
+   "text": "Twelve days of Christmas, right through to Twelfth Night.",
+   "SCENE": "Villagers dancing in a circle in a warm hall decorated with holly and ivy, a musician playing a pipe, Red dancing in the middle."
+  },
+  {
+   "id": "076",
+   "text": "And then, on the first Monday after, the party's over.",
+   "SCENE": "The morning after: holly decorations on the floor, cold grey light, Red slumped at the empty table looking exhausted."
+  },
+  {
+   "id": "077",
+   "text": "In parts of England this was called Plough Monday.",
+   "SCENE": "A group of village men dragging a wooden plough decorated with ribbons through the snowy village street, cheering."
+  },
+  {
+   "id": "078",
+   "text": "Which tells you exactly what you're doing that day.",
+   "SCENE": "Red pushing a heavy plough through a hard frozen field with a deeply tired face.",
+   "meter": {
+    "value": "75",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "079",
+   "text": "Now we get to the hard part.",
+   "SCENE": "Red bracing himself in a field as a huge dark wall of blizzard rolls toward him."
+  },
+  {
+   "id": "080",
+   "text": "Some medieval winters were brutal.",
+   "SCENE": "A medieval village almost completely buried in snow, only the roofs and the church tower sticking out, howling wind."
+  },
+  {
+   "id": "081",
+   "text": "In 1410, according to a London chronicle, a frost lasted fourteen weeks",
+   "SCENE": "A friar in a grey habit writing in a big chronicle book by candlelight in a cold stone friary, frost creeping across the window and the inkwell."
+  },
+  {
+   "id": "082",
+   "text": "and the Thames froze so solid that people could walk, and even ride horses, across it.",
+   "SCENE": "A wide frozen river Thames with old London Bridge and its many arches and houses in the background, medieval Londoners walking across the ice and a man riding a horse on it."
+  },
+  {
+   "id": "083",
+   "text": "In the winter of 1281 to 1282, when the ice finally broke, it smashed arches of London Bridge.",
+   "SCENE": "Huge blocks of river ice crashing into the arches of medieval London Bridge, stones and timbers breaking and falling."
+  },
+  {
+   "id": "084",
+   "text": "People had been crossing the river on foot.",
+   "SCENE": "Medieval Londoners in cloaks happily strolling across a frozen river, a child sliding on the ice."
+  },
+  {
+   "id": "085",
+   "text": "Dry-shod.",
+   "SCENE": "Red standing in the middle of the frozen river lifting one foot to proudly show a perfectly dry leather shoe."
+  },
+  {
+   "id": "086",
+   "text": "And the winter of 1205 is the one I promised you.",
+   "SCENE": "Red pointing at the viewer with a knowing wink, snow falling."
+  },
+  {
+   "id": "087",
+   "text": "A frost that started in mid-January and lasted until late March.",
+   "SCENE": "A frozen English countryside: a frozen pond, white trees, a frozen windmill, a pale low sun."
+  },
+  {
+   "id": "088",
+   "text": "No one could work the ground.",
+   "SCENE": "Red swinging a pickaxe at the frozen ground and it bouncing off with a clang, his whole body vibrating."
+  },
+  {
+   "id": "089",
+   "text": "And, according to an old account of great English frosts, ale and wine froze so hard that they were sold by weight.",
+   "SCENE": "A medieval market in the snow: a merchant weighing solid blocks of frozen red wine and frozen ale on a big balance scale, customers waiting with coins."
+  },
+  {
+   "id": "090",
+   "text": "You haven't truly lived until you've had to chew your beer.",
+   "SCENE": "Red gnawing on a block of frozen golden ale with his teeth, eyes watering from brain freeze."
+  },
+  {
+   "id": "091",
+   "text": "In the winter of 1434, the Thames froze from London Bridge all the way down to Gravesend, from Christmas Day to the 10th of February.",
+   "SCENE": "Bird's-eye view of a long white frozen river winding from medieval London toward the sea, ships frozen in place along it."
+  },
+  {
+   "id": "092",
+   "text": "Ships couldn't get through, so goods had to be hauled into London overland.",
+   "SCENE": "Wooden medieval cargo ships stuck in the ice, while a line of horse-drawn carts full of barrels and sacks heads along a snowy road toward the city."
+  },
+  {
+   "id": "093",
+   "text": "Which, in medieval roads covered in snow, is about as fun as it sounds.",
+   "SCENE": "Red pushing a cart full of barrels that is stuck deep in snow and mud, the horse looking back at him unimpressed."
+  },
+  {
+   "id": "094",
+   "text": "And if you want to see what February looked like back then, there's a famous painting.",
+   "SCENE": "Red standing in front of a big gilded medieval painting on a wall, hand on chin like a museum visitor."
+  },
+  {
+   "id": "095",
+   "text": "In a French prayer book made for a duke around 1412 to 1416, Les Très Riches Heures,",
+   "SCENE": "A luxurious illuminated medieval prayer book lying open on a lectern, with gold leaf, deep blue borders and tiny painted scenes, candlelight. No legible text."
+  },
+  {
+   "id": "096",
+   "text": "the page for February shows a snowy farm. Sheep huddled in their pen. A man hauling firewood.",
+   "SCENE": "A snowy medieval farmyard in the style of a 15th-century illuminated calendar page: sheep huddled in a wattle pen, beehives under snow, a man carrying firewood, a donkey, birds pecking in the snow."
+  },
+  {
+   "id": "097",
+   "text": "And peasants inside, sitting as close to the fire as humanly possible, trying to thaw out.",
+   "SCENE": "Inside a small farmhouse with the front wall open like a doll's house, peasants sitting right up against the fire with their robes lifted a little to warm their shins, steam rising. Family friendly."
+  },
+  {
+   "id": "098",
+   "text": "Six hundred years later, it's still the most relatable painting of winter ever made.",
+   "SCENE": "Red sitting in exactly the same pose by the fire, shins toward the flames, looking at the viewer as if to say 'same'."
+  },
+  {
+   "id": "099",
+   "text": "And here's the real danger.",
+   "SCENE": "Red holding open a small sack of seed grain, looking worried."
+  },
+  {
+   "id": "100",
+   "text": "When the ground freezes for months, you can't plough or sow.",
+   "SCENE": "A plough frozen solid into a white field, icicles hanging from its handles."
+  },
+  {
+   "id": "101",
+   "text": "And a late spring means a late, small harvest.",
+   "SCENE": "A sparse, thin wheat field with short stalks under a grey sky, Red holding up a tiny bundle of wheat."
+  },
+  {
+   "id": "102",
+   "text": "Which means next winter, you start with even less.",
+   "SCENE": "Red looking into an almost empty grain store with just a few sacks, his shadow long behind him.",
+   "meter": {
+    "value": "40",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "103",
+   "text": "If you make it to March, congratulations.",
+   "SCENE": "Red, thin and tired, stepping out of the hut into melting grey snow, a single sad piece of confetti falling."
+  },
+  {
+   "id": "104",
+   "text": "You've reached the most dangerous part.",
+   "SCENE": "Close-up of Red's tired smile slowly dropping into worry."
+  },
+  {
+   "id": "105",
+   "text": "Historians sometimes call it the hungry gap.",
+   "SCENE": "An almost empty barn: one small sack of grain, empty barrels, cobwebs, a mouse looking disappointed."
+  },
+  {
+   "id": "106",
+   "text": "Your salted meat is running out.",
+   "SCENE": "Red reaching deep into a big wooden barrel, scraping the very bottom, only one small scrap of meat left."
+  },
+  {
+   "id": "107",
+   "text": "The grain is running low.",
+   "SCENE": "Red holding an almost empty sack of grain upside down, a few grains falling out."
+  },
+  {
+   "id": "108",
+   "text": "And the new crops won't be ready for months.",
+   "SCENE": "A muddy field with tiny green sprouts barely poking out, Red kneeling and staring at them impatiently."
+  },
+  {
+   "id": "109",
+   "text": "The first wild greens are only just starting to show up.",
+   "SCENE": "Red in a thawing forest picking small wild greens and nettles, flinching from the stings."
+  },
+  {
+   "id": "110",
+   "text": "And the Church timing doesn't help: this is also Lent, forty days of fasting with no meat.",
+   "SCENE": "A priest at the church door wagging his finger at Red, who is hiding a small ham behind his back."
+  },
+  {
+   "id": "111",
+   "text": "So your diet becomes salted herring. And hope.",
+   "SCENE": "Red at the table staring at a single dried salted herring on his wooden plate, hands clasped in hope.",
+   "meter": {
+    "value": "25",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "112",
+   "text": "And sometimes, it's not one bad winter.",
+   "SCENE": "Red looking up at a heavy grey sky, rain starting to fall."
+  },
+  {
+   "id": "113",
+   "text": "It's a string of bad years.",
+   "SCENE": "Pages of a calendar flying away in the wind and rain over a muddy village."
+  },
+  {
+   "id": "114",
+   "text": "Starting in 1315, it rained, and rained, and stayed cold, across Northern Europe.",
+   "SCENE": "Endless heavy rain over flooded fields and a village, cold grey light, a stream overflowing its banks."
+  },
+  {
+   "id": "115",
+   "text": "Crops rotted in the fields, year after year.",
+   "SCENE": "Blackened, flattened wheat rotting in a waterlogged field, Red standing in it up to his ankles, devastated."
+  },
+  {
+   "id": "116",
+   "text": "It became known as the Great Famine.",
+   "SCENE": "Thin, tired medieval villagers lining up at a monastery gate where a monk hands out small loaves of bread. Sad but not graphic."
+  },
+  {
+   "id": "117",
+   "text": "It hit a region of around thirty million people, from Ireland to Poland,",
+   "SCENE": "An old parchment-style map of northern Europe from Ireland to Poland slowly darkening with grey rain clouds. No labels, no text."
+  },
+  {
+   "id": "118",
+   "text": "and the crops kept failing until the harvest of 1317.",
+   "SCENE": "Red holding up a tiny, sad, half-rotten bundle of wheat in the rain while his family watches."
+  },
+  {
+   "id": "119",
+   "text": "And right after it came a cattle plague that, in some places, killed most of the herds.",
+   "SCENE": "A green pasture with just a few cows, surrounded by many faded ghostly outlines of cows that are no longer there."
+  },
+  {
+   "id": "120",
+   "text": "The cows that kept you warm, and alive.",
+   "SCENE": "Red hugging his brown-and-white cow tightly around the neck with sad eyes."
+  },
+  {
+   "id": "121",
+   "text": "Some historians see this as the start of a colder era in Europe, often called the Little Ice Age.",
+   "SCENE": "Frost creeping across an old map-like landscape of European villages and fields, everything turning icy blue. No text."
+  },
+  {
+   "id": "122",
+   "text": "Exactly when it began is still debated,",
+   "SCENE": "Three historians in modern clothes arguing around a table covered in old charts and ice cores, each pointing at a different spot."
+  },
+  {
+   "id": "123",
+   "text": "but your grandchildren's winters weren't getting any easier.",
+   "SCENE": "An old Red with a white beard and his red scarf, surrounded by grandchildren, all shivering together in a snowstorm.",
+   "meter": {
+    "value": "5",
+    "label": "SPRING ODDS",
+    "blink": true,
+    "note": "it was a bad decade"
+   }
+  },
+  {
+   "id": "124",
+   "text": "But let's say you made it.",
+   "SCENE": "Red pushing open the door of his hut, bright sunlight pouring in on his face, squinting."
+  },
+  {
+   "id": "125",
+   "text": "The snow melts.",
+   "SCENE": "Snow melting off a thatched roof, water dripping from the eaves, puddles shining."
+  },
+  {
+   "id": "126",
+   "text": "The days get longer.",
+   "SCENE": "A bright sun high over green fields with patches of melting snow, birds flying."
+  },
+  {
+   "id": "127",
+   "text": "The first green shoots come up.",
+   "SCENE": "Close-up of bright green shoots pushing up through the last patch of snow."
+  },
+  {
+   "id": "128",
+   "text": "The cow, somehow, is still alive.",
+   "SCENE": "The brown-and-white cow standing in a fresh spring meadow looking smug, a flower in its mouth, Red beside it amazed.",
+   "meter": {
+    "value": "60",
+    "label": "SPRING ODDS",
+    "note": "you made it!"
+   }
+  },
+  {
+   "id": "129",
+   "text": "You've survived five months of smoke, salt, darkness, frozen beer and a bed shared with six people and a cow.",
+   "SCENE": "Red outside in the spring sun taking a deep breath of fresh air, his family and the cow behind him, a smoky hut in the background."
+  },
+  {
+   "id": "130",
+   "text": "And in about seven months, you get to do it all again.",
+   "SCENE": "Red's happy smile freezing as a single autumn leaf and then a snowflake drift down in front of his face."
+  },
+  {
+   "id": "131",
+   "text": "So, be honest: how many months would you have lasted? November? February? Tell me in the comments.",
+   "SCENE": "Red pointing at the viewer with a playful grin, a big illustrated calendar wheel of the winter months behind him. No letters."
+  },
+  {
+   "id": "132",
+   "text": "And if you want to find out what else you wouldn't survive, you know what to do.",
+   "SCENE": "Red standing in front of three glowing doorways showing ancient Rome, a Viking longship and an Egyptian pyramid."
+  },
+  {
+   "id": "133",
+   "text": "Red needs all the help he can get.",
+   "SCENE": "Red waving goodbye with a big smile, standing in the snow, his red scarf blowing in the wind."
+  }
+ ]
+}

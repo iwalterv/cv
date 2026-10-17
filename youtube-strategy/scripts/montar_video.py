@@ -49,25 +49,29 @@ for i, scene in enumerate(scenes):
 
 def meter_filters():
     """"Survival Meter": barra en la esquina superior derecha. Una escena con "meter" cambia el valor
-    (número de 0 a 100, negativo, "≈50" o "WAGES") y se mantiene hasta el siguiente cambio."""
-    changes = [(starts[i], str(s["meter"])) for i, s in enumerate(scenes) if "meter" in s]
+    (número de 0 a 100, negativo, "≈50" o "WAGES") y se mantiene hasta el siguiente cambio.
+    También puede ser un objeto {"value", "label", "note", "blink"} para cambiar los textos del panel
+    o forzar el parpadeo rojo (por defecto parpadea solo con valores <= 1)."""
+    changes = [(starts[i], s["meter"] if isinstance(s["meter"], dict) else {"value": str(s["meter"])})
+               for i, s in enumerate(scenes) if "meter" in s]
     if not changes:
         return ""
     x0, y0, bw = W - 470, 40, 400            # panel
     bx, by, bh = x0 + 15, y0 + 58, 34        # barra
     f = [f"drawbox=x={x0}:y={y0}:w={bw + 30}:h=150:color=black@0.55:t=fill:enable='gte(t,{changes[0][0]})'"]
     prev = 100.0
-    for k, (a, value) in enumerate(changes):
+    for k, (a, m) in enumerate(changes):
+        value = str(m["value"])
         b = changes[k + 1][0] if k + 1 < len(changes) else total + 1
         on = f"between(t,{a:.2f},{b:.2f})"
         if value == "WAGES":
             label, shown, pct, color, note = "IF YOU SURVIVED", "", 100.0, "0x3FA34D", "wages went UP"
         else:
             num = float(value.lstrip("≈~"))
-            label, color = "YOUR ODDS", "0xD62828"
+            label, color = m.get("label", "YOUR ODDS"), "0xD62828"
             shown = ("~" if value[0] in "≈~" else "") + f"{num:g}%"
             pct = max(num, 0.0)
-            note = "not helping" if num < 0 else "rough odds, for fun"
+            note = m.get("note", "not helping" if num < 0 else "rough odds, for fun")
         font = "fontfile='/System/Library/Fonts/Supplemental/Arial Black.ttf'"
         f += [
             f"drawtext={font}:text='{label}':expansion=none:fontsize=30:fontcolor=white:x={bx}:y={y0 + 14}:enable='{on}'",
@@ -85,7 +89,7 @@ def meter_filters():
             if w > 0:
                 f.append(f"drawbox=x={bx + 4}:y={by + 4}:w={w}:h={bh - 8}:color={color}:t=fill:"
                          f"enable='between(t,{s0:.2f},{s1:.2f})'")
-        if value != "WAGES" and float(value.lstrip("≈~")) <= 1:
+        if m.get("blink", value != "WAGES" and float(value.lstrip("≈~")) <= 1):
             # Valores críticos: el panel parpadea en rojo durante 2 s.
             f.append(f"drawbox=x={x0}:y={y0}:w={bw + 30}:h=150:color=0xD62828@0.45:t=fill:"
                      f"enable='between(t,{a:.2f},{a + 2:.2f})*lt(mod((t-{a:.2f})*4\\,2)\\,1)'")
