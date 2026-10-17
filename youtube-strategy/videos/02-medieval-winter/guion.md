@@ -70,6 +70,12 @@ And in some parts of England, like Dartmoor, people lived in longhouses. One lon
 **[Red durmiendo con una vaca resoplando cerca; un poco de vapor sale de la vaca]**
 Is it smelly? Absolutely. But a cow is basically a big, warm radiator that eats grass. [pause] In January, you stop complaining about the smell.
 
+**[Red poniéndose capa sobre capa hasta quedar redondo como una bola; solo asoma la bufanda roja]**
+As for clothes, the strategy is simple: wear everything you own. A linen shirt, wool tunics on top of each other, wool hose on your legs, a cloak, and a hood if you have one. Women spun the wool themselves, so every layer you're wearing took someone in your family hours to make.
+
+**[Red caminando por la nieve; sus zapatos de cuero empapados; deja huellas mojadas]**
+And your shoes are thin leather. There are no rubber boots. Every time you go outside, your feet get wet. [pause] And there is no dryer. Just the smoky fire, and a lot of patience.
+
 ## 3. La oscuridad
 
 **[Paisaje nevado; el sol se pone y en la esquina aparece "3:53 PM"]**
@@ -132,6 +138,12 @@ And the winter of 1205 is the one I promised you. A frost that started in mid-Ja
 
 **[Red golpeando un bloque de cerveza helada con un martillo]**
 You haven't truly lived until you've had to chew your beer.
+
+**[Barcazas atrapadas en el hielo; carros llevando mercancías por tierra hacia Londres]**
+In the winter of 1434, the Thames froze from London Bridge all the way down to Gravesend, from Christmas Day to the 10th of February. Ships couldn't get through, so goods had to be hauled into London overland. [pause] Which, in medieval roads covered in snow, is about as fun as it sounds.
+
+**[Miniatura de febrero de Les Très Riches Heures: campesinos calentándose junto al fuego, nieve, un redil con ovejas]**
+And if you want to see what February looked like back then, there's a famous painting. In a French prayer book made for a duke around 1412 to 1416, *Les Très Riches Heures*, the page for February shows a snowy farm. Sheep huddled in their pen. A man hauling firewood. And peasants inside, sitting as close to the fire as humanly possible, trying to thaw out. [pause] Six hundred years later, it's still the most relatable painting of winter ever made.
 
 **[Red mirando sus semillas en un saco: si no se puede arar, no hay cosecha]**
 And here's the real danger. When the ground freezes for months, you can't plough or sow. And a late spring means a late, small harvest. Which means next winter, [pause] you start with even less.
@@ -203,6 +215,9 @@ And if you want to find out what else you wouldn't survive, you know what to do.
 | 12 | 1410: helada de 14 semanas; el Támesis se cruzaba a pie y a caballo | *Chronicles of the Grey Friars of London*, en W. Andrews, [*Famous Frosts and Frost Fairs in Great Britain* (1887)](https://www.gutenberg.org/files/55375/55375-h/55375-h.htm) | ✅ |
 | 13 | 1281-82: el hielo rompió arcos del Puente de Londres; se cruzaba el Támesis "dryshod" | Stow, *Annales* (ed. Howes, 1631), en Andrews 1887 | ✅ |
 | 14 | 1205: helada del 14 de enero al 20 de marzo; no se podía arar; cerveza y vino congelados "sold by weight" | Stow, *Chronicle*; Thomas Short (s. XVIII), en Andrews 1887 | ⚠️ el detalle del vino viene de Short (compilación tardía): el guion dice "according to an old account of great English frosts" |
+| 14b | 1434-35: el Támesis congelado desde el Puente de Londres hasta Gravesend, del 25 de diciembre al 10 de febrero; las mercancías llegaban a Londres por tierra | Stow, en Andrews 1887 | ✅ |
+| 14c | *Les Très Riches Heures du Duc de Berry* (hermanos Limbourg, ~1412-1416), febrero: granja nevada, redil con ovejas, leña, campesinos calentándose junto al fuego | [Public Domain Review](https://publicdomainreview.org/collection/labors-of-the-months-from-the-tres-riches-heures/); [Moleiro, f. 2v](https://www.moleiro.com/en/books-of-hours/the-trs-riches-heures-du-duc-de-berry/miniatura/tralari) | ✅ (la imagen es de dominio público y se puede mostrar recreada con Red, no el original) |
+| 14d | Ropa: camisa de lino, túnicas de lana superpuestas, calzas de lana, capa; la lana la hilaban las mujeres de la familia | [World History Encyclopedia: Clothes in Medieval England](https://www.worldhistory.org/article/1248/clothes-in-medieval-england/); calendario carolingio (hilar y tejer en invierno, [Carlin, UWM](https://sites.uwm.edu/carlin/hist-203-lecture-outline-fall-2023-week-14/)) | ✅ |
 | 15 | "Hungry gap" a fines del invierno y en primavera; Cuaresma; arenque y bacalao salados | [Weald & Downland Living Museum](https://www.wealddown.co.uk/museum-news/the-hunger-gap/); [Univ. de Nottingham, blog medieval](https://blogs.nottingham.ac.uk/medieval/?p=891) | ✅ ("historians sometimes call it") |
 | 16 | Gran Hambruna 1315-1317: lluvias y frío; región de ~30 millones de personas, de Irlanda a Polonia; después, la peste bovina con pérdidas de hasta el 80 % en algunos lugares | W. C. Jordan, *The Great Famine* (Princeton, 1996); [Wikipedia: Great Famine of 1315–1317](https://en.wikipedia.org/wiki/Great_Famine_of_1315%E2%80%931317); [Medievalists.net](https://www.medievalists.net/?p=79134) | ✅ ("in some places, killed most of the herds") |
 | 17 | Pequeña Edad de Hielo: el comienzo se discute (de 1250 a 1650; ~1300 es una de las fechas) | [Wikipedia: Little Ice Age](https://en.wikipedia.org/wiki/Little_Ice_Age); [Harvard Magazine (2016)](https://www.harvardmagazine.com/2016/02/science-of-history) | ✅ ("exactly when it began is still debated") |
