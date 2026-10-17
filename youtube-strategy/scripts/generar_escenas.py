@@ -21,7 +21,8 @@ out_dir.mkdir(exist_ok=True)
 def build_prompt(scene):
     prompt = config["base"]
     for key, value in scene.items():
-        prompt = prompt.replace("{" + key + "}", value)
+        if isinstance(value, str):
+            prompt = prompt.replace("{" + key + "}", value)
     return prompt
 
 

@@ -5,3 +5,4 @@ videos/**/*.mp4
 
 # Música de la YouTube Audio Library: se vuelve a descargar desde Studio (ver musica/README.md).
 musica/*.mp3
+videos/**/toma*.mp3

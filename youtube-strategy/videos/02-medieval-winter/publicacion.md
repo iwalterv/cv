@@ -1,0 +1,55 @@
+# Video #2: textos para publicar
+
+**Estado:** en producción (17-oct-2026). Publicación prevista: última semana de octubre, con autorización del usuario.
+
+## Título (Test & Compare de títulos)
+- A) Why You Wouldn't Survive a Medieval Winter
+- B) How Did Medieval People Survive Winter?
+
+## Miniaturas (Test & Compare)
+Pendientes (ver `guion.md`): "-20°?" (frío + puerta tapada de nieve + ojos de lobo), "THE COW?" (cama apretada + vaca) y "NOVEMBER?" (Red, el cerdo y el hacha).
+
+## Descripción
+```
+No chimney. A straw bed shared with your whole family. And a cow on the other side of the room, because that's your heating. Here's what a medieval winter was really like, month by month, from the "blood month" of November to the hungry gap of March, and whether you'd make it to spring.
+
+How many months would you have lasted? Tell me in the comments.
+
+0:00 Hook
+0:33 November: blood month
+1:16 Your house (and your cow)
+2:41 The darkness
+3:31 Bed
+4:11 December: finally, a party
+5:01 The great frosts
+6:51 March: the hungry gap
+7:20 The worst case
+8:08 Spring
+
+Sources:
+- Bede, The Reckoning of Time (De temporum ratione), trans. Faith Wallis (2004)
+- Dartmoor National Park Authority, Higher Uppacott longhouse
+- A. Roger Ekirch, At Day's Close: Night in Times Past (2005)
+- Victoria and Albert Museum; Cumbria County History Trust: rushlights and candles
+- Etymonline and Merriam-Webster: "curfew"
+- Frances and Joseph Gies, Life in a Medieval Village (1990)
+- William Andrews, Famous Frosts and Frost Fairs in Great Britain (1887), citing the Chronicles of the Grey Friars of London and John Stow's Annales
+- Les Très Riches Heures du Duc de Berry (Limbourg brothers, c. 1412-1416), February
+- William Chester Jordan, The Great Famine: Northern Europe in the Early Fourteenth Century (1996)
+- Weald & Downland Living Museum, "The hunger gap"
+
+Illustrations and narration created with AI tools; script written and fact-checked by Time Peasant.
+
+#history #middleages #medieval
+```
+
+## Etiquetas
+medieval winter, how did medieval people survive winter, middle ages, medieval history, medieval peasant, why you wouldn't survive, little ice age, great famine, history explained, animated history, winter survival, time peasant
+
+## Comentario fijado
+```
+November, February or March: which month would have finished YOU off? 👇
+```
+
+## Configuración al subir
+Igual que el piloto: no es para niños, sin promoción pagada, contenido alterado o sintético "No", subtítulos `subtitulos.srt` (inglés), Education, English (United States). Pantalla final: suscribirse + el piloto (Black Death).

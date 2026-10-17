@@ -1,0 +1,706 @@
+{
+ "audio": "voz.mp3",
+ "tail": 1.5,
+ "scenes": [
+  {
+   "id": "001",
+   "start": 0.0,
+   "text": "Your house has no chimney."
+  },
+  {
+   "id": "002",
+   "start": 1.76,
+   "text": "Your bed is made of straw, and you're sharing it with your entire family."
+  },
+  {
+   "id": "003",
+   "start": 6.43,
+   "text": "And just on the other side of the room, there's a cow."
+  },
+  {
+   "id": "004",
+   "start": 9.91,
+   "text": "That's not a punishment."
+  },
+  {
+   "id": "005",
+   "start": 11.76,
+   "text": "That's your heating system."
+  },
+  {
+   "id": "006",
+   "start": 13.98,
+   "text": "Welcome to winter, in medieval England.",
+   "meter": {
+    "value": "100",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "007",
+   "start": 16.61,
+   "text": "You have five months to survive."
+  },
+  {
+   "id": "008",
+   "start": 18.5,
+   "text": "And see that meter in the corner? Those are your odds of making it to spring."
+  },
+  {
+   "id": "009",
+   "start": 23.05,
+   "text": "They're about to have a very bad November."
+  },
+  {
+   "id": "010",
+   "start": 26.05,
+   "text": "And stick around, because in one of these winters, it got so cold that people were buying their wine by the pound."
+  },
+  {
+   "id": "011",
+   "start": 33.44,
+   "text": "Let's start with November."
+  },
+  {
+   "id": "012",
+   "start": 35.25,
+   "text": "The old English name for this month was Blotmonath."
+  },
+  {
+   "id": "013",
+   "start": 38.99,
+   "text": "Blood month."
+  },
+  {
+   "id": "014",
+   "start": 40.21,
+   "text": "And the name is honest."
+  },
+  {
+   "id": "015",
+   "start": 41.58,
+   "text": "Around now, families slaughtered a lot of their animals."
+  },
+  {
+   "id": "016",
+   "start": 45.54,
+   "text": "Not out of cruelty. Out of math."
+  },
+  {
+   "id": "017",
+   "start": 47.74,
+   "text": "Grass stops growing in winter. Hay is limited."
+  },
+  {
+   "id": "018",
+   "start": 50.93,
+   "text": "You can't feed every animal until spring, so you keep the ones you need, the breeding stock and the ones that pull the plough, and the rest become dinner."
+  },
+  {
+   "id": "019",
+   "start": 59.66,
+   "text": "And because there's no fridge, the meat gets salted, smoked or dried."
+  },
+  {
+   "id": "020",
+   "start": 64.18,
+   "text": "A family pig, killed around Saint Martin's Day, on the 11th of November,"
+  },
+  {
+   "id": "021",
+   "start": 68.59,
+   "text": "could be the difference between eating meat this winter and not."
+  },
+  {
+   "id": "022",
+   "start": 73.12,
+   "text": "Very, very salty meat. For months.",
+   "meter": {
+    "value": "85",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "023",
+   "start": 76.46,
+   "text": "Now, let's look at your house."
+  },
+  {
+   "id": "024",
+   "start": 78.34,
+   "text": "One main room."
+  },
+  {
+   "id": "025",
+   "start": 79.54,
+   "text": "Walls of wattle and daub, which is woven sticks covered in mud and dung."
+  },
+  {
+   "id": "026",
+   "start": 84.3,
+   "text": "A thatched roof."
+  },
+  {
+   "id": "027",
+   "start": 85.5,
+   "text": "And in the middle of the floor, an open fire."
+  },
+  {
+   "id": "028",
+   "start": 88.23,
+   "text": "No chimney."
+  },
+  {
+   "id": "029",
+   "start": 89.43,
+   "text": "Chimneys and fireplaces were spreading in richer homes, but in a lot of ordinary houses the smoke just drifted up into the roof and found its own way out."
+  },
+  {
+   "id": "030",
+   "start": 98.41,
+   "text": "Eventually."
+  },
+  {
+   "id": "031",
+   "start": 99.84,
+   "text": "So you're always either too smoky or too cold. Usually both."
+  },
+  {
+   "id": "032",
+   "start": 104.3,
+   "text": "Your face is roasting and your back is freezing."
+  },
+  {
+   "id": "033",
+   "start": 107.31,
+   "text": "And in some parts of England, like Dartmoor, people lived in longhouses."
+  },
+  {
+   "id": "034",
+   "start": 111.7,
+   "text": "One long building, with the family at one end, a passage in the middle, and the cattle at the other end, under the same roof, especially in the coldest months."
+  },
+  {
+   "id": "035",
+   "start": 121.32,
+   "text": "Is it smelly? Absolutely."
+  },
+  {
+   "id": "036",
+   "start": 123.04,
+   "text": "But a cow is basically a big, warm radiator that eats grass."
+  },
+  {
+   "id": "037",
+   "start": 128.21,
+   "text": "In January, you stop complaining about the smell."
+  },
+  {
+   "id": "038",
+   "start": 131.19,
+   "text": "As for clothes, the strategy is simple: wear everything you own."
+  },
+  {
+   "id": "039",
+   "start": 135.7,
+   "text": "A linen shirt, wool tunics on top of each other, wool hose on your legs, a cloak, and a hood if you have one."
+  },
+  {
+   "id": "040",
+   "start": 142.61,
+   "text": "Women spun the wool themselves, so every layer you're wearing took someone in your family hours to make."
+  },
+  {
+   "id": "041",
+   "start": 148.8,
+   "text": "And your shoes are thin leather."
+  },
+  {
+   "id": "042",
+   "start": 150.72,
+   "text": "There are no rubber boots. Every time you go outside, your feet get wet."
+  },
+  {
+   "id": "043",
+   "start": 155.28,
+   "text": "And there is no dryer. Just the smoky fire, and a lot of patience."
+  },
+  {
+   "id": "044",
+   "start": 161.49,
+   "text": "Here's something we forget."
+  },
+  {
+   "id": "045",
+   "start": 163.06,
+   "text": "In the middle of an English winter, the sun sets before four in the afternoon."
+  },
+  {
+   "id": "046",
+   "start": 168.17,
+   "text": "And then it's dark. Really dark."
+  },
+  {
+   "id": "047",
+   "start": 170.88,
+   "text": "No electricity, obviously."
+  },
+  {
+   "id": "048",
+   "start": 172.91,
+   "text": "Good candles were made of beeswax, and those were for churches and rich people."
+  },
+  {
+   "id": "049",
+   "start": 178.0,
+   "text": "Beeswax could cost about three times as much as tallow, which is candles made from animal fat."
+  },
+  {
+   "id": "050",
+   "start": 183.76,
+   "text": "And a lot of poor families couldn't even afford that."
+  },
+  {
+   "id": "051",
+   "start": 187.17,
+   "text": "They used rushlights: dried rushes dipped in fat, burning for a few minutes each."
+  },
+  {
+   "id": "052",
+   "start": 193.21,
+   "text": "Your whole evening, lit by a greasy plant."
+  },
+  {
+   "id": "053",
+   "start": 196.72,
+   "text": "And then a bell rings,"
+  },
+  {
+   "id": "054",
+   "start": 198.4,
+   "text": "and it's time to cover the fire, to keep it from burning down the house, and the whole village with it."
+  },
+  {
+   "id": "055",
+   "start": 204.16,
+   "text": "That bell had a name in Old French: cuevrefeu."
+  },
+  {
+   "id": "056",
+   "start": 207.63,
+   "text": "\"Cover fire\". Which is where we get the word \"curfew\".",
+   "meter": {
+    "value": "70",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "057",
+   "start": 211.6,
+   "text": "So, bedtime."
+  },
+  {
+   "id": "058",
+   "start": 213.11,
+   "text": "Your mattress is a sack of straw, on the floor or up in a loft."
+  },
+  {
+   "id": "059",
+   "start": 217.68,
+   "text": "And you're not alone in it."
+  },
+  {
+   "id": "060",
+   "start": 219.44,
+   "text": "Families slept together, huddled up, because body heat is free."
+  },
+  {
+   "id": "061",
+   "start": 223.68,
+   "text": "And here's where it gets interesting."
+  },
+  {
+   "id": "062",
+   "start": 225.52,
+   "text": "According to historian Roger Ekirch, for centuries, Europeans often didn't sleep in one long block."
+  },
+  {
+   "id": "063",
+   "start": 232.32,
+   "text": "They had a \"first sleep\", then woke up in the middle of the night for an hour or so, and then went back for a \"second sleep\"."
+  },
+  {
+   "id": "064",
+   "start": 239.44,
+   "text": "In that gap, people prayed, did small chores, talked, visited neighbors,"
+  },
+  {
+   "id": "065",
+   "start": 244.62,
+   "text": "and, well, made more peasants."
+  },
+  {
+   "id": "066",
+   "start": 247.28,
+   "text": "With fourteen hours of darkness, you'd probably wake up in the middle too."
+  },
+  {
+   "id": "067",
+   "start": 251.52,
+   "text": "Then comes December, and the best news of the whole winter: Christmas."
+  },
+  {
+   "id": "068",
+   "start": 256.0,
+   "text": "And for you, Christmas is a big deal, because it's one of the few times in the year when the work actually stops."
+  },
+  {
+   "id": "069",
+   "start": 263.12,
+   "text": "On a lot of manors, tenants owed the lord some rent at Christmas, often paid in food."
+  },
+  {
+   "id": "070",
+   "start": 268.99,
+   "text": "Hens, bread, ale."
+  },
+  {
+   "id": "071",
+   "start": 270.88,
+   "text": "So you walk up to the big house, holding your chickens."
+  },
+  {
+   "id": "072",
+   "start": 274.4,
+   "text": "And on some manors, there was a feast for the tenants."
+  },
+  {
+   "id": "073",
+   "start": 277.34,
+   "text": "But the tradition, according to some accounts, was that you brought your own plate. And your own firewood."
+  },
+  {
+   "id": "074",
+   "start": 283.52,
+   "text": "Still, it's meat, it's warm, and nobody is making you work."
+  },
+  {
+   "id": "075",
+   "start": 287.92,
+   "text": "Twelve days of Christmas, right through to Twelfth Night."
+  },
+  {
+   "id": "076",
+   "start": 291.27,
+   "text": "And then, on the first Monday after, the party's over."
+  },
+  {
+   "id": "077",
+   "start": 294.8,
+   "text": "In parts of England this was called Plough Monday."
+  },
+  {
+   "id": "078",
+   "start": 297.68,
+   "text": "Which tells you exactly what you're doing that day.",
+   "meter": {
+    "value": "75",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "079",
+   "start": 301.28,
+   "text": "Now we get to the hard part."
+  },
+  {
+   "id": "080",
+   "start": 303.1,
+   "text": "Some medieval winters were brutal."
+  },
+  {
+   "id": "081",
+   "start": 305.66,
+   "text": "In 1410, according to a London chronicle, a frost lasted fourteen weeks"
+  },
+  {
+   "id": "082",
+   "start": 311.2,
+   "text": "and the Thames froze so solid that people could walk, and even ride horses, across it."
+  },
+  {
+   "id": "083",
+   "start": 316.69,
+   "text": "In the winter of 1281 to 1282, when the ice finally broke, it smashed arches of London Bridge."
+  },
+  {
+   "id": "084",
+   "start": 324.14,
+   "text": "People had been crossing the river on foot."
+  },
+  {
+   "id": "085",
+   "start": 326.71,
+   "text": "Dry-shod."
+  },
+  {
+   "id": "086",
+   "start": 329.11,
+   "text": "And the winter of 1205 is the one I promised you."
+  },
+  {
+   "id": "087",
+   "start": 332.68,
+   "text": "A frost that started in mid-January and lasted until late March."
+  },
+  {
+   "id": "088",
+   "start": 337.36,
+   "text": "No one could work the ground."
+  },
+  {
+   "id": "089",
+   "start": 339.18,
+   "text": "And, according to an old account of great English frosts, ale and wine froze so hard that they were sold by weight."
+  },
+  {
+   "id": "090",
+   "start": 348.11,
+   "text": "You haven't truly lived until you've had to chew your beer."
+  },
+  {
+   "id": "091",
+   "start": 351.6,
+   "text": "In the winter of 1434, the Thames froze from London Bridge all the way down to Gravesend, from Christmas Day to the 10th of February."
+  },
+  {
+   "id": "092",
+   "start": 360.6,
+   "text": "Ships couldn't get through, so goods had to be hauled into London overland."
+  },
+  {
+   "id": "093",
+   "start": 365.41,
+   "text": "Which, in medieval roads covered in snow, is about as fun as it sounds."
+  },
+  {
+   "id": "094",
+   "start": 370.4,
+   "text": "And if you want to see what February looked like back then, there's a famous painting."
+  },
+  {
+   "id": "095",
+   "start": 374.72,
+   "text": "In a French prayer book made for a duke around 1412 to 1416, Les Très Riches Heures,"
+  },
+  {
+   "id": "096",
+   "start": 380.96,
+   "text": "the page for February shows a snowy farm. Sheep huddled in their pen. A man hauling firewood."
+  },
+  {
+   "id": "097",
+   "start": 387.4,
+   "text": "And peasants inside, sitting as close to the fire as humanly possible, trying to thaw out."
+  },
+  {
+   "id": "098",
+   "start": 393.12,
+   "text": "Six hundred years later, it's still the most relatable painting of winter ever made."
+  },
+  {
+   "id": "099",
+   "start": 398.8,
+   "text": "And here's the real danger."
+  },
+  {
+   "id": "100",
+   "start": 400.42,
+   "text": "When the ground freezes for months, you can't plough or sow."
+  },
+  {
+   "id": "101",
+   "start": 404.2,
+   "text": "And a late spring means a late, small harvest."
+  },
+  {
+   "id": "102",
+   "start": 407.24,
+   "text": "Which means next winter, you start with even less.",
+   "meter": {
+    "value": "40",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "103",
+   "start": 411.6,
+   "text": "If you make it to March, congratulations."
+  },
+  {
+   "id": "104",
+   "start": 414.32,
+   "text": "You've reached the most dangerous part."
+  },
+  {
+   "id": "105",
+   "start": 416.7,
+   "text": "Historians sometimes call it the hungry gap."
+  },
+  {
+   "id": "106",
+   "start": 419.47,
+   "text": "Your salted meat is running out."
+  },
+  {
+   "id": "107",
+   "start": 421.4,
+   "text": "The grain is running low."
+  },
+  {
+   "id": "108",
+   "start": 423.12,
+   "text": "And the new crops won't be ready for months."
+  },
+  {
+   "id": "109",
+   "start": 425.88,
+   "text": "The first wild greens are only just starting to show up."
+  },
+  {
+   "id": "110",
+   "start": 429.34,
+   "text": "And the Church timing doesn't help: this is also Lent, forty days of fasting with no meat."
+  },
+  {
+   "id": "111",
+   "start": 435.22,
+   "text": "So your diet becomes salted herring. And hope.",
+   "meter": {
+    "value": "25",
+    "label": "SPRING ODDS"
+   }
+  },
+  {
+   "id": "112",
+   "start": 440.01,
+   "text": "And sometimes, it's not one bad winter."
+  },
+  {
+   "id": "113",
+   "start": 442.74,
+   "text": "It's a string of bad years."
+  },
+  {
+   "id": "114",
+   "start": 444.8,
+   "text": "Starting in 1315, it rained, and rained, and stayed cold, across Northern Europe."
+  },
+  {
+   "id": "115",
+   "start": 451.2,
+   "text": "Crops rotted in the fields, year after year."
+  },
+  {
+   "id": "116",
+   "start": 454.22,
+   "text": "It became known as the Great Famine."
+  },
+  {
+   "id": "117",
+   "start": 456.91,
+   "text": "It hit a region of around thirty million people, from Ireland to Poland,"
+  },
+  {
+   "id": "118",
+   "start": 461.13,
+   "text": "and the crops kept failing until the harvest of 1317."
+  },
+  {
+   "id": "119",
+   "start": 465.2,
+   "text": "And right after it came a cattle plague that, in some places, killed most of the herds."
+  },
+  {
+   "id": "120",
+   "start": 470.72,
+   "text": "The cows that kept you warm, and alive."
+  },
+  {
+   "id": "121",
+   "start": 473.94,
+   "text": "Some historians see this as the start of a colder era in Europe, often called the Little Ice Age."
+  },
+  {
+   "id": "122",
+   "start": 480.64,
+   "text": "Exactly when it began is still debated,"
+  },
+  {
+   "id": "123",
+   "start": 483.09,
+   "text": "but your grandchildren's winters weren't getting any easier.",
+   "meter": {
+    "value": "5",
+    "label": "SPRING ODDS",
+    "blink": true,
+    "note": "it was a bad decade"
+   }
+  },
+  {
+   "id": "124",
+   "start": 488.0,
+   "text": "But let's say you made it."
+  },
+  {
+   "id": "125",
+   "start": 489.69,
+   "text": "The snow melts."
+  },
+  {
+   "id": "126",
+   "start": 490.89,
+   "text": "The days get longer."
+  },
+  {
+   "id": "127",
+   "start": 492.22,
+   "text": "The first green shoots come up."
+  },
+  {
+   "id": "128",
+   "start": 494.32,
+   "text": "The cow, somehow, is still alive.",
+   "meter": {
+    "value": "60",
+    "label": "SPRING ODDS",
+    "note": "you made it!"
+   }
+  },
+  {
+   "id": "129",
+   "start": 497.12,
+   "text": "You've survived five months of smoke, salt, darkness, frozen beer and a bed shared with six people and a cow."
+  },
+  {
+   "id": "130",
+   "start": 505.44,
+   "text": "And in about seven months, you get to do it all again."
+  },
+  {
+   "id": "131",
+   "start": 510.08,
+   "text": "So, be honest: how many months would you have lasted? November? February? Tell me in the comments."
+  },
+  {
+   "id": "132",
+   "start": 516.72,
+   "text": "And if you want to find out what else you wouldn't survive, you know what to do."
+  },
+  {
+   "id": "133",
+   "start": 521.53,
+   "text": "Red needs all the help he can get."
+  }
+ ]
+}
