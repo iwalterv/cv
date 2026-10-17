@@ -1,0 +1,31 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "nano_banana_pro",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "YouTube thumbnail. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). 2D cartoon, clean bold black outlines, flat colors. {SCENE} Extreme readable emotion, high contrast, few elements, readable at small size. No text, no letters, no watermark. 16:9.",
+ "scenes": [
+  {
+   "id": "A-frozen",
+   "text": "-20°?",
+   "SCENE": "Red as a medieval peasant in a brown wool hood, in the lower right, frozen stiff and shivering violently, frost and icicles on his red scarf and hood, teeth chattering, blue lips. Behind him the wooden door of his hut is half buried in a snowdrift, and in the dark snowy forest beyond, several pairs of glowing yellow wolf eyes stare at him. Deep night blue and icy white, with the warm orange glow of a tiny fire. Red very large in frame. Leave the top 30 percent of the image as plain dark background with nothing in it, for a title.",
+   "zoom": 1.15
+  },
+  {
+   "id": "B-cow",
+   "text": "THE COW?",
+   "SCENE": "Red as a medieval peasant squeezed in a straw bed between four sleeping family members under one blanket, wide awake, eyes huge, while a big brown-and-white cow pokes its head over the bed right next to his face, chewing hay and staring at him. Dark smoky hut, warm orange firelight against cold blue shadows. Red and the cow very large in frame in the lower two thirds. Leave the top 30 percent of the image as plain dark background with nothing in it, for a title.",
+   "zoom": 1.1
+  },
+  {
+   "id": "C-pig",
+   "text": "NOVEMBER?",
+   "SCENE": "Red as a medieval peasant in a brown wool hood standing nose to nose with his fat pink pig in the falling snow, both staring into each other's eyes in shock, Red hiding a small axe behind his back with a guilty sweaty face. Snowy grey village yard at dusk, cold blue tones. Red and the pig very large in frame in the lower two thirds, cartoonish, no blood. Leave the top 30 percent of the image as plain dark background with nothing in it, for a title.",
+   "zoom": 1.1
+  }
+ ]
+}
