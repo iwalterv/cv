@@ -1,6 +1,6 @@
 # Piloto #1: textos para publicar
 
-**Estado:** programado el 16-oct-2026 para el martes 20-oct-2026, 2:00 p. m. ET → https://youtu.be/p6_vH7gbbng
+**Estado:** programado el 16-oct-2026 para el sábado 17-oct-2026, 12:00 p. m. ET (10:00 Guatemala) → https://youtu.be/p6_vH7gbbng
 
 ## Título
 Why You Wouldn't Survive the Black Death
