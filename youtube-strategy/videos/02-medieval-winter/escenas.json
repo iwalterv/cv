@@ -7,7 +7,7 @@
   "--resolution",
   "2k"
  ],
- "base": "Use the attached character sheet as the exact design reference for the main character \"Red\" (round white head, large expressive eyes, thin black stick body and limbs, bright red scarf). 2D hand-drawn cartoon illustration, warm comic style, clean bold black outlines, flat colors with soft shading. {SCENE} Single clear idea, main subject large in frame. Unless stated otherwise, Red is a poor medieval English peasant in a brown wool tunic and hood, always with his bright red scarf, and the setting is medieval England in winter, with a palette of cold snowy blues and warm orange firelight. Historically plausible 13th-15th century details; all people drawn in the same simple round-headed stick-figure cartoon style. No text, no letters, no watermark, no border, full-bleed. 16:9.",
+ "base": "Use the attached character sheet as the exact design reference for the main character \"Red\" (round white head, large expressive eyes, thin black stick body and limbs, bright red scarf). 2D hand-drawn cartoon illustration, warm comic style, clean bold black outlines, flat colors with soft shading. {SCENE} Single clear idea, main subject large in frame. Unless stated otherwise, Red is a poor medieval English peasant in a brown wool tunic and hood, always with his bright red scarf, and the setting is medieval England in winter, with a palette of cold snowy blues and warm orange firelight. Peasant huts have a single open fire on a stone ring in the middle of the dirt floor, with no fireplace and no chimney. Historically plausible 13th-15th century details; all people drawn in the same simple round-headed stick-figure cartoon style. No text, no letters, no watermark, no border, full-bleed. 16:9.",
  "scenes": [
   {
    "id": "001",
@@ -27,12 +27,12 @@
   {
    "id": "004",
    "text": "That's not a punishment.",
-   "SCENE": "Close-up of the brown-and-white family cow chewing calmly and looking straight at the viewer, inside a dim hut, warm firelight on its face."
+   "SCENE": "Close-up of the brown-and-white family cow chewing calmly and looking straight at the viewer, inside a dim hut lit by an open fire on the floor, warm firelight on its face. No fireplace, no other people."
   },
   {
    "id": "005",
    "text": "That's your heating system.",
-   "SCENE": "Red happily snuggled up against the side of the brown-and-white cow, warm steam rising from the cow, little wavy heat lines, frost on the walls behind."
+   "SCENE": "Inside a dim hut, Red happily snuggled up against the side of the brown-and-white cow lying in the straw, warm steam rising from the cow, little wavy heat lines, frost on the walls behind. No fireplace."
   },
   {
    "id": "006",
@@ -66,7 +66,7 @@
   {
    "id": "011",
    "text": "Let's start with November.",
-   "SCENE": "Red standing next to a giant illustrated medieval calendar wheel showing the twelve months as little farm scenes, his finger on the cold, grey autumn one. No letters."
+   "SCENE": "Red standing next to a big round painted wooden board divided into four pie slices showing the seasons as tiny pictures: green spring field, golden harvest, a pig in brown autumn, white snow. His finger points at the brown autumn slice. Plain wooden rim with no inscriptions. Pictures only, absolutely no letters, words or numbers anywhere."
   },
   {
    "id": "012",
@@ -76,7 +76,7 @@
   {
    "id": "013",
    "text": "Blood month.",
-   "SCENE": "The page of an old illuminated calendar slowly turning deep red, Red standing beside it gulping nervously. No letters."
+   "SCENE": "A medieval illuminated parchment page with a small painted picture of a pig and a farmer, the whole page glowing deep red, Red standing beside it gulping nervously. Pictures only, absolutely no letters, words, numbers or grid."
   },
   {
    "id": "014",
@@ -106,7 +106,7 @@
   {
    "id": "019",
    "text": "And because there's no fridge, the meat gets salted, smoked or dried.",
-   "SCENE": "Red throwing handfuls of coarse salt into a wooden barrel full of chunks of meat, hams and sausages hanging from the smoky rafters above him."
+   "SCENE": "Red (white round head, red scarf) throwing handfuls of coarse salt into a wooden barrel full of chunks of meat, hams and sausages hanging from the smoky rafters above him."
   },
   {
    "id": "020",
@@ -175,7 +175,7 @@
   {
    "id": "032",
    "text": "Your face is roasting and your back is freezing.",
-   "SCENE": "Red's family sitting on stools around the central fire, faces glowing red and sweaty, while their backs are covered in frost and little icicles."
+   "SCENE": "Red's family sitting on stools around the central fire, faces lit warm orange with rosy cheeks and little sweat drops, normal skin color, while their backs are covered in frost and little icicles."
   },
   {
    "id": "033",
@@ -314,7 +314,7 @@
   {
    "id": "059",
    "text": "And you're not alone in it.",
-   "SCENE": "Red lying on the straw sack with a peaceful smile while siblings start climbing in on both sides."
+   "SCENE": "Red lying on a lumpy straw sack on the floor with a peaceful smile while two small siblings climb in on both sides. The straw sack is plain, no faces or eyes on it."
   },
   {
    "id": "060",
@@ -616,7 +616,7 @@
   {
    "id": "117",
    "text": "It hit a region of around thirty million people, from Ireland to Poland,",
-   "SCENE": "An old parchment-style map of northern Europe from Ireland to Poland slowly darkening with grey rain clouds. No labels, no text."
+   "SCENE": "An old parchment-style map of northern Europe from Ireland to Poland slowly darkening with grey rain clouds, only coastlines and little painted villages. Absolutely no labels, letters, words or names anywhere."
   },
   {
    "id": "118",
@@ -697,7 +697,7 @@
   {
    "id": "131",
    "text": "So, be honest: how many months would you have lasted? November? February? Tell me in the comments.",
-   "SCENE": "Red pointing at the viewer with a playful grin, a big illustrated calendar wheel of the winter months behind him. No letters."
+   "SCENE": "Red pointing at the viewer with a playful grin, a round painted wheel behind him with five little picture slices: a pig, a candle, a holly branch, a snowflake and a herring. Pictures only, absolutely no letters, words or numbers anywhere."
   },
   {
    "id": "132",

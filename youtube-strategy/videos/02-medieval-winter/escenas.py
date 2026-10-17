@@ -20,23 +20,23 @@ S = [
     ("Your house has no chimney.", "Red coughing inside a small one-room medieval hut filled with grey smoke from an open fire burning in the middle of the dirt floor, no chimney, smoke curling under the thatch. Orange firelight, cold blue shadows."),
     ("Your bed is made of straw, and you're sharing it with your entire family.", "Red squeezed in the middle of a straw mattress on the floor between his mother, father, grandmother and three small siblings, all under one rough wool blanket, dim firelight."),
     ("And just on the other side of the room, there's a cow.", "Red lying in the crowded family straw bed, slowly turning his head to see a big brown-and-white cow standing a few steps away inside the same room, staring back at him."),
-    ("That's not a punishment.", "Close-up of the brown-and-white family cow chewing calmly and looking straight at the viewer, inside a dim hut, warm firelight on its face."),
-    ("That's your heating system.", "Red happily snuggled up against the side of the brown-and-white cow, warm steam rising from the cow, little wavy heat lines, frost on the walls behind."),
+    ("That's not a punishment.", "Close-up of the brown-and-white family cow chewing calmly and looking straight at the viewer, inside a dim hut lit by an open fire on the floor, warm firelight on its face. No fireplace, no other people."),
+    ("That's your heating system.", "Inside a dim hut, Red happily snuggled up against the side of the brown-and-white cow lying in the straw, warm steam rising from the cow, little wavy heat lines, frost on the walls behind. No fireplace."),
     ("Welcome to winter, in medieval England.", "Wide establishing shot of a small medieval English village buried in deep snow at dusk: thatched cottages with snow on their roofs, a little stone church, bare trees, smoke rising through the thatch, Red small in the foreground. Cold blues and warm orange windows.", M("100")),
     ("You have five months to survive.", "Red standing in the open doorway of his hut staring out at endless snow, five tally marks scratched into the wooden door frame beside him, worried face."),
     ("And see that meter in the corner? Those are your odds of making it to spring.", "Red in snow pointing up toward the top-right corner of the frame with a curious face, leaving the top-right corner empty."),
     ("They're about to have a very bad November.", "Red shivering in the snow with a forced, nervous grin, giving a shaky thumbs up, icicles hanging from his nose."),
     ("And stick around, because in one of these winters, it got so cold that people were buying their wine by the pound.", "A medieval market stall in snow: a merchant placing a solid block of frozen red wine, shaped like the jug it came from, on a big balance scale, Red staring at it in disbelief."),
     # 1. Noviembre
-    ("Let's start with November.", "Red standing next to a giant illustrated medieval calendar wheel showing the twelve months as little farm scenes, his finger on the cold, grey autumn one. No letters."),
+    ("Let's start with November.", "Red standing next to a big round painted wooden board divided into four pie slices showing the seasons as tiny pictures: green spring field, golden harvest, a pig in brown autumn, white snow. His finger points at the brown autumn slice. Plain wooden rim with no inscriptions. Pictures only, absolutely no letters, words or numbers anywhere."),
     ("The old English name for this month was Blotmonath.", "An Anglo-Saxon monk with a tonsure writing in a large old book with a quill by candlelight in a cold stone cell, frost on the small window."),
-    ("Blood month.", "The page of an old illuminated calendar slowly turning deep red, Red standing beside it gulping nervously. No letters."),
+    ("Blood month.", "A medieval illuminated parchment page with a small painted picture of a pig and a farmer, the whole page glowing deep red, Red standing beside it gulping nervously. Pictures only, absolutely no letters, words, numbers or grid."),
     ("And the name is honest.", "Red standing face to face with his fat pink pig in a muddy yard, the pig looking up at him trustingly, Red hiding a butcher's knife behind his back with a guilty face. Cartoonish, no blood."),
     ("Around now, families slaughtered a lot of their animals.", "A grey late-autumn medieval village with bare trees and the first frost: families leading pigs and sheep across the lane toward a barn, sad-faced animals. No blood, nothing graphic."),
     ("Not out of cruelty. Out of math.", "Red sitting on a stool doing sums with tally marks scratched on a wooden board, looking back and forth between three cows and one small haystack, thinking hard."),
     ("Grass stops growing in winter. Hay is limited.", "A frosty brown field with dead grass, a single small haystack under grey sky, a thin cow sniffing the frozen ground."),
     ("You can't feed every animal until spring, so you keep the ones you need, the breeding stock and the ones that pull the plough, and the rest become dinner.", "Inside a barn, Red standing proudly next to two strong oxen with a plough yoke and one cow, while a pig tiptoes away behind them toward the door with a nervous sweat drop."),
-    ("And because there's no fridge, the meat gets salted, smoked or dried.", "Red throwing handfuls of coarse salt into a wooden barrel full of chunks of meat, hams and sausages hanging from the smoky rafters above him."),
+    ("And because there's no fridge, the meat gets salted, smoked or dried.", "Red (white round head, red scarf) throwing handfuls of coarse salt into a wooden barrel full of chunks of meat, hams and sausages hanging from the smoky rafters above him."),
     ("A family pig, killed around Saint Martin's Day, on the 11th of November,", "A medieval English village gathered on a cold November feast day in front of the stone church, a painted church banner showing a knight on horseback cutting his cloak in half to share it, villagers bundled up."),
     ("could be the difference between eating meat this winter and not.", "Red hugging a big cured ham protectively with both arms, eyes closed in relief, snow falling outside the hut door."),
     ("Very, very salty meat. For months.", "Red biting a rock-hard strip of salted meat, face puckered and lips shriveled, desperately gulping from a water jug.", M("85")),
@@ -50,7 +50,7 @@ S = [
     ("Chimneys and fireplaces were spreading in richer homes, but in a lot of ordinary houses the smoke just drifted up into the roof and found its own way out.", "Split scene in the snow: on the left a rich stone manor house with a proper chimney puffing smoke, on the right Red's little hut with smoke seeping out everywhere through the thatch."),
     ("Eventually.", "Red inside the smoky hut waving his arms to clear the smoke, eyes red and teary."),
     ("So you're always either too smoky or too cold. Usually both.", "Red standing half in thick grey smoke and half covered in white frost, unhappy on both sides."),
-    ("Your face is roasting and your back is freezing.", "Red's family sitting on stools around the central fire, faces glowing red and sweaty, while their backs are covered in frost and little icicles."),
+    ("Your face is roasting and your back is freezing.", "Red's family sitting on stools around the central fire, faces lit warm orange with rosy cheeks and little sweat drops, normal skin color, while their backs are covered in frost and little icicles."),
     ("And in some parts of England, like Dartmoor, people lived in longhouses.", "A long low stone longhouse with a thatched roof on a bleak snowy moorland with granite rocks, smoke rising, Red walking up to the door."),
     ("One long building, with the family at one end, a passage in the middle, and the cattle at the other end, under the same roof, especially in the coldest months.", "Cutaway view of a long stone farmhouse: on the left the family around a fire, a passage with two doors in the middle, on the right cows in stalls, all under one long thatched roof."),
     ("Is it smelly? Absolutely.", "Red pinching his nose with a green face, the cows right behind him, little stink lines in the air."),
@@ -79,7 +79,7 @@ S = [
     # 4. La cama
     ("So, bedtime.", "Red yawning hugely, holding a dying rushlight, the hut almost dark."),
     ("Your mattress is a sack of straw, on the floor or up in a loft.", "A lumpy sack stuffed with straw lying on the dirt floor, straw poking out, and a small wooden loft above with another one."),
-    ("And you're not alone in it.", "Red lying on the straw sack with a peaceful smile while siblings start climbing in on both sides."),
+    ("And you're not alone in it.", "Red lying on a lumpy straw sack on the floor with a peaceful smile while two small siblings climb in on both sides. The straw sack is plain, no faces or eyes on it."),
     ("Families slept together, huddled up, because body heat is free.", "Red's whole family huddled together in one pile under a wool blanket, Red squashed in the middle, only his head and red scarf sticking out."),
     ("And here's where it gets interesting.", "Red lying awake in the dark, eyes wide open, everyone around him snoring with little Z's."),
     ("According to historian Roger Ekirch, for centuries, Europeans often didn't sleep in one long block.", "A modern historian with glasses at a desk piled with old books and a lamp, reading an old diary with a magnifying glass. Generic character, not a real likeness."),
@@ -141,7 +141,7 @@ S = [
     ("Starting in 1315, it rained, and rained, and stayed cold, across Northern Europe.", "Endless heavy rain over flooded fields and a village, cold grey light, a stream overflowing its banks."),
     ("Crops rotted in the fields, year after year.", "Blackened, flattened wheat rotting in a waterlogged field, Red standing in it up to his ankles, devastated."),
     ("It became known as the Great Famine.", "Thin, tired medieval villagers lining up at a monastery gate where a monk hands out small loaves of bread. Sad but not graphic."),
-    ("It hit a region of around thirty million people, from Ireland to Poland,", "An old parchment-style map of northern Europe from Ireland to Poland slowly darkening with grey rain clouds. No labels, no text."),
+    ("It hit a region of around thirty million people, from Ireland to Poland,", "An old parchment-style map of northern Europe from Ireland to Poland slowly darkening with grey rain clouds, only coastlines and little painted villages. Absolutely no labels, letters, words or names anywhere."),
     ("and the crops kept failing until the harvest of 1317.", "Red holding up a tiny, sad, half-rotten bundle of wheat in the rain while his family watches."),
     ("And right after it came a cattle plague that, in some places, killed most of the herds.", "A green pasture with just a few cows, surrounded by many faded ghostly outlines of cows that are no longer there."),
     ("The cows that kept you warm, and alive.", "Red hugging his brown-and-white cow tightly around the neck with sad eyes."),
@@ -156,7 +156,7 @@ S = [
     ("The cow, somehow, is still alive.", "The brown-and-white cow standing in a fresh spring meadow looking smug, a flower in its mouth, Red beside it amazed.", M("60", note="you made it!")),
     ("You've survived five months of smoke, salt, darkness, frozen beer and a bed shared with six people and a cow.", "Red outside in the spring sun taking a deep breath of fresh air, his family and the cow behind him, a smoky hut in the background."),
     ("And in about seven months, you get to do it all again.", "Red's happy smile freezing as a single autumn leaf and then a snowflake drift down in front of his face."),
-    ("So, be honest: how many months would you have lasted? November? February? Tell me in the comments.", "Red pointing at the viewer with a playful grin, a big illustrated calendar wheel of the winter months behind him. No letters."),
+    ("So, be honest: how many months would you have lasted? November? February? Tell me in the comments.", "Red pointing at the viewer with a playful grin, a round painted wheel behind him with five little picture slices: a pig, a candle, a holly branch, a snowflake and a herring. Pictures only, absolutely no letters, words or numbers anywhere."),
     ("And if you want to find out what else you wouldn't survive, you know what to do.", "Red standing in front of three glowing doorways showing ancient Rome, a Viking longship and an Egyptian pyramid."),
     ("Red needs all the help he can get.", "Red waving goodbye with a big smile, standing in the snow, his red scarf blowing in the wind."),
 ]
@@ -167,7 +167,7 @@ BASE = (
     "2D hand-drawn cartoon illustration, warm comic style, clean bold black outlines, flat colors with soft shading. "
     "{SCENE} Single clear idea, main subject large in frame. Unless stated otherwise, Red is a poor medieval English "
     "peasant in a brown wool tunic and hood, always with his bright red scarf, and the setting is medieval England in "
-    "winter, with a palette of cold snowy blues and warm orange firelight. Historically plausible 13th-15th century details; "
+    "winter, with a palette of cold snowy blues and warm orange firelight. Peasant huts have a single open fire on a stone ring in the middle of the dirt floor, with no fireplace and no chimney. Historically plausible 13th-15th century details; "
     "all people drawn in the same simple round-headed stick-figure cartoon style. "
     "No text, no letters, no watermark, no border, full-bleed. 16:9."
 )
