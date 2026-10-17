@@ -33,7 +33,9 @@ Este archivo es el traspaso de contexto para las sesiones de Claude Code en la M
 
 Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious History**, **Chat History**.
 
-## Estado actual: PASO 5 (video piloto), video APROBADO por el usuario el 15-oct-2026 (con música; miniatura principal B "50/50?"), pendiente de publicar
+## Estado actual: PASO 5 (video piloto), video aprobado y PROGRAMADO
+**Piloto PROGRAMADO el 16-oct-2026** (el usuario lo pidió): https://youtu.be/p6_vH7gbbng (ID `p6_vH7gbbng`), sale público el **martes 20-oct-2026 a las 2:00 p. m. ET** (12:00 Guatemala). Test & Compare con 3 miniaturas (D principal, F, B); arranca al hacerse público. Subtítulos, pantalla final (suscribirse + "Best for viewer"), etiquetas, Education, sin promoción pagada, uso de IA realista: No. Copyright y normas: sin problemas.
+**Pendiente el 20-oct:** fijar el comentario de `publicacion.md` (no se puede antes de que sea público), revisar a las 24-48 h el CTR y la retención, y medir el tiempo de producción.
 Paso 4 cerrado el 15-oct-2026: banco en `07-banco-ideas.md` (datos en `datos/paso4/`). El usuario eligió el piloto **"Why You Wouldn't Survive the Black Death"**.
 Piloto en `videos/piloto-black-death/` (ver su `README.md`): guion v2 con todos los datos verificados, voz Holden (10:38), 137 escenas, Survival Meter, subtítulos, 3 miniaturas y `publicacion.md`. Copia en `~/Desktop/time-peasant-piloto/`.
 Siguiente: el usuario revisa el video completo → ajustes → **publicar solo con su autorización** (él hace los clics finales en YouTube Studio) → medir el tiempo de producción.
