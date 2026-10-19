@@ -1,0 +1,8 @@
+{
+ "video": "video.mp4",
+ "shorts": [
+  {"id": "s1-jupiter", "title": ["DOCTORS BLAMED", "THE PLAGUE ON", "{JUPITER}"], "ranges": [["053", "063"]]},
+  {"id": "s2-myths", "title": ["2 PLAGUE {MYTHS}", "YOU STILL BELIEVE"], "ranges": [["068", "070"], ["134", "135"]]},
+  {"id": "s3-survivors", "title": ["IF YOU {SURVIVED}", "THE BLACK DEATH..."], "ranges": [["121", "130"]]}
+ ]
+}
