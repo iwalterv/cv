@@ -33,6 +33,14 @@ Este archivo es el traspaso de contexto para las sesiones de Claude Code en la M
 
 Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious History**, **Chat History**.
 
+## Plan de producción (aprobado por el usuario el 19-oct-2026)
+- Piloto a las 24 h: 1,3K impresiones, CTR 0,9 %, 28 vistas, ~2:35 de media (tráfico de sugeridos ajenos al nicho). El usuario quiere publicar más seguido ("uno diario"); se acordó:
+  - **3 videos largos por semana** (mar, jue, sáb, 12:00 p. m. ET). No uno diario: riesgo de "contenido producido en masa" en la revisión del YPP (regla 6).
+  - **1 Short al día**, sacado de los videos largos con `scripts/shorts.py` (sin créditos). Textos en `videos/<v>/shorts.md`.
+  - Miniaturas más claras (las ganadoras del nicho usan fondo claro; las del piloto son oscuras).
+- Para eso hacen falta mejoras de plan **que compra el usuario**: Higgsfield **Plus** ($59, 1.200 créditos) y ElevenLabs **Creator** ($22, 121K caracteres). Ideal: API key de ElevenLabs en `ELEVENLABS_API_KEY` (la crea el usuario).
+- Foto de perfil: 2 opciones en `imagenes/canal/` (recomendada B-shock); falta que el usuario elija y haga el clic de "Publicar".
+
 ## Estado actual: PASO 5 (video piloto), PUBLICADO
 **Piloto PUBLICADO el sábado 17-oct-2026 a las 10:42 a. m. ET** (el usuario pidió publicarlo antes de la hora programada, 12:00 ET): https://youtu.be/p6_vH7gbbng (ID `p6_vH7gbbng`). Test & Compare con 3 miniaturas (D principal, F, B); arranca al hacerse público. Subtítulos, pantalla final (suscribirse + "Best for viewer"), etiquetas, Education, sin promoción pagada, uso de IA realista: No. Copyright y normas: sin problemas.
 Comentario fijado el 17-oct. **Pendiente:** revisar a las 24-48 h el CTR y la retención, y medir el tiempo de producción.
