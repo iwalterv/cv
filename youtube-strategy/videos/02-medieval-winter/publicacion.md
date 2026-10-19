@@ -1,13 +1,13 @@
 # Video #2: textos para publicar
 
-**Estado:** en producción (17-oct-2026). Publicación prevista: última semana de octubre, con autorización del usuario.
+**Estado:** PROGRAMADO para el lunes 19-oct-2026 a las 8:00 p. m. ET (el usuario hizo el clic de "Schedule"): https://youtu.be/Nv6Ok5RoGPQ (ID `Nv6Ok5RoGPQ`). Música de invierno (ver `musica.json`). Test & Compare solo de miniaturas (A-frozen, B-cow, C-pig); título fijo A. Subtítulos, pantalla final (suscribirse + "Best for viewer"), etiquetas, Education, sin promoción pagada, uso de IA realista: No.
 
 ## Título (Test & Compare de títulos)
 - A) Why You Wouldn't Survive a Medieval Winter
 - B) How Did Medieval People Survive Winter?
 
 ## Miniaturas (Test & Compare)
-Pendientes (ver `guion.md`): "-20°?" (frío + puerta tapada de nieve + ojos de lobo), "THE COW?" (cama apretada + vaca) y "NOVEMBER?" (Red, el cerdo y el hacha).
+`miniaturas/A-frozen.jpg` "-20°?", `B-cow.jpg` "THE COW?" y `C-pig.jpg` "NOVEMBER?" (las 3 en Test & Compare).
 
 ## Descripción
 ```

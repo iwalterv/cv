@@ -41,6 +41,8 @@ Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious His
 - Para eso hacen falta mejoras de plan **que compra el usuario**: Higgsfield **Plus** ($59, 1.200 créditos) y ElevenLabs **Creator** ($22, 121K caracteres). Ideal: API key de ElevenLabs en `ELEVENLABS_API_KEY` (la crea el usuario).
 - Foto de perfil: 2 opciones en `imagenes/canal/` (recomendada B-shock); falta que el usuario elija y haga el clic de "Publicar".
 
+**Video #2** "Why You Wouldn't Survive a Medieval Winter": programado para el **lunes 19-oct-2026, 8:00 p. m. ET**, https://youtu.be/Nv6Ok5RoGPQ. Falta el comentario fijado. Siguiente: análisis viral de los videos #3-#5 (jue 22, sáb 24, mar 27).
+
 ## Estado actual: PASO 5 (video piloto), PUBLICADO
 **Piloto PUBLICADO el sábado 17-oct-2026 a las 10:42 a. m. ET** (el usuario pidió publicarlo antes de la hora programada, 12:00 ET): https://youtu.be/p6_vH7gbbng (ID `p6_vH7gbbng`). Test & Compare con 3 miniaturas (D principal, F, B); arranca al hacerse público. Subtítulos, pantalla final (suscribirse + "Best for viewer"), etiquetas, Education, sin promoción pagada, uso de IA realista: No. Copyright y normas: sin problemas.
 Comentario fijado el 17-oct. **Pendiente:** revisar a las 24-48 h el CTR y la retención, y medir el tiempo de producción.
