@@ -1,0 +1,10 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "nano_banana_pro",
+ "params": ["--aspect-ratio", "1:1", "--resolution", "2k"],
+ "base": "YouTube channel profile picture (circular crop, so keep everything important inside the central circle). Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, bright red scarf). 2D cartoon, clean bold black outlines, flat colors. {SCENE} Head and shoulders only, the face fills about 60 percent of the image and is perfectly centered. Simple, iconic, readable at 48 pixels. No text, no letters, no watermark. 1:1.",
+ "scenes": [
+  {"id": "avatar-A-smirk", "SCENE": "Red wearing a simple brown medieval peasant wool hood around his head, with his bright red scarf, giving a cheeky knowing smirk with one eyebrow raised. Solid flat warm mustard-yellow background."},
+  {"id": "avatar-B-shock", "SCENE": "Red wearing a simple brown medieval peasant wool hood around his head, with his bright red scarf, wide-eyed and worried with a small open mouth and one bead of sweat. Solid flat deep teal background."}
+ ]
+}
