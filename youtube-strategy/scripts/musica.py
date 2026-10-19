@@ -1,7 +1,8 @@
 """Añade música de fondo al video ya montado: normaliza la voz y mete la música por debajo, bajándola cuando hay voz.
 
 Uso: python3 scripts/musica.py videos/<video>/tiempos.json
-Lee <video>/musica.json: [{"from": "<id de escena>", "track": "<archivo en musica/>"}, ...]; cada tramo dura
+Lee <video>/musica.json: [{"from": "<id de escena>", "track": "<archivo en musica/>"}, ...] o, para cambiar el
+volumen de la música, {"music_lufs": -22, "plan": [...]}; cada tramo dura
 hasta el siguiente (el último, hasta el final del video). Las pistas se repiten en bucle si el tramo es más largo.
 Reemplaza la pista de audio de <video>/video.mp4 sin volver a codificar la imagen (correr después de montar_video.py).
 La voz sale de <video>/voz.mp3, así que se puede volver a correr sin acumular música.
@@ -38,6 +39,8 @@ def lufs(path):
 
 total = duration(video)
 plan = json.loads((base / "musica.json").read_text())
+if isinstance(plan, dict):
+    MUSIC_LUFS, plan = plan.get("music_lufs", MUSIC_LUFS), plan["plan"]
 bounds = [starts[p["from"]] for p in plan] + [total]
 
 inputs = ["-i", str(voice)]
