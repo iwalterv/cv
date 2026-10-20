@@ -1,0 +1,645 @@
+{
+ "audio": "voz.mp3",
+ "tail": 1.5,
+ "scenes": [
+  {
+   "id": "001",
+   "start": 0.0,
+   "text": "It's midnight. You went to bed four hours ago."
+  },
+  {
+   "id": "002",
+   "start": 3.42,
+   "text": "And now you're wide awake."
+  },
+  {
+   "id": "003",
+   "start": 5.09,
+   "text": "And so is everyone else in your house."
+  },
+  {
+   "id": "004",
+   "start": 8.19,
+   "text": "Because for most of history, people didn't sleep through the night."
+  },
+  {
+   "id": "005",
+   "start": 12.0,
+   "text": "They slept twice."
+  },
+  {
+   "id": "006",
+   "start": 13.61,
+   "text": "Welcome to night in medieval England.",
+   "meter": {
+    "value": "100",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "007",
+   "start": 15.82,
+   "text": "Up to sixteen hours of darkness, no light switch,"
+  },
+  {
+   "id": "008",
+   "start": 19.26,
+   "text": "and a whole list of things out there that want you."
+  },
+  {
+   "id": "009",
+   "start": 22.22,
+   "text": "That meter in the corner? Your odds of seeing sunrise."
+  },
+  {
+   "id": "010",
+   "start": 25.44,
+   "text": "And stick around, because one man's midnight habit got so bad,"
+  },
+  {
+   "id": "011",
+   "start": 29.92,
+   "text": "his own family moved out."
+  },
+  {
+   "id": "012",
+   "start": 31.93,
+   "text": "Let's start at sunset."
+  },
+  {
+   "id": "013",
+   "start": 33.23,
+   "text": "In winter, that's before four in the afternoon."
+  },
+  {
+   "id": "014",
+   "start": 36.28,
+   "text": "And for you, the day is basically over."
+  },
+  {
+   "id": "015",
+   "start": 39.07,
+   "text": "Light costs money, and you don't have money."
+  },
+  {
+   "id": "016",
+   "start": 42.03,
+   "text": "So you do what everyone does."
+  },
+  {
+   "id": "017",
+   "start": 43.83,
+   "text": "You eat, you pray,"
+  },
+  {
+   "id": "018",
+   "start": 45.18,
+   "text": "and you go to bed. Early. Really early."
+  },
+  {
+   "id": "019",
+   "start": 47.89,
+   "text": "You already know the bed situation. Straw, wool blanket, the whole family."
+  },
+  {
+   "id": "020",
+   "start": 54.17,
+   "text": "Cozy."
+  },
+  {
+   "id": "021",
+   "start": 55.37,
+   "text": "And here's a detail you didn't expect."
+  },
+  {
+   "id": "022",
+   "start": 56.68,
+   "text": "Medical books, from the late Middle Ages onward, told you exactly how to lie:"
+  },
+  {
+   "id": "023",
+   "start": 61.9,
+   "text": "on your right side for your first sleep,"
+  },
+  {
+   "id": "024",
+   "start": 63.88,
+   "text": "then turn to your left."
+  },
+  {
+   "id": "025",
+   "start": 65.18,
+   "text": "It was supposed to help digestion."
+  },
+  {
+   "id": "026",
+   "start": 67.3,
+   "text": "Even your sleeping position had instructions."
+  },
+  {
+   "id": "027",
+   "start": 70.04,
+   "text": "So you fall asleep.",
+   "meter": {
+    "value": "100",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "028",
+   "start": 71.4,
+   "text": "And if you wake up feeling like something heavy is sitting on your chest, well, you have a word for that.",
+   "meter": {
+    "value": "90",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "029",
+   "start": 76.91,
+   "text": "The nightmare."
+  },
+  {
+   "id": "030",
+   "start": 78.11,
+   "text": "And in the Middle Ages, it wasn't a bad dream."
+  },
+  {
+   "id": "031",
+   "start": 80.76,
+   "text": "The \"mare\" was a creature, a spirit that sat on sleepers in the night."
+  },
+  {
+   "id": "032",
+   "start": 85.25,
+   "text": "The word shows up in English around the year 1300, describing exactly that."
+  },
+  {
+   "id": "033",
+   "start": 90.1,
+   "text": "And the mare wasn't the only thing out there."
+  },
+  {
+   "id": "034",
+   "start": 92.68,
+   "text": "Around 1400, a monk at Byland Abbey, in Yorkshire,"
+  },
+  {
+   "id": "035",
+   "start": 96.13,
+   "text": "filled the blank pages of a manuscript with local ghost stories."
+  },
+  {
+   "id": "036",
+   "start": 100.2,
+   "text": "And these weren't ghosts that went \"boo\"."
+  },
+  {
+   "id": "037",
+   "start": 102.6,
+   "text": "They were souls stuck in purgatory, and they wanted something."
+  },
+  {
+   "id": "038",
+   "start": 106.12,
+   "text": "Usually, prayers."
+  },
+  {
+   "id": "039",
+   "start": 107.47,
+   "text": "Sometimes, they wouldn't leave you alone until they got them."
+  },
+  {
+   "id": "040",
+   "start": 111.0,
+   "text": "So people protected their homes.",
+   "meter": {
+    "value": "80",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "041",
+   "start": 112.91,
+   "text": "In Chaucer's Canterbury Tales, written in the late 1300s,"
+  },
+  {
+   "id": "042",
+   "start": 116.68,
+   "text": "a carpenter says a \"night-spell\" at the four corners of his house and at the door."
+  },
+  {
+   "id": "043",
+   "start": 121.46,
+   "text": "Basically, medieval home security."
+  },
+  {
+   "id": "044",
+   "start": 123.7,
+   "text": "And now, it's midnight."
+  },
+  {
+   "id": "045",
+   "start": 125.72,
+   "text": "And you wake up."
+  },
+  {
+   "id": "046",
+   "start": 126.92,
+   "text": "Not because of a noise. Not because of the ghost."
+  },
+  {
+   "id": "047",
+   "start": 129.63,
+   "text": "Just because it's time."
+  },
+  {
+   "id": "048",
+   "start": 131.64,
+   "text": "Historian Roger Ekirch spent years digging through old diaries, court records and books,"
+  },
+  {
+   "id": "049",
+   "start": 137.07,
+   "text": "and found hundreds, and eventually thousands, of references to a \"first sleep\" and a \"second sleep\"."
+  },
+  {
+   "id": "050",
+   "start": 142.94,
+   "text": "In France, they called it \"premier somme\"."
+  },
+  {
+   "id": "051",
+   "start": 145.61,
+   "text": "In Italy, \"primo sonno\"."
+  },
+  {
+   "id": "052",
+   "start": 147.12,
+   "text": "Even Chaucer mentions it."
+  },
+  {
+   "id": "053",
+   "start": 149.04,
+   "text": "In one of his tales, a princess goes to bed just after dark,"
+  },
+  {
+   "id": "054",
+   "start": 152.78,
+   "text": "sleeps her \"first sleep\", and wakes up."
+  },
+  {
+   "id": "055",
+   "start": 156.0,
+   "text": "So between your two sleeps, you've got about an hour. Maybe more."
+  },
+  {
+   "id": "056",
+   "start": 160.12,
+   "text": "In the dark."
+  },
+  {
+   "id": "057",
+   "start": 161.32,
+   "text": "What do you do with it?"
+  },
+  {
+   "id": "058",
+   "start": 163.48,
+   "text": "Option one: you pray.",
+   "meter": {
+    "value": "80",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "059",
+   "start": 165.53,
+   "text": "This was considered a perfect time for it. Quiet, dark, nobody asking you for anything."
+  },
+  {
+   "id": "060",
+   "start": 171.57,
+   "text": "Monks took it seriously."
+  },
+  {
+   "id": "061",
+   "start": 173.12,
+   "text": "The Rule of Saint Benedict told them to get up at the eighth hour of the night in winter, around two in the morning, for the night prayers."
+  },
+  {
+   "id": "062",
+   "start": 180.56,
+   "text": "Every night."
+  },
+  {
+   "id": "063",
+   "start": 181.89,
+   "text": "Option two: you think about your dreams.",
+   "meter": {
+    "value": "80",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "064",
+   "start": 184.82,
+   "text": "Because to you, dreams meant something."
+  },
+  {
+   "id": "065",
+   "start": 187.35,
+   "text": "The most popular dream book of the Middle Ages, the \"Dream Book of Daniel\","
+  },
+  {
+   "id": "066",
+   "start": 191.55,
+   "text": "was basically an alphabetical list of things you might dream about, and whether they meant good luck or bad."
+  },
+  {
+   "id": "067",
+   "start": 197.24,
+   "text": "Option three: chores."
+  },
+  {
+   "id": "068",
+   "start": 199.79,
+   "text": "Check the fire."
+  },
+  {
+   "id": "069",
+   "start": 200.99,
+   "text": "Check the animals."
+  },
+  {
+   "id": "070",
+   "start": 202.19,
+   "text": "Use the chamber pot, which lived under the bed."
+  },
+  {
+   "id": "071",
+   "start": 205.17,
+   "text": "Yes, in the same room."
+  },
+  {
+   "id": "072",
+   "start": 206.75,
+   "text": "If you had a baby, this was feeding time."
+  },
+  {
+   "id": "073",
+   "start": 209.8,
+   "text": "A French farce from the 1400s shows parents getting up at midnight to rock, walk and feed their child."
+  },
+  {
+   "id": "074",
+   "start": 216.45,
+   "text": "Some things never change."
+  },
+  {
+   "id": "075",
+   "start": 217.96,
+   "text": "Option four.",
+   "meter": {
+    "value": "80",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "076",
+   "start": 219.16,
+   "text": "A French doctor in the 1500s, Laurent Joubert,"
+  },
+  {
+   "id": "077",
+   "start": 223.08,
+   "text": "wrote that working people had their best, ahem, \"couple time\" after the first sleep, because they weren't exhausted anymore."
+  },
+  {
+   "id": "078",
+   "start": 231.33,
+   "text": "Thank you, doctor. Very helpful."
+  },
+  {
+   "id": "079",
+   "start": 234.2,
+   "text": "And option five: according to Ekirch's research, some people even got up and visited the neighbors.",
+   "meter": {
+    "value": "75",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "080",
+   "start": 240.36,
+   "text": "In the middle of the night."
+  },
+  {
+   "id": "081",
+   "start": 241.96,
+   "text": "Imagine your neighbor knocking at one in the morning, and that's normal."
+  },
+  {
+   "id": "082",
+   "start": 247.08,
+   "text": "But here's the thing. You probably shouldn't go far."
+  },
+  {
+   "id": "083",
+   "start": 250.5,
+   "text": "Because in medieval England, the night had its own rules."
+  },
+  {
+   "id": "084",
+   "start": 254.12,
+   "text": "The Statute of Winchester, in 1285,"
+  },
+  {
+   "id": "085",
+   "start": 256.81,
+   "text": "ordered the gates of walled towns closed from sunset to sunrise,"
+  },
+  {
+   "id": "086",
+   "start": 261.24,
+   "text": "and set a watch: in a city, six men at every gate, all night long."
+  },
+  {
+   "id": "087",
+   "start": 266.62,
+   "text": "And if you were a stranger walking around at night?",
+   "meter": {
+    "value": "70",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "088",
+   "start": 269.22,
+   "text": "The watch could hold you until morning."
+  },
+  {
+   "id": "089",
+   "start": 271.24,
+   "text": "If they still didn't like you then, they handed you over to the sheriff.",
+   "meter": {
+    "value": "60",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "090",
+   "start": 275.22,
+   "text": "And even without the law, the dark was dangerous on its own."
+  },
+  {
+   "id": "091",
+   "start": 278.92,
+   "text": "No streetlights, unpaved roads, ditches, rivers."
+  },
+  {
+   "id": "092",
+   "start": 283.1,
+   "text": "Getting lost on your way home was a real way to end your night. Permanently."
+  },
+  {
+   "id": "093",
+   "start": 288.81,
+   "text": "Now, remember the man whose family moved out? Here he is."
+  },
+  {
+   "id": "094",
+   "start": 293.08,
+   "text": "His name was Pierre de Béarn, a French nobleman."
+  },
+  {
+   "id": "095",
+   "start": 296.33,
+   "text": "The chronicler Jean Froissart wrote that after he killed a huge bear,"
+  },
+  {
+   "id": "096",
+   "start": 300.76,
+   "text": "Pierre started getting up in his sleep and grabbing his sword, fighting nobody."
+  },
+  {
+   "id": "097",
+   "start": 305.64,
+   "text": "And when he couldn't find it, he made such a racket that, in Froissart's words, it seemed like all the demons of hell were in there with him."
+  },
+  {
+   "id": "098",
+   "start": 314.47,
+   "text": "His family eventually left."
+  },
+  {
+   "id": "099",
+   "start": 316.92,
+   "text": "Honestly? Fair.",
+   "meter": {
+    "value": "55",
+    "label": "SUNRISE ODDS"
+   }
+  },
+  {
+   "id": "100",
+   "start": 318.98,
+   "text": "Anyway. After an hour or so, you get sleepy again, and you go back for your second sleep, until the sun comes up."
+  },
+  {
+   "id": "101",
+   "start": 326.02,
+   "text": "And here's the crazy part."
+  },
+  {
+   "id": "102",
+   "start": 327.8,
+   "text": "In the early 1990s, a psychiatrist named Thomas Wehr put volunteers in darkness for fourteen hours a day, for a month."
+  },
+  {
+   "id": "103",
+   "start": 336.9,
+   "text": "No lamps, no screens."
+  },
+  {
+   "id": "104",
+   "start": 338.94,
+   "text": "By the fourth week, their sleep had split in two all by itself."
+  },
+  {
+   "id": "105",
+   "start": 343.4,
+   "text": "About four hours of sleep, one or two hours awake, then four more hours."
+  },
+  {
+   "id": "106",
+   "start": 348.1,
+   "text": "Just like the old records described."
+  },
+  {
+   "id": "107",
+   "start": 350.28,
+   "text": "So if you sometimes wake up at three in the morning and can't sleep,"
+  },
+  {
+   "id": "108",
+   "start": 355.0,
+   "text": "maybe nothing's wrong with you. Maybe your body is just a little medieval."
+  },
+  {
+   "id": "109",
+   "start": 359.49,
+   "text": "To be fair, not every historian agrees."
+  },
+  {
+   "id": "110",
+   "start": 362.57,
+   "text": "Some think \"first sleep\" could just mean the first part of one sleep, and that the waking was short."
+  },
+  {
+   "id": "111",
+   "start": 368.65,
+   "text": "But the experiment is hard to ignore."
+  },
+  {
+   "id": "112",
+   "start": 370.84,
+   "text": "And then, finally, the sun comes up.",
+   "meter": {
+    "value": "70",
+    "label": "SUNRISE ODDS",
+    "note": "you made it!"
+   }
+  },
+  {
+   "id": "113",
+   "start": 374.44,
+   "text": "You survived the nightmare, the ghosts, the watch, the ditches and a neighbor knocking at one in the morning."
+  },
+  {
+   "id": "114",
+   "start": 380.76,
+   "text": "And now you get to work in the fields for the next ten hours."
+  },
+  {
+   "id": "115",
+   "start": 385.22,
+   "text": "And tonight, you do it all again."
+  },
+  {
+   "id": "116",
+   "start": 387.7,
+   "text": "So, be honest. You wake up at midnight with an hour to kill. What are you doing?"
+  },
+  {
+   "id": "117",
+   "start": 392.28,
+   "text": "Praying, chores, or visiting the neighbors? Tell me in the comments."
+  },
+  {
+   "id": "118",
+   "start": 396.6,
+   "text": "And if you want to know what else medieval peasants did when nobody was watching, you know what to do."
+  }
+ ]
+}
