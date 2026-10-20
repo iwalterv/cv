@@ -1,6 +1,6 @@
 # Video #3: textos para publicar
 
-**Estado:** en producción (20-oct-2026). Publicación prevista para el jueves 22-oct-2026 a las 12:00 p. m. ET, con autorización del usuario (él hace los clics finales).
+**Estado:** PROGRAMADO para el martes 20-oct-2026 a las 2:00 p. m. ET (el usuario hizo el clic de "Schedule"): https://youtu.be/0fCXeUODtj8 (ID `0fCXeUODtj8`). Test & Compare solo de miniaturas (B-nightmare, C-midnight, A-2sleeps); título fijo A. Subtítulos, pantalla final importada del piloto, no es para niños, sin promoción pagada, IA realista: No, English (US), Education, etiquetas.
 
 ## Título (Test & Compare de títulos)
 - A) What Did Medieval Peasants Do at Night?
