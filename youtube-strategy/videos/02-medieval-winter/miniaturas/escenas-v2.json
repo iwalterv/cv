@@ -1,0 +1,25 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "nano_banana_pro",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "YouTube thumbnail in a very simple, minimal style. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). Simple 2D cartoon, thick clean black outlines, flat bright colors, no texture, no shading detail. {SCENE} Very few elements, big simple shapes, lots of empty space, bright and high contrast, instantly readable at phone size. Leave the top 28 percent of the image empty (just the plain background) for a title. No text, no letters, no watermark. 16:9.",
+ "scenes": [
+  {
+   "id": "V2-snow",
+   "text": "SURVIVE THIS?",
+   "zoom": 1.05,
+   "SCENE": "Plain bright white snowy landscape under a pale icy-blue sky. Red as a medieval peasant in a brown wool hood is buried in snow up to his neck in the center, only his head, hood and red scarf sticking out, icicles hanging from his nose, eyes huge in misery, teeth chattering. One tiny snowed-in hut far behind. Nothing else."
+  },
+  {
+   "id": "V2-cow",
+   "text": "ROOMMATE?",
+   "zoom": 1.05,
+   "SCENE": "Plain warm cream background. A simple straw bed in the center: Red as a medieval peasant lies under a patched blanket, wide awake with huge horrified eyes, and right next to him under the SAME blanket, head on the same pillow, lies a big happy brown-and-white cow, smiling and chewing hay. Nothing else."
+  }
+ ]
+}

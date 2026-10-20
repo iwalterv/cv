@@ -1,0 +1,25 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "nano_banana_pro",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "YouTube thumbnail in a very simple, minimal style. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). Simple 2D cartoon, thick clean black outlines, flat bright colors, no texture, no shading detail. {SCENE} Very few elements, big simple shapes, lots of empty space, bright and high contrast, instantly readable at phone size. Leave the top 28 percent of the image empty (just the plain background) for a title. No text, no letters, no watermark. 16:9.",
+ "scenes": [
+  {
+   "id": "V2-reaper",
+   "text": "YOU'RE NEXT?",
+   "zoom": 1.05,
+   "SCENE": "Plain light parchment-beige background. Small Red as a medieval peasant in a patched brown tunic stands on the right, frozen in terror with huge eyes and sweat drops, while on the wall behind him the huge black shadow of the Grim Reaper with a scythe towers over him, reaching toward him. Only Red and the shadow, nothing else."
+  },
+  {
+   "id": "V2-egg",
+   "text": "EGG-SIZED?",
+   "zoom": 1.05,
+   "SCENE": "Plain light sky-blue background. Big close-up of Red as a medieval peasant in a patched brown tunic, arm raised, staring in pure horror at a round purple lump the size of a chicken egg under his armpit, mouth wide open screaming. Cartoon, not gory, no blood. Nothing else."
+  }
+ ]
+}
