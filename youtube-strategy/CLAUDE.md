@@ -41,6 +41,8 @@ Canales de referencia: **Ink Explainer**, **Zenn**, **StickTory**, **Serious His
 - Para eso hacen falta mejoras de plan **que compra el usuario**: Higgsfield **Plus** ($59, 1.200 créditos) y ElevenLabs **Creator** ($22, 121K caracteres). Ideal: API key de ElevenLabs en `ELEVENLABS_API_KEY` (la crea el usuario).
 - Foto de perfil: 2 opciones en `imagenes/canal/` (recomendada B-shock); falta que el usuario elija y haga el clic de "Publicar".
 
+**Revisión propuesta el 20-oct-2026 (`08-investigacion-crecimiento.md`, PENDIENTE de aprobación):** 1-2 videos largos por semana con más trabajo por video, 1-2 Shorts por semana, títulos de curiosidad sobre la vida diaria medieval ("What Did Medieval Peasants Do…?"), empaque antes del guion y retención a los 30 s ≥ 65 %. Evidencia: Zenn, Ink y Axen llegaron a millones en 6 meses con ~1 video por semana y sin Shorts; Unlucky Ancestors, con nuestro formato "Why You Wouldn't Survive", tiene 0-14 vistas por video.
+
 **Video #2** "Why You Wouldn't Survive a Medieval Winter": programado para el **lunes 19-oct-2026, 8:00 p. m. ET**, https://youtu.be/Nv6Ok5RoGPQ. A las 13 h: 9 impresiones y 0 vistas (prueba mínima, por el CTR del 0,8 % del piloto). El 20-oct se hicieron miniaturas v2 claras y minimalistas para los dos videos (`miniaturas/escenas-v2.json`), y el usuario reinicia los tests. Ojo: en youtube.com, Chrome tiene la sesión en otra cuenta (@MatrixExodus); para comentar como Time Peasant hay que cambiar de cuenta. Falta el comentario fijado. Siguiente: análisis viral de los videos #3-#5 (jue 22, sáb 24, mar 27).
 
 ## Estado actual: PASO 5 (video piloto), PUBLICADO
