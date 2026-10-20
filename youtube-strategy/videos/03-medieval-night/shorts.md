@@ -1,6 +1,6 @@
 # Shorts del video #3 (la noche medieval)
 
-**Estado:** `n1-3am` PROGRAMADO para el mar 20-oct a las 2:15 p. m. ET (el usuario hizo el clic de "Schedule"). El "Related video" se añade cuando el video largo sea público, porque Studio solo deja elegir videos públicos.
+**Estado:** `n1-3am` PUBLICADO el mar 20-oct a las 2:15 p. m. ET: https://youtube.com/shorts/fEr_Xns1vVI. "Related video" → #3 y comentario fijado ("Do you ever wake up at 3 AM for no reason? 👇").
 
 Hechos con `scripts/shorts.py` (sin créditos). En cada Short de YouTube hay que poner como **"Related video"** el video largo, https://youtu.be/0fCXeUODtj8, para que el Short enlace al largo.
 

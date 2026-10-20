@@ -46,7 +46,7 @@ Illustrations and narration created with AI tools; script written and fact-check
 ## Etiquetas
 what did medieval peasants do at night, medieval night, first sleep second sleep, segmented sleep, how did medieval people sleep, medieval peasant life, middle ages, medieval history, history explained, animated history, time peasant
 
-## Comentario fijado
+## Comentario fijado (publicado y fijado el 20-oct-2026, 2:20 p. m. ET)
 ```
 You wake up at midnight with an hour to kill: pray, chores, or visit the neighbors? 👇
 ```
