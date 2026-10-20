@@ -1,0 +1,31 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "nano_banana_pro",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "YouTube thumbnail in a very simple, minimal style. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). Simple 2D cartoon, thick clean black outlines, flat bright colors, no texture, no shading detail. {SCENE} Very few elements, big simple shapes, lots of empty space, bright and high contrast, instantly readable at phone size. Leave the top 28 percent of the image empty (just the plain background) for a title. No text, no letters, no watermark. 16:9.",
+ "scenes": [
+  {
+   "id": "A-2sleeps",
+   "text": "2 SLEEPS?",
+   "zoom": 1.05,
+   "SCENE": "Plain flat deep-blue night background. Red as a medieval peasant in a simple nightshirt sits bolt upright in a straw bed in the center, eyes huge and wide awake, while two family members sleep peacefully next to him under a patched blanket. A big round full moon in a small window. Red is bright and very large in frame. Nothing else."
+  },
+  {
+   "id": "B-nightmare",
+   "text": "NIGHTMARE?",
+   "zoom": 1.05,
+   "SCENE": "Plain flat deep-purple night background. Red as a medieval peasant (his round head is plain WHITE like the reference, only the scarf is red) lies on his back in bed under a patched blanket, wide-eyed and frozen in terror, while a small hairy brown goblin-like creature with glowing yellow eyes sits on his chest grinning down at him. Cartoonish, spooky but funny, not gory. Red and the creature very large in frame. Nothing else."
+  },
+  {
+   "id": "C-midnight",
+   "text": "MIDNIGHT?",
+   "zoom": 1.05,
+   "SCENE": "Plain flat dark-blue night background. Red as a medieval peasant in a nightshirt holding a small candle knocks on the wooden door of a neighbor's cottage; the neighbor, also in a nightshirt and holding a candle, opens the door with a confused sleepy face. Warm candle glow on both faces. Big simple shapes, nothing else."
+  }
+ ]
+}
