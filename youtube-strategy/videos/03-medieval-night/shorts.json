@@ -1,0 +1,9 @@
+{
+ "video": "video.mp4",
+ "shorts": [
+  {"id": "n1-3am", "title": ["WAKE UP AT {3 AM}?", "BLAME THE", "MIDDLE AGES"], "ranges": [["001", "005"], ["101", "111"]]},
+  {"id": "n2-sleepwalker", "title": ["THE KNIGHT WHO", "FOUGHT IN", "HIS {SLEEP}"], "ranges": [["010", "011"], ["094", "099"]]},
+  {"id": "n3-nightmare", "title": ["{NIGHTMARES}", "USED TO BE", "A CREATURE"], "ranges": [["027", "033"]]},
+  {"id": "tt-2sleeps", "title": ["THEY SLEPT", "{TWICE}"], "ranges": [["001", "011"], ["101", "111"]], "footer": "Follow for more history"}
+ ]
+}
