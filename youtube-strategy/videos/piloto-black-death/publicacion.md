@@ -8,6 +8,8 @@ Why You Wouldn't Survive the Black Death
 Alternativa para probar después: "You Wouldn't Survive the Black Death (Here's Why)"
 
 ## Miniaturas (Test & Compare)
+**20-oct-2026:** test reiniciado con las v2 claras: `V2-reaper.jpg` ("YOU'RE NEXT?"), `V2-egg.jpg` ("EGG-SIZED?") y `D-death.jpg`. El test anterior (D, F, B) se borró sin ganador claro.
+
 Elegidas tras el análisis de `datos/miniaturas-analisis/` (el usuario delegó la elección el 16-oct-2026). Todas de 1280×720:
 1. **Principal: `miniaturas/D-death.jpg` ("YOU'RE NEXT?")**: la Muerte le toca el hombro a Red.
 2. `miniaturas/F-beak.jpg` ("WRONG CENTURY!"): médico de pico tachado; el video explica que el disfraz es del siglo XVII.

@@ -2,7 +2,7 @@
 
 **Estado:** PROGRAMADO para el lunes 19-oct-2026 a las 8:00 p. m. ET (el usuario hizo el clic de "Schedule"): https://youtu.be/Nv6Ok5RoGPQ (ID `Nv6Ok5RoGPQ`). Música de invierno (ver `musica.json`). Test & Compare solo de miniaturas (A-frozen, B-cow, C-pig); título fijo A. Subtítulos, pantalla final (suscribirse + "Best for viewer"), etiquetas, Education, sin promoción pagada, uso de IA realista: No.
 
-**20-oct (13 h después):** 9 impresiones y 0 vistas. YouTube casi no lo distribuyó porque el piloto tiene un CTR del 0,8 %. Miniaturas v2, más claras y con estilo minimalista como las ganadoras del nicho (`miniaturas/escenas-v2.json`): `V2-snow` "SURVIVE THIS?" y `V2-cow` "ROOMMATE?". Nuevo test con V2-snow, V2-cow y A-frozen.
+**20-oct (13 h después):** 9 impresiones y 0 vistas. YouTube casi no lo distribuyó porque el piloto tiene un CTR del 0,8 %. Miniaturas v2, más claras y con estilo minimalista como las ganadoras del nicho (`miniaturas/escenas-v2.json`): `V2-snow` "SURVIVE THIS?" y `V2-cow` "ROOMMATE?". Nuevo test con V2-snow, V2-cow y A-frozen: ACTIVO desde el 20-oct, 2:35 p. m. ET (el anterior se borró).
 
 ## Título (Test & Compare de títulos)
 - A) Why You Wouldn't Survive a Medieval Winter
