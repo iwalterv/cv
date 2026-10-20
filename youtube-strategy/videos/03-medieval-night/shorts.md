@@ -1,6 +1,6 @@
 # Shorts del video #3 (la noche medieval)
 
-**Estado:** `n1-3am` PUBLICADO el mar 20-oct a las 2:15 p. m. ET: https://youtube.com/shorts/fEr_Xns1vVI. "Related video" → #3 y comentario fijado ("Do you ever wake up at 3 AM for no reason? 👇"). `n2-sleepwalker` PROGRAMADO para el mié 21-oct a las 12:00 p. m. ET: https://youtube.com/shorts/Rmvqt_pe-nk (subido como `n2-sleepwalker-upload.mp4`, recodificado a 8 MB por el límite de subida). "Related video" → #3 ya puesto; falta el comentario fijado ("Would YOU have moved out too? 👇") cuando sea público.
+**Estado:** `n1-3am` PUBLICADO el mar 20-oct a las 2:15 p. m. ET: https://youtube.com/shorts/fEr_Xns1vVI. "Related video" → #3 y comentario fijado ("Do you ever wake up at 3 AM for no reason? 👇"). `n2-sleepwalker` PROGRAMADO para el mié 21-oct a las 12:00 p. m. ET: https://youtube.com/shorts/Rmvqt_pe-nk (subido como `n2-sleepwalker-upload.mp4`, recodificado a 8 MB por el límite de subida). "Related video" → #3 ya puesto; falta el comentario fijado ("Would YOU have moved out too? 👇") cuando sea público. `n3-nightmare` PUBLICADO de inmediato el mar 20-oct (~5 p. m. ET, a pedido del usuario en vez del vie 23): https://youtube.com/shorts/AJMkdIgQDmc, con "Related video" → #3 y comentario fijado ("Have you ever woken up and couldn't move? 👇").
 
 Hechos con `scripts/shorts.py` (sin créditos). En cada Short de YouTube hay que poner como **"Related video"** el video largo, https://youtu.be/0fCXeUODtj8, para que el Short enlace al largo.
 
