@@ -48,7 +48,7 @@ Illustrations and narration created with AI tools; script written and fact-check
 ## Etiquetas
 medieval winter, how did medieval people survive winter, middle ages, medieval history, medieval peasant, why you wouldn't survive, little ice age, great famine, history explained, animated history, winter survival, time peasant
 
-## Comentario fijado
+## Comentario fijado (publicado y fijado el 20-oct-2026)
 ```
 November, February or March: which month would have finished YOU off? 👇
 ```
