@@ -2,6 +2,9 @@
 
 **Estado:** PROGRAMADO para el martes 20-oct-2026 a las 2:00 p. m. ET (el usuario hizo el clic de "Schedule"): https://youtu.be/0fCXeUODtj8 (ID `0fCXeUODtj8`). Test & Compare solo de miniaturas (B-nightmare, C-midnight, A-2sleeps); título fijo A. Subtítulos, pantalla final importada del piloto, no es para niños, sin promoción pagada, IA realista: No, English (US), Education, etiquetas.
 
+## Métricas
+- **20-oct, 4:00 p. m. ET (2 h):** 4 impresiones, 2 vistas (1 directa, probablemente nuestra; 1 de Browse), CTR sin dato, 0,1 h de reproducción, retención aún sin procesar. YouTube casi no lo está probando todavía (como el #2). Short n1 (fEr_Xns1vVI): 14 vistas en 1 h 45 min (78,6 % feed de Shorts, 14,3 % Browse); el % de deslizamientos todavía no aparece.
+
 ## Título (Test & Compare de títulos)
 - A) What Did Medieval Peasants Do at Night?
 - B) Why Medieval People Woke Up at Midnight
