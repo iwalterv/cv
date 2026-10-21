@@ -4,6 +4,8 @@
 
 **20-oct (13 h después):** 9 impresiones y 0 vistas. YouTube casi no lo distribuyó porque el piloto tiene un CTR del 0,8 %. Miniaturas v2, más claras y con estilo minimalista como las ganadoras del nicho (`miniaturas/escenas-v2.json`): `V2-snow` "SURVIVE THIS?" y `V2-cow` "ROOMMATE?". Nuevo test con V2-snow, V2-cow y A-frozen: ACTIVO desde el 20-oct, 2:35 p. m. ET (el anterior se borró).
 
+**21-oct (~2 días):** 2,1K impresiones, **CTR 1,9 %** (más del doble que el piloto, gracias a las miniaturas v2), 64 vistas, duración media 3:03, 3,2 h. El 87,5 % viene de sugeridos (videos de supervivencia y de historia).
+
 ## Título (Test & Compare de títulos)
 - A) Why You Wouldn't Survive a Medieval Winter
 - B) How Did Medieval People Survive Winter?

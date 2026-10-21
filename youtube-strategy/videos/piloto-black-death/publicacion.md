@@ -66,3 +66,6 @@ Run, pray, or wait: which one would YOU have picked? 👇 (Next up: surviving a 
 - Categoría: Education. Idioma: English.
 - Pantalla final: suscribirse + el video #2 cuando exista (mientras tanto, solo suscribirse).
 - Hora sugerida: martes a jueves, entre las 2 y las 4 p. m. hora del Este.
+
+
+**21-oct (~4 días):** 1,5K impresiones, CTR 0,8 %, 34 vistas, duración media 3:02 (28,5 % visto), 1,6 h.

@@ -4,6 +4,7 @@
 
 ## Métricas
 - **20-oct, 4:00 p. m. ET (2 h):** 4 impresiones, 2 vistas (1 directa, probablemente nuestra; 1 de Browse), CTR sin dato, 0,1 h de reproducción, retención aún sin procesar. YouTube casi no lo está probando todavía (como el #2). Short n1 (fEr_Xns1vVI): 14 vistas en 1 h 45 min (78,6 % feed de Shorts, 14,3 % Browse); el % de deslizamientos todavía no aparece.
+- **21-oct (~1 día):** 12 impresiones, CTR 8,3 %, 4 vistas: YouTube casi no lo muestra todavía. Short n1: **393 vistas** (97,5 % feed de Shorts); n2: 27; n3: 4.
 
 ## Título (Test & Compare de títulos)
 - A) What Did Medieval Peasants Do at Night?
