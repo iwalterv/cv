@@ -5,6 +5,7 @@
 ## Métricas
 - **20-oct, 4:00 p. m. ET (2 h):** 4 impresiones, 2 vistas (1 directa, probablemente nuestra; 1 de Browse), CTR sin dato, 0,1 h de reproducción, retención aún sin procesar. YouTube casi no lo está probando todavía (como el #2). Short n1 (fEr_Xns1vVI): 14 vistas en 1 h 45 min (78,6 % feed de Shorts, 14,3 % Browse); el % de deslizamientos todavía no aparece.
 - **21-oct (~1 día):** 12 impresiones, CTR 8,3 %, 4 vistas: YouTube casi no lo muestra todavía. Short n1: **393 vistas** (97,5 % feed de Shorts); n2: 27; n3: 4.
+- **21-oct, 2:04 p. m. ET (24 h), revisión oficial:** 12 impresiones, CTR 8,3 % (1 de 12, no significativo; objetivo ≥ 3 %), 4 vistas, duración media **4:45 de 6:44 (~70 %)**, 0,3 h. Retención a 30 s: todavía sin procesar (objetivo ≥ 65 %). Tráfico: directo, Browse, página del canal y pantallas finales, 25 % cada uno. YouTube aún no lo ha probado con público. Short n1 (3 AM): 393 vistas, **estancado desde la mañana**, 174 vistas comprometidas, 47,8 % se quedó y 52,2 % deslizó, media 1:02. Short n2 (caballero): 28 vistas, 24,1 % se quedó y 75,9 % deslizó (gancho débil). Conclusión: el problema es la distribución, no el contenido. Siguiente paso: el #4 ("What Happened If You Broke the Law in Medieval Times?").
 
 ## Título (Test & Compare de títulos)
 - A) What Did Medieval Peasants Do at Night?
