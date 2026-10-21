@@ -3,7 +3,7 @@
 **Estado:** v1 (21-oct-2026), borrador para que el usuario lo apruebe **antes** de gastar en voz e imágenes.
 **Por qué este tema:** `datos/video4-controversial/README.md`. El usuario pidió algo "más controversial". "Medieval punishments" tiene una mediana de 726K vistas en el top 25 de búsqueda, con 12 videos de más de 1 M, y StickTory (monigotes) hizo 2,1 M (27× su mediana) con el verdugo medieval. Es oscuro e impactante, pero no político.
 **Títulos para el A/B:** A) "What Happened If You Broke the Law in Medieval Times?" · B) "Medieval Punishments Were Worse Than You Think"
-**Duración estimada:** ~8-9 min (unas 1.350 palabras).
+**Duración estimada:** ~6,5 min (1.074 palabras, 6.048 caracteres de voz). **Escenas:** 70 (62 nuevas = 31 créditos, 8 reutilizadas), plan de ahorro del 21-oct.
 **Estructura:** un solo crimen, el TUYO, desde que robas hasta el veredicto. Cada sección es un paso del proceso, y en cada una hay una salida posible: el público se queda para saber si Red se salva.
 **Medidor:** "NECK METER", lo que queda de tu cuello a salvo (100 % → baja o sube según tus decisiones).
 

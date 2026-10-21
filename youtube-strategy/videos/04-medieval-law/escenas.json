@@ -1,0 +1,395 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "seedream_5_0_flash",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "Use the attached character sheet as the exact design reference for the main character \"Red\" (round plain WHITE head, large expressive eyes, thin black stick body and limbs, bright red scarf). 2D hand-drawn cartoon illustration, simple clean style, clean bold black outlines, flat colors with minimal shading. {SCENE} Single clear idea, main subject large in frame, few elements, uncluttered background. Unless stated otherwise, Red is a poor medieval English peasant in a brown wool tunic, always with his bright red scarf, and the setting is medieval England in daylight, with a bright, warm palette of flat greens, browns and sky blues. Historically plausible 13th-15th century details; all people drawn in the same simple round-headed stick-figure cartoon style. Never show blood, wounds or anyone being hurt. No text, no letters, no watermark, no border, full-bleed. 16:9.",
+ "scenes": [
+  {
+   "id": "001",
+   "text": "You're hungry. Nobody's looking.",
+   "SCENE": "A medieval English market on a sunny morning. Red, skinny, with a growling belly, stares at a round loaf of bread on a baker's stall while the baker has his back turned, chatting to someone."
+  },
+  {
+   "id": "002",
+   "text": "And you're about to commit a crime in medieval England.",
+   "SCENE": "Red slipping the round loaf of bread under his red scarf with a guilty little grin, glancing sideways, market stall behind him."
+  },
+  {
+   "id": "003",
+   "text": "Bad news: somebody saw you. So what happens now?",
+   "SCENE": "A medieval village woman with a basket pointing straight at Red with her mouth wide open in a shout, while Red freezes mid-step with the loaf poking out of his scarf, eyes huge.",
+   "meter": {
+    "value": "100",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "004",
+   "text": "That meter in the corner? That's how safe your neck is. Every step from here, it can go up, or down.",
+   "reuse": "videos/piloto-black-death/imagenes/009.png"
+  },
+  {
+   "id": "005",
+   "text": "And stick around, because by the end, you'll meet the defendant who got the strangest trial in history.",
+   "SCENE": "A dim medieval courtroom seen from the back of the room: a stern judge behind a high bench, and in the wooden dock a small mysterious figure completely covered by a dark cloth, curious onlookers leaning forward."
+  },
+  {
+   "id": "006",
+   "text": "It was a pig.",
+   "SCENE": "Inside a small medieval courtroom, a pink pig standing upright in the wooden dock wearing a small brown jacket and gloves, looking smug, a stern medieval judge in a dark robe and cap behind a bench, a few onlookers. Funny, cartoonish."
+  },
+  {
+   "id": "007",
+   "text": "First, your neighbor shouts. This is called the \"hue and cry,\" and it's not optional.",
+   "SCENE": "A medieval villager cupping his hands around his mouth shouting at the top of his lungs in a village lane, while doors fly open and villagers burst out of their cottages holding pitchforks, brooms and sticks."
+  },
+  {
+   "id": "008",
+   "text": "Under the Statute of Winchester, from 1285, when the cry goes up, everyone has to drop what they're doing and chase you.",
+   "reuse": "videos/piloto-black-death/imagenes/128.png"
+  },
+  {
+   "id": "009",
+   "text": "From town to town, until you're handed to the sheriff.",
+   "SCENE": "A long chase across green rolling hills: Red running with the loaf, a crowd of villagers chasing him through one village and on toward the next, and far ahead a stern sheriff in a cloak waiting at a crossroads with his arms crossed."
+  },
+  {
+   "id": "010",
+   "text": "And if they don't? The whole area can be held responsible for the theft.",
+   "SCENE": "A royal official at a table in a village square collecting coins from a long line of grumpy villagers, each dropping a coin into a wooden chest."
+  },
+  {
+   "id": "011",
+   "text": "So your neighbors aren't chasing you because they care about bread. They're chasing you because you're about to cost them money.",
+   "SCENE": "Angry villagers running with pitchforks, each with a little gold coin floating in a thought bubble above his head, chasing Red across a field."
+  },
+  {
+   "id": "012",
+   "text": "There's no police force. There's just everyone.",
+   "SCENE": "Wide shot of half a medieval village chasing Red across a field: farmers, a blacksmith in an apron, an old granny with a broom, a small kid and a barking dog, Red running in front with the loaf.",
+   "meter": {
+    "value": "85",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "013",
+   "text": "Now, here's something movies won't tell you. Most medieval crime never reached a gallows.",
+   "SCENE": "Red stopping to catch his breath, holding up one finger to the viewer, while far away on a grassy hill an old empty wooden gallows stands covered in ivy and cobwebs, clearly unused. No people on it."
+  },
+  {
+   "id": "014",
+   "text": "It ended up in the local manor court.",
+   "SCENE": "A simple hall inside a medieval manor house: the lord's steward sitting at a wooden table, a clerk beside him with a long parchment roll and quill, a line of peasants waiting their turn, Red among them."
+  },
+  {
+   "id": "015",
+   "text": "Skipped court? Two pence. Let your cow wander into someone's field? A fine. Brewed bad ale? Another fine.",
+   "SCENE": "A brown-and-white cow happily munching cabbages in a neighbor's garden while the furious neighbor waves his arms and the cow's sheepish owner hands two small silver coins to the clerk."
+  },
+  {
+   "id": "016",
+   "text": "The court rolls are full of these. Thousands of tiny, boring punishments.",
+   "SCENE": "A gigantic parchment court roll unrolling across the whole floor of the manor hall and out of the door, the clerk sitting on top of it yawning hugely. Scribbles only, absolutely no letters, words or numbers."
+  },
+  {
+   "id": "017",
+   "text": "So if you're lucky, this ends with a fine and a very awkward week with your neighbors.",
+   "SCENE": "Red at the village well with a bucket, giving an awkward smile while three neighbors glare at him sideways with their arms crossed.",
+   "meter": {
+    "value": "95",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "018",
+   "text": "Unless you sold the bread. Because medieval towns took bread very, very seriously.",
+   "SCENE": "A stern medieval town official weighing a small loaf on a big brass balance scale at a bakery counter, frowning, while the nervous baker in a floury apron sweats."
+  },
+  {
+   "id": "019",
+   "text": "In London, a baker caught selling loaves that were too light could be tied to a wooden frame called a hurdle and dragged through the streets. A record from 1316 shows exactly that happening.",
+   "SCENE": "A medieval London street with timber houses: a baker in a floury apron lying tied on top of a flat woven wooden hurdle that a horse slowly pulls along the muddy street, the baker with an embarrassed face, townspeople watching and pointing. Humiliating, not violent."
+  },
+  {
+   "id": "020",
+   "text": "And a 14th-century picture from Bristol shows a baker being punished with the bad loaf hanging around his neck.",
+   "SCENE": "A medieval manuscript-style illustration on old parchment with a gold border: a baker on a wooden hurdle pulled by a horse, a small loaf of bread hanging from a string around his neck. Pictures only, absolutely no letters, words or numbers."
+  },
+  {
+   "id": "021",
+   "text": "Then there was the pillory. Your head and hands locked in wood, in the market square,",
+   "SCENE": "Red locked in a wooden pillory on a small platform in a busy medieval market square, his head and both hands through the holes, the loaf of bread hanging from a string around his neck."
+  },
+  {
+   "id": "022",
+   "text": "while the whole town walks past.",
+   "SCENE": "Townspeople walking past Red in the pillory: two women giggling behind their hands, a man pointing, a little kid sticking his tongue out, a goose staring at him."
+  },
+  {
+   "id": "023",
+   "text": "The real punishment wasn't the wood. It was being seen.",
+   "SCENE": "Close-up of Red in the pillory, blushing bright red with embarrassment, eyes squeezed shut, wishing he could disappear.",
+   "meter": {
+    "value": "80",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "024",
+   "text": "Okay, but what about the torture? The iron maiden, the spikes, all of that?",
+   "SCENE": "A dim museum room with a tall closed iron cabinet shaped like a woman with a carved face, a few spikes visible at the open edge, Red gulping nervously in front of it. Spooky but cartoonish, no blood, no victims."
+  },
+  {
+   "id": "025",
+   "text": "Here's the uncomfortable part. There's no known mention of the iron maiden before the 1800s.",
+   "SCENE": "Red surrounded by towering piles of old medieval books, holding a magnifying glass, flipping through pages and finding nothing, shrugging at the viewer."
+  },
+  {
+   "id": "026",
+   "text": "The famous one in Nuremberg was a hoax, and showmen built copies to charge people money to look at them.",
+   "SCENE": "A 19th-century showman in a top hat and checked suit standing outside a fair tent, holding out his hand for coins from a queue of Victorian visitors, the iron cabinet visible inside the tent."
+  },
+  {
+   "id": "027",
+   "text": "A lot of \"medieval torture\" you've seen in museums is basically Victorian clickbait.",
+   "SCENE": "A Victorian craftsman with a big mustache in a workshop, cheerfully screwing fake spikes onto a newly built iron cabinet and winking at the viewer, sawdust and tools around."
+  },
+  {
+   "id": "028",
+   "text": "The real system was stranger than that.",
+   "SCENE": "Red turning his back on the iron cabinet and walking away from the museum toward a sunny medieval village, looking back over his shoulder with a raised eyebrow."
+  },
+  {
+   "id": "029",
+   "text": "Let's say your case is serious. Before 1215, how does the court decide if you're guilty? It asks God.",
+   "SCENE": "Red standing nervously before a stern medieval lord-judge in a stone hall; the judge and a priest beside him both look up toward a beam of golden light coming through a high window."
+  },
+  {
+   "id": "030",
+   "text": "It's called trial by ordeal. In one version, the priest heats a piece of iron,",
+   "SCENE": "Inside a stone church, a priest in white vestments holding a short iron bar with long tongs over a glowing fire, blessing it, Red watching in horror from the side."
+  },
+  {
+   "id": "031",
+   "text": "you carry it a set number of steps,",
+   "SCENE": "Red holding a glowing orange iron bar out in front of him with both hands, taking careful steps along a line of small marks on the church floor, sweating, eyes watering. Cartoonish, no injuries."
+  },
+  {
+   "id": "032",
+   "text": "and your hand is bandaged. If it heals cleanly after a few days, you're innocent. If it doesn't...",
+   "SCENE": "Red sitting on a bench with his hand wrapped in a big white bandage, while the priest slowly starts to unwrap it, both leaning in to look, Red sweating."
+  },
+  {
+   "id": "033",
+   "text": "In another, you're thrown into blessed water.",
+   "SCENE": "Red with a rope tied around his waist standing at the edge of a village pond, a priest blessing the water with raised hand, villagers holding the other end of the rope."
+  },
+  {
+   "id": "034",
+   "text": "And here's the twist: if you sink, that's good. The water \"accepted\" you.",
+   "SCENE": "Underwater view of the pond: Red sinking gently to the bottom, giving a confused thumbs up, a fish staring at him, the rope going up to the surface where villagers hold it."
+  },
+  {
+   "id": "035",
+   "text": "Floating meant guilty.",
+   "SCENE": "Red floating on the surface of the pond like a cork, arms out, while the villagers on the bank all point at him with stern faces."
+  },
+  {
+   "id": "036",
+   "text": "Then, in 1215, the Church's Fourth Lateran Council banned priests from blessing ordeals. Without the priest, the whole thing collapsed. In England, it was replaced by something new.",
+   "SCENE": "A grand hall full of bishops in white mitres seated in rows, the pope on a throne raising his hand to speak, solemn and important."
+  },
+  {
+   "id": "037",
+   "text": "A jury. Made of your neighbors.",
+   "SCENE": "Twelve medieval villagers sitting in a row on a long wooden bench with their arms crossed, looking at Red, who stands in front of them."
+  },
+  {
+   "id": "038",
+   "text": "The same neighbors who just chased you across three villages.",
+   "SCENE": "The same twelve jurors on the bench, still muddy and sweaty, holding pitchforks and brooms, panting and glaring at Red, one with a leaf in his hair.",
+   "meter": {
+    "value": "60",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "039",
+   "text": "But you have two secret exits. Exit number one: run into a church.",
+   "SCENE": "Red sprinting and throwing his arms around the big wooden door of a stone village church, while the chasing villagers skid to a sudden stop behind him."
+  },
+  {
+   "id": "040",
+   "text": "It's called sanctuary. Inside, they can't drag you out.",
+   "reuse": "videos/piloto-black-death/imagenes/075.png"
+  },
+  {
+   "id": "041",
+   "text": "For up to forty days, you're protected and fed.",
+   "SCENE": "Inside a stone church, a kind monk handing Red a bowl of steaming pottage, while through the open door the villagers wait outside, bored, sitting on the grass."
+  },
+  {
+   "id": "042",
+   "text": "But then you have a choice: face trial, or \"abjure the realm.\"",
+   "reuse": "videos/piloto-black-death/imagenes/091.png"
+  },
+  {
+   "id": "043",
+   "text": "That means you confess, lose your property, and leave England forever.",
+   "SCENE": "A medieval coroner in a dark robe holding a scroll, while Red sadly hands over all his belongings to an official: a cooking pot, a stool and a goat on a rope."
+  },
+  {
+   "id": "044",
+   "text": "You walk to the port they pick for you, barefoot, carrying a wooden cross so everyone knows what you are.",
+   "SCENE": "Red barefoot in a long plain white robe, carrying a small wooden cross in both hands, walking alone along a dusty country road toward a distant harbor with ships, villagers by the road staring at him."
+  },
+  {
+   "id": "045",
+   "text": "And if no ship is sailing? You walk into the sea every day, to show you really mean it.",
+   "SCENE": "Red in his white robe holding the small wooden cross, wading knee-deep into a grey sea, looking at an empty horizon with no ships, a seagull watching."
+  },
+  {
+   "id": "046",
+   "text": "Historians estimate hundreds of people a year took this road.",
+   "SCENE": "A long line of barefoot people in plain white robes, each carrying a small wooden cross, walking along a coastal road toward a harbor."
+  },
+  {
+   "id": "047",
+   "text": "Exit number two: read. Clergy were tried in Church courts, which didn't hang people.",
+   "SCENE": "A tonsured monk walking happily out of a church court with a bishop giving him only a gentle scolding finger-wag, while outside a royal sheriff looks annoyed."
+  },
+  {
+   "id": "048",
+   "text": "And from 1351, anyone who could read could claim to be clergy.",
+   "SCENE": "Red standing before a judge holding up a big open book, sweating, the judge leaning forward curiously."
+  },
+  {
+   "id": "049",
+   "text": "The test was usually the first verse of Psalm 51. People called it the \"neck verse,\" because reading it saved your neck. Some people who couldn't read just memorized it.",
+   "SCENE": "Red holding the big book upside down with his eyes closed, reciting from memory with confidence, while the judge raises a suspicious eyebrow. The pages show only squiggles, no real letters."
+  },
+  {
+   "id": "050",
+   "text": "After 1488, that trick only worked once. If you weren't really a priest, they branded your thumb so you couldn't use it again.",
+   "SCENE": "Red staring at his raised thumb, which has a small neat black mark on it (no wound), while the judge points at it sternly.",
+   "meter": {
+    "value": "75",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "051",
+   "text": "Now let's talk about what you actually stole. Because in medieval England, everything came down to twelve pence.",
+   "SCENE": "A big wooden balance scale: on one side Red's round loaf of bread, on the other a small pile of silver pennies, the scale almost perfectly balanced, Red watching it closely."
+  },
+  {
+   "id": "052",
+   "text": "Steal something worth less than a shilling, and it's \"petty larceny\": usually a whipping.",
+   "SCENE": "Red wincing next to a wooden post in the village square while an official stands nearby holding a thin switch, before anything happens. No injuries."
+  },
+  {
+   "id": "053",
+   "text": "Steal something worth more, and it's a felony. And the punishment for felony theft was hanging.",
+   "SCENE": "A lonely wooden gallows silhouetted on a distant hill against an orange dusk sky, a few crows flying. No people, nothing graphic."
+  },
+  {
+   "id": "054",
+   "text": "One penny could be the difference. So, how much was your bread worth?",
+   "SCENE": "Red holding the loaf in one hand and counting on the fingers of the other, worried face, sweat drop.",
+   "meter": {
+    "value": "40",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "055",
+   "text": "If it goes wrong, you meet the executioner. And his life was weird too.",
+   "SCENE": "A serious man in a dark cloak walking down a narrow German town street, while townspeople cross to the other side to avoid him and mothers pull their children away."
+  },
+  {
+   "id": "056",
+   "text": "Just after the Middle Ages, in Nuremberg, an executioner named Frantz Schmidt kept a diary of his whole career. It lists three hundred sixty-one executions, and hundreds of smaller punishments.",
+   "SCENE": "The same man, Frantz Schmidt, with a short beard, writing in a thick diary by candlelight in a small room, the steep red roofs of Nuremberg and its castle visible through the window. The pages show only squiggles, no real letters."
+  },
+  {
+   "id": "057",
+   "text": "He didn't choose the job. His father was a woodsman, picked out of a crowd by a cruel local lord and forced to carry out an execution.",
+   "SCENE": "A cruel-looking 16th-century German nobleman on horseback pointing straight at a frightened woodsman with an axe in a crowd of peasants."
+  },
+  {
+   "id": "058",
+   "text": "After that, nobody would treat the family normally again. The job was inherited, like a curse.",
+   "SCENE": "The woodsman's small family eating alone at a table in their house, a little boy among them, while neighbors whisper and point through the window."
+  },
+  {
+   "id": "059",
+   "text": "But here's the part nobody expects. Schmidt was also a healer.",
+   "SCENE": "Frantz Schmidt gently bandaging a peasant's leg in his house, shelves full of herb jars and bottles behind him, kind face."
+  },
+  {
+   "id": "060",
+   "text": "By his own count, he treated about fifteen thousand patients. The man people avoided in the street was the one they secretly visited when they got sick.",
+   "SCENE": "At night, a long line of townspeople wrapped in cloaks sneaking to Schmidt's back door, looking around to make sure nobody sees them, Schmidt holding the door open with a lantern."
+  },
+  {
+   "id": "061",
+   "text": "And at seventy, he finally got what he'd wanted his whole life. In 1624, the Emperor officially restored his family's honor.",
+   "SCENE": "An old Frantz Schmidt with a white beard holding an official parchment with a big red imperial wax seal, smiling for the first time, his family around him. Pictures only, no letters."
+  },
+  {
+   "id": "062",
+   "text": "And now, the trial I promised you. Falaise, France, 1386. A pig attacked and killed a small child.",
+   "SCENE": "A medieval French town square under a big stone castle on a rock, townspeople gathered looking shocked, a pig being held on a rope by a guard. Nothing graphic, no child shown."
+  },
+  {
+   "id": "063",
+   "text": "So the town did what towns did back then. They put the pig on trial. It was found guilty and sentenced to death.",
+   "reuse": "videos/04-medieval-law/imagenes/006.png"
+  },
+  {
+   "id": "064",
+   "text": "And according to the records, it was dressed in human clothes for the execution.",
+   "SCENE": "The pig, wearing a little jacket and gloves, being led through the medieval town square by two officials, a big crowd watching, Red in the crowd with his jaw dropped."
+  },
+  {
+   "id": "065",
+   "text": "The executioner even filed a receipt for his fee. Justice, medieval style.",
+   "SCENE": "A medieval executioner in a hood sitting at a desk handing a small parchment receipt to a town clerk, who pays him a few coins, both shrugging. Pictures only, no letters."
+  },
+  {
+   "id": "066",
+   "text": "So let's add it up. If you stole cheap, you'd probably get a fine or a whipping. If you got caught selling bad bread, the pillory.",
+   "SCENE": "Red sitting on a tree stump counting on his fingers, with three small thought bubbles above his head: two coins, a wooden pillory, and a wooden post."
+  },
+  {
+   "id": "067",
+   "text": "If the case got serious, you could run to a church and leave the country forever, or bet your life on one Latin sentence.",
+   "reuse": "videos/04-medieval-law/imagenes/044.png"
+  },
+  {
+   "id": "068",
+   "text": "Your odds were better than the movies say. But they weren't great.",
+   "SCENE": "Red finally eating his round loaf of bread with relief on a sunny village lane, but nervously glancing at a distant gallows on a hill.",
+   "meter": {
+    "value": "70",
+    "label": "NECK METER"
+   }
+  },
+  {
+   "id": "069",
+   "text": "So, which exit would you have taken: the church, the boat, or the neck verse? Tell me in the comments.",
+   "reuse": "videos/piloto-black-death/imagenes/109.png"
+  },
+  {
+   "id": "070",
+   "text": "And if you want to know what you'd have done at night after all that, this one's next.",
+   "reuse": "videos/03-medieval-night/imagenes/006.png"
+  }
+ ]
+}

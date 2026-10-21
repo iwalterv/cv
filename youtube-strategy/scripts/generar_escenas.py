@@ -2,9 +2,11 @@
 
 Uso: python3 scripts/generar_escenas.py videos/<video>/escenas.json
 Guarda videos/<video>/imagenes/<id>.png y se salta las que ya existen.
+Las escenas con "reuse" (ruta desde la raíz del repo) se copian en vez de generarse.
 """
 import json
 import os
+import shutil
 import subprocess
 import sys
 import urllib.request
@@ -40,7 +42,24 @@ def generate(scene):
         return f"ERROR      {scene['id']}: {e} {res.stderr[-300:]}"
 
 
+def reuse(scene):
+    """Escenas con "reuse": copia una imagen ya generada (de otro video o de este) sin gastar créditos."""
+    out = out_dir / f"{scene['id']}.png"
+    if out.exists():
+        return f"ya existe  {out.name}"
+    src = ROOT / scene["reuse"]
+    if not src.exists():
+        return f"ERROR      {scene['id']}: no existe {scene['reuse']}"
+    shutil.copyfile(src, out)
+    return f"reutiliza  {out.name} <- {scene['reuse']}"
+
+
+new = [s for s in config["scenes"] if "reuse" not in s]
 # Starter: máx. 4 trabajos simultáneos en Higgsfield (WORKERS=1 si ya hay otro lote corriendo).
 with ThreadPoolExecutor(max_workers=int(os.environ.get("WORKERS", 3))) as pool:
-    for line in pool.map(generate, config["scenes"]):
+    for line in pool.map(generate, new):
         print(line)
+# Después de generar, para poder reutilizar escenas del propio video.
+for scene in config["scenes"]:
+    if "reuse" in scene:
+        print(reuse(scene))
