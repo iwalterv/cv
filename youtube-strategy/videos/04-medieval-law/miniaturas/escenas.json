@@ -1,0 +1,31 @@
+{
+ "reference": "imagenes/red-ficha/red-oficial.png",
+ "model": "nano_banana_pro",
+ "params": [
+  "--aspect-ratio",
+  "16:9",
+  "--resolution",
+  "2k"
+ ],
+ "base": "YouTube thumbnail in a very simple, minimal style. Use the attached character sheet as the exact design reference for the character \"Red\" (round white head, huge expressive eyes, thin black stick limbs, bright red scarf). Simple 2D cartoon, thick clean black outlines, flat bright colors, no texture, no shading detail. {SCENE} Very few elements, big simple shapes, lots of empty space, bright and high contrast, instantly readable at phone size. Leave the top 28 percent of the image empty (just the plain background) for a title. No text, no letters, no watermark. 16:9.",
+ "scenes": [
+  {
+   "id": "A-bread",
+   "text": "FOR BREAD?",
+   "zoom": 1.05,
+   "SCENE": "Plain flat warm-yellow background. Red as a skinny medieval peasant (round head plain WHITE like the reference, only the scarf is red) is locked in a wooden pillory in the center, head and both hands through the holes, with a small round loaf of bread hanging from a string around his neck, making an unimpressed 'seriously?' face. Red and the pillory very large in frame. Nothing else."
+  },
+  {
+   "id": "B-iron",
+   "text": "HOT IRON?",
+   "zoom": 1.05,
+   "SCENE": "Plain flat light-blue background. Red as a medieval peasant holds a glowing orange-red iron bar with both hands out in front of him, sweating with huge panicked eyes, while a calm tonsured monk in a brown robe stands beside him watching. Cartoonish, no injuries, no blood. Red very large in frame. Nothing else."
+  },
+  {
+   "id": "C-pig",
+   "text": "GUILTY?",
+   "zoom": 1.05,
+   "SCENE": "Plain flat light-green background. A pink pig standing upright wearing a small jacket and gloves stands before a stern medieval judge in a robe and cap seated behind a wooden bench; Red as a medieval peasant stands to the side with his jaw dropped in disbelief. Funny, cartoonish. Big simple shapes, nothing else."
+  }
+ ]
+}
